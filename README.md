@@ -14,13 +14,6 @@ The dashboard is intended to support exploration rather than prescribe a single 
 - Students comparing career and education options
 - Analysts exploring workforce and industry trends
 
-## Research questions
-
-1. Which occupations combine strong projected growth, meaningful job openings, and competitive wages?
-2. Which industries are expected to grow or contract, and what occupations make up their workforce?
-3. Which skills are most important across different occupations?
-4. Where are selected occupations concentrated, and how do wages differ by state?
-
 ## Planned dashboard
 
 ### 1. Workforce Overview
@@ -35,49 +28,7 @@ An industry research view showing projected employment change and occupational c
 
 An occupation-level view combining skill profiles with a state map. Users will be able to compare skills, wages, employment concentration, and geographic differences for a selected occupation.
 
-## Planned data sources
+## Data sources
 
 The project will use public data from the U.S. Bureau of Labor Statistics. Exact files and fields will be confirmed during the data audit.
-
-- Employment Projections and National Employment Matrix
-- Occupational Skills Data
-- Occupational Employment and Wage Statistics by state
-
-## Design principles
-
-- Keep the scope to three focused dashboard pages
-- Use normalized measures when raw totals could be misleading
-- Make filters and calculations understandable to a general audience
-- Separate current employment estimates from future projections
-- Prefer clear, familiar charts over decorative or custom visuals
-- Document important assumptions without overloading the dashboard
-
-## Repository structure
-
-```text
-.
-├── assets/          # Dashboard screenshots and demo media
-├── dashboard/       # Tableau workbook
-├── data/
-│   ├── raw/         # Source files retained in their original form
-│   └── processed/   # Analysis-ready tables used by Tableau
-├── src/              # Data preparation script
-└── README.md
-```
-
-## Project roadmap
-
-- [x] Define the audience, research questions, and dashboard scope
-- [ ] Audit source data, fields, join keys, and limitations
-- [ ] Prepare and validate analysis-ready data
-- [ ] Build the Workforce Overview
-- [ ] Build the Industry Deep Dive
-- [ ] Build the Occupation & Skills Explorer
-- [ ] Publish to Tableau Public and complete the portfolio documentation
-
-## Tools
-
-- Tableau Public
-- Python and pandas for lightweight data preparation
-- GitHub for documentation and version history
 
