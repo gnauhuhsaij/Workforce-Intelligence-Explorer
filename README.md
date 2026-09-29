@@ -18,11 +18,11 @@ The dashboard is intended to support exploration rather than prescribe a single 
 
 ### 1. Workforce Overview
 
-A high-level view of employment, projected growth, annual openings, and wages. The main visual will compare wage and growth while preserving occupation size and group.
+A high-level view of employment and wage changes from May 2024 to May 2025. The main visual will compare wage and employment change while preserving occupation size and group.
 
 ### 2. Industry Deep Dive
 
-An industry research view showing projected employment change and occupational composition. Users will be able to select an industry and inspect the occupations that contribute most to its workforce.
+An industry research view showing changes in employment estimates and occupational composition. Users will be able to select an industry and inspect the occupations that contribute most to its workforce.
 
 ### 3. Occupation & Skills Explorer
 
@@ -30,5 +30,15 @@ An occupation-level view combining skill profiles with a state map. Users will b
 
 ## Data sources
 
-The project will use public data from the U.S. Bureau of Labor Statistics. Exact files and fields will be confirmed during the data audit.
+The project uses May 2024 and May 2025 OEWS estimates with the latest BLS occupational skills and education data.
 
+The four prepared tables connect on `occupation_code`: occupations, industry occupations, occupation skills, and state occupations. Employment changes describe changes in published OEWS estimates rather than exact job creation; wages are nominal.
+
+## Rebuild the data
+
+Download the 2024 OEWS [national](https://www.bls.gov/oes/special-requests/oesm24nat.zip), [state](https://www.bls.gov/oes/special-requests/oesm24st.zip), and [industry](https://www.bls.gov/oes/special-requests/oesm24in4.zip) files; the matching 2025 [national](https://www.bls.gov/oes/special-requests/oesm25nat.zip), [state](https://www.bls.gov/oes/special-requests/oesm25st.zip), and [industry](https://www.bls.gov/oes/special-requests/oesm25in4.zip) files; plus [occupation data](https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx) and [skills data](https://www.bls.gov/emp/skills/public-skills-data.xlsx). Save all eight files in `data/raw/`, then run:
+
+```bash
+pip install -r requirements.txt
+python src/prepare_data.py
+```

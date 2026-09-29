@@ -1,0 +1,832 @@
+occupation_code,occupation_title,major_group_code,major_group_title,employment_2024,employment_2025,employment_change,employment_change_pct,median_wage_2024,median_wage_2025,median_wage_change,median_wage_change_pct,typical_education,related_work_experience,on_the_job_training
+11-1011,Chief executives,11-0000,Management Occupations,211850,204350,-7500,-0.0354,206420,213990,7570,0.0367,Bachelor's degree,5 years or more,None
+11-1021,General and operations managers,11-0000,Management Occupations,3584420,3503020,-81400,-0.0227,102950,105770,2820,0.0274,Bachelor's degree,5 years or more,None
+11-2011,Advertising and promotions managers,11-0000,Management Occupations,21100,21470,370,0.0175,126960,133660,6700,0.0528,Bachelor's degree,Less than 5 years,None
+11-2021,Marketing managers,11-0000,Management Occupations,384980,395240,10260,0.0267,161030,166790,5760,0.0358,Bachelor's degree,5 years or more,None
+11-2022,Sales managers,11-0000,Management Occupations,603710,637080,33370,0.0553,138060,148270,10210,0.074,Bachelor's degree,Less than 5 years,None
+11-2032,Public relations managers,11-0000,Management Occupations,76060,74850,-1210,-0.0159,138520,146910,8390,0.0606,Bachelor's degree,5 years or more,None
+11-2033,Fundraising managers,11-0000,Management Occupations,36920,38810,1890,0.0512,123480,125470,1990,0.0161,Bachelor's degree,5 years or more,None
+11-3012,Administrative services managers,11-0000,Management Occupations,254140,263960,9820,0.0386,108390,114130,5740,0.053,Bachelor's degree,Less than 5 years,None
+11-3013,Facilities managers,11-0000,Management Occupations,141090,156180,15090,0.107,104690,106660,1970,0.0188,Bachelor's degree,Less than 5 years,None
+11-3021,Computer and information systems managers,11-0000,Management Occupations,645970,670570,24600,0.0381,171200,175140,3940,0.023,Bachelor's degree,5 years or more,None
+11-3031,Financial managers,11-0000,Management Occupations,818620,841710,23090,0.0282,161700,166570,4870,0.0301,Bachelor's degree,5 years or more,None
+11-3051,Industrial production managers,11-0000,Management Occupations,234380,246250,11870,0.0506,121440,126060,4620,0.038,Bachelor's degree,5 years or more,None
+11-3061,Purchasing managers,11-0000,Management Occupations,81240,84320,3080,0.0379,139510,148080,8570,0.0614,Bachelor's degree,5 years or more,None
+11-3071,"Transportation, storage, and distribution managers",11-0000,Management Occupations,213000,221180,8180,0.0384,102010,107230,5220,0.0512,High school diploma or equivalent,5 years or more,None
+11-3111,Compensation and benefits managers,11-0000,Management Occupations,20070,22940,2870,0.143,140360,149230,8870,0.0632,Bachelor's degree,5 years or more,None
+11-3121,Human resources managers,11-0000,Management Occupations,215520,220660,5140,0.0238,140030,149280,9250,0.0661,Bachelor's degree,5 years or more,None
+11-3131,Training and development managers,11-0000,Management Occupations,44960,48050,3090,0.0687,127090,133000,5910,0.0465,Bachelor's degree,5 years or more,None
+11-9013,"Farmers, ranchers, and other agricultural managers",11-0000,Management Occupations,5910,6500,590,0.0998,87980,89900,1920,0.0218,High school diploma or equivalent,5 years or more,None
+11-9021,Construction managers,11-0000,Management Occupations,348330,380360,32030,0.092,106980,114990,8010,0.0749,Bachelor's degree,None,Moderate-term on-the-job training
+11-9031,"Education and childcare administrators, preschool and daycare",11-0000,Management Occupations,71620,73660,2040,0.0285,56270,59300,3030,0.0538,Bachelor's degree,Less than 5 years,None
+11-9032,"Education administrators, kindergarten through secondary",11-0000,Management Occupations,319630,328330,8700,0.0272,104070,105870,1800,0.0173,Master's degree,5 years or more,None
+11-9033,"Education administrators, postsecondary",11-0000,Management Occupations,176420,180470,4050,0.023,103960,104590,630,0.0061,Master's degree,Less than 5 years,None
+11-9039,"Education administrators, all other",11-0000,Management Occupations,53330,55130,1800,0.0338,89040,95200,6160,0.0692,Bachelor's degree,Less than 5 years,None
+11-9041,Architectural and engineering managers,11-0000,Management Occupations,210340,220260,9920,0.0472,167740,171270,3530,0.021,Bachelor's degree,5 years or more,None
+11-9051,Food service managers,11-0000,Management Occupations,244230,238430,-5800,-0.0237,65310,69390,4080,0.0625,High school diploma or equivalent,Less than 5 years,Short-term on-the-job training
+11-9071,Gambling managers,11-0000,Management Occupations,4620,5030,410,0.0887,85580,93220,7640,0.0893,High school diploma or equivalent,Less than 5 years,None
+11-9072,"Entertainment and recreation managers, except gambling",11-0000,Management Occupations,36700,37980,1280,0.0349,77180,79520,2340,0.0303,Bachelor's degree,Less than 5 years,None
+11-9081,Lodging managers,11-0000,Management Occupations,41350,42620,1270,0.0307,68130,69250,1120,0.0164,High school diploma or equivalent,Less than 5 years,None
+11-9111,Medical and health services managers,11-0000,Management Occupations,565840,597080,31240,0.0552,117960,123860,5900,0.05,Bachelor's degree,Less than 5 years,None
+11-9121,Natural sciences managers,11-0000,Management Occupations,100870,108690,7820,0.0775,161180,167220,6040,0.0375,Bachelor's degree,5 years or more,None
+11-9131,Postmasters and mail superintendents,11-0000,Management Occupations,13810,13810,0,0.0,92730,96660,3930,0.0424,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+11-9141,"Property, real estate, and community association managers",11-0000,Management Occupations,296640,311180,14540,0.049,66700,69990,3290,0.0493,High school diploma or equivalent,Less than 5 years,Short-term on-the-job training
+11-9151,Social and community service managers,11-0000,Management Occupations,195490,209330,13840,0.0708,78240,80390,2150,0.0275,Bachelor's degree,Less than 5 years,None
+11-9161,Emergency management directors,11-0000,Management Occupations,12570,13500,930,0.074,86130,93330,7200,0.0836,Bachelor's degree,5 years or more,None
+11-9171,Funeral home managers,11-0000,Management Occupations,13120,13910,790,0.0602,76830,78790,1960,0.0255,Associate's degree,Less than 5 years,None
+11-9179,"Personal service managers, all other",11-0000,Management Occupations,10490,10450,-40,-0.0038,61340,69770,8430,0.1374,High school diploma or equivalent,Less than 5 years,None
+11-9199,"Managers, all other",11-0000,Management Occupations,630980,622190,-8790,-0.0139,136550,141900,5350,0.0392,Bachelor's degree,Less than 5 years,None
+13-1011,"Agents and business managers of artists, performers, and athletes",13-0000,Business and Financial Operations Occupations,14220,12620,-1600,-0.1125,96310,82890,-13420,-0.1393,Bachelor's degree,Less than 5 years,None
+13-1020,Buyers and purchasing agents,13-0000,Business and Financial Operations Occupations,486900,491430,4530,0.0093,75650,77710,2060,0.0272,Bachelor's degree,None,Moderate-term on-the-job training
+13-1031,"Claims adjusters, examiners, and investigators",13-0000,Business and Financial Operations Occupations,305020,324230,19210,0.063,76790,78000,1210,0.0158,High school diploma or equivalent,None,Long-term on-the-job training
+13-1032,"Insurance appraisers, auto damage",13-0000,Business and Financial Operations Occupations,7790,11560,3770,0.484,76650,78240,1590,0.0207,Postsecondary nondegree award,None,Moderate-term on-the-job training
+13-1041,Compliance officers,13-0000,Business and Financial Operations Occupations,397770,417070,19300,0.0485,78420,80730,2310,0.0295,Bachelor's degree,None,Moderate-term on-the-job training
+13-1051,Cost estimators,13-0000,Business and Financial Operations Occupations,219530,224220,4690,0.0214,77070,78740,1670,0.0217,Bachelor's degree,None,Moderate-term on-the-job training
+13-1071,Human resources specialists,13-0000,Business and Financial Operations Occupations,917460,912430,-5030,-0.0055,72910,75940,3030,0.0416,Bachelor's degree,None,None
+13-1074,Farm labor contractors,13-0000,Business and Financial Operations Occupations,410,310,-100,-0.2439,48690,58460,9770,0.2007,No formal educational credential,Less than 5 years,Short-term on-the-job training
+13-1075,Labor relations specialists,13-0000,Business and Financial Operations Occupations,64590,64810,220,0.0034,93500,95420,1920,0.0205,Bachelor's degree,Less than 5 years,None
+13-1081,Logisticians,13-0000,Business and Financial Operations Occupations,235640,251040,15400,0.0654,80880,82320,1440,0.0178,Bachelor's degree,None,None
+13-1082,Project management specialists,13-0000,Business and Financial Operations Occupations,1006160,1066670,60510,0.0601,100750,102320,1570,0.0156,Bachelor's degree,None,None
+13-1111,Management analysts,13-0000,Business and Financial Operations Occupations,893900,898280,4380,0.0049,101190,101860,670,0.0066,Bachelor's degree,Less than 5 years,None
+13-1121,"Meeting, convention, and event planners",13-0000,Business and Financial Operations Occupations,134670,142860,8190,0.0608,59440,61160,1720,0.0289,Bachelor's degree,None,None
+13-1131,Fundraisers,13-0000,Business and Financial Operations Occupations,105930,111040,5110,0.0482,66490,72550,6060,0.0911,Bachelor's degree,None,None
+13-1141,"Compensation, benefits, and job analysis specialists",13-0000,Business and Financial Operations Occupations,102370,112380,10010,0.0978,77020,78210,1190,0.0155,Bachelor's degree,Less than 5 years,None
+13-1151,Training and development specialists,13-0000,Business and Financial Operations Occupations,436610,458300,21690,0.0497,65850,69280,3430,0.0521,Bachelor's degree,Less than 5 years,None
+13-1161,Market research analysts and marketing specialists,13-0000,Business and Financial Operations Occupations,861140,899580,38440,0.0446,76950,78760,1810,0.0235,Bachelor's degree,None,None
+13-1199,"Business operations specialists, all other",13-0000,Business and Financial Operations Occupations,1128200,1087090,-41110,-0.0364,81270,83050,1780,0.0219,Bachelor's degree,None,None
+13-2011,Accountants and auditors,13-0000,Business and Financial Operations Occupations,1448290,1449500,1210,0.0008,81680,83680,2000,0.0245,Bachelor's degree,None,None
+13-2020,Property appraisers and assessors,13-0000,Business and Financial Operations Occupations,59070,57070,-2000,-0.0339,65420,67960,2540,0.0388,Bachelor's degree,None,Long-term on-the-job training
+13-2031,Budget analysts,13-0000,Business and Financial Operations Occupations,47170,47160,-10,-0.0002,87930,91640,3710,0.0422,Bachelor's degree,None,None
+13-2041,Credit analysts,13-0000,Business and Financial Operations Occupations,67370,64390,-2980,-0.0442,80970,83510,2540,0.0314,Bachelor's degree,None,None
+13-2051,Financial and investment analysts,13-0000,Business and Financial Operations Occupations,340580,361980,21400,0.0628,101350,102740,1390,0.0137,Bachelor's degree,None,None
+13-2052,Personal financial advisors,13-0000,Business and Financial Operations Occupations,270480,266800,-3680,-0.0136,102140,105070,2930,0.0287,Bachelor's degree,None,Long-term on-the-job training
+13-2053,Insurance underwriters,13-0000,Business and Financial Operations Occupations,107820,105420,-2400,-0.0223,79880,81370,1490,0.0187,Bachelor's degree,None,Moderate-term on-the-job training
+13-2054,Financial risk specialists,13-0000,Business and Financial Operations Occupations,56320,63850,7530,0.1337,106000,117330,11330,0.1069,Bachelor's degree,None,None
+13-2061,Financial examiners,13-0000,Business and Financial Operations Occupations,62830,67830,5000,0.0796,90400,94160,3760,0.0416,Bachelor's degree,None,Long-term on-the-job training
+13-2071,Credit counselors,13-0000,Business and Financial Operations Occupations,28110,27770,-340,-0.0121,50480,52230,1750,0.0347,Bachelor's degree,None,Moderate-term on-the-job training
+13-2072,Loan officers,13-0000,Business and Financial Operations Occupations,290530,274330,-16200,-0.0558,74180,76690,2510,0.0338,Bachelor's degree,Less than 5 years,Moderate-term on-the-job training
+13-2081,"Tax examiners and collectors, and revenue agents",13-0000,Business and Financial Operations Occupations,53530,56610,3080,0.0575,59740,62370,2630,0.044,Bachelor's degree,None,Moderate-term on-the-job training
+13-2082,Tax preparers,13-0000,Business and Financial Operations Occupations,73570,76480,2910,0.0396,50560,54920,4360,0.0862,High school diploma or equivalent,None,Moderate-term on-the-job training
+13-2099,"Financial specialists, all other",13-0000,Business and Financial Operations Occupations,127450,132130,4680,0.0367,80190,81100,910,0.0113,Bachelor's degree,None,None
+15-1211,Computer systems analysts,15-0000,Computer and Mathematical Occupations,497800,519530,21730,0.0437,103790,105850,2060,0.0198,Bachelor's degree,None,None
+15-1212,Information security analysts,15-0000,Computer and Mathematical Occupations,179430,190650,11220,0.0625,124910,129180,4270,0.0342,Bachelor's degree,Less than 5 years,None
+15-1221,Computer and information research scientists,15-0000,Computer and Mathematical Occupations,38480,37200,-1280,-0.0333,140910,140300,-610,-0.0043,Master's degree,None,None
+15-1231,Computer network support specialists,15-0000,Computer and Mathematical Occupations,146450,146190,-260,-0.0018,73340,76220,2880,0.0393,Associate's degree,None,Moderate-term on-the-job training
+15-1232,Computer user support specialists,15-0000,Computer and Mathematical Occupations,697210,717190,19980,0.0287,60340,61860,1520,0.0252,"Some college, no degree",None,Moderate-term on-the-job training
+15-1241,Computer network architects,15-0000,Computer and Mathematical Occupations,177010,179740,2730,0.0154,130390,134050,3660,0.0281,Bachelor's degree,5 years or more,None
+15-1242,Database administrators,15-0000,Computer and Mathematical Occupations,73180,69990,-3190,-0.0436,104620,104620,0,0.0,Bachelor's degree,None,None
+15-1243,Database architects,15-0000,Computer and Mathematical Occupations,64770,67140,2370,0.0366,135980,139500,3520,0.0259,Bachelor's degree,Less than 5 years,None
+15-1244,Network and computer systems administrators,15-0000,Computer and Mathematical Occupations,318570,314340,-4230,-0.0133,96800,99130,2330,0.0241,Bachelor's degree,None,None
+15-1251,Computer programmers,15-0000,Computer and Mathematical Occupations,109870,92230,-17640,-0.1606,98670,100390,1720,0.0174,Bachelor's degree,None,None
+15-1252,Software developers,15-0000,Computer and Mathematical Occupations,1654440,1687890,33450,0.0202,133080,135980,2900,0.0218,Bachelor's degree,None,None
+15-1253,Software quality assurance analysts and testers,15-0000,Computer and Mathematical Occupations,199800,186740,-13060,-0.0654,102610,104300,1690,0.0165,Bachelor's degree,None,None
+15-1254,Web developers,15-0000,Computer and Mathematical Occupations,78860,70190,-8670,-0.1099,90930,92650,1720,0.0189,Bachelor's degree,None,None
+15-1255,Web and digital interface designers,15-0000,Computer and Mathematical Occupations,111400,113330,1930,0.0173,98090,104000,5910,0.0603,Bachelor's degree,None,None
+15-1299,"Computer occupations, all other",15-0000,Computer and Mathematical Occupations,439380,435370,-4010,-0.0091,108970,116580,7610,0.0698,Bachelor's degree,None,None
+15-2011,Actuaries,15-0000,Computer and Mathematical Occupations,28340,26670,-1670,-0.0589,125770,130000,4230,0.0336,Bachelor's degree,None,Long-term on-the-job training
+15-2021,Mathematicians,15-0000,Computer and Mathematical Occupations,2220,2030,-190,-0.0856,121680,126710,5030,0.0413,Master's degree,None,None
+15-2031,Operations research analysts,15-0000,Computer and Mathematical Occupations,107760,108510,750,0.007,91290,88940,-2350,-0.0257,Bachelor's degree,None,None
+15-2041,Statisticians,15-0000,Computer and Mathematical Occupations,29800,29030,-770,-0.0258,103300,105650,2350,0.0227,Master's degree,None,None
+15-2051,Data scientists,15-0000,Computer and Mathematical Occupations,233440,262440,29000,0.1242,112590,120230,7640,0.0679,Bachelor's degree,None,None
+15-2099,"Mathematical science occupations, all other",15-0000,Computer and Mathematical Occupations,4660,3720,-940,-0.2017,71490,81490,10000,0.1399,Bachelor's degree,None,None
+17-1011,"Architects, except landscape and naval",17-0000,Architecture and Engineering Occupations,111140,106770,-4370,-0.0393,96690,99280,2590,0.0268,Bachelor's degree,None,Internship/residency
+17-1012,Landscape architects,17-0000,Architecture and Engineering Occupations,19580,19600,20,0.001,79660,79870,210,0.0026,Bachelor's degree,None,Internship/residency
+17-1021,Cartographers and photogrammetrists,17-0000,Architecture and Engineering Occupations,12790,14260,1470,0.1149,78380,81390,3010,0.0384,Bachelor's degree,None,None
+17-1022,Surveyors,17-0000,Architecture and Engineering Occupations,53080,50830,-2250,-0.0424,72740,75440,2700,0.0371,Bachelor's degree,None,Internship/residency
+17-2011,Aerospace engineers,17-0000,Architecture and Engineering Occupations,68440,67710,-730,-0.0107,134830,134960,130,0.001,Bachelor's degree,None,None
+17-2021,Agricultural engineers,17-0000,Architecture and Engineering Occupations,1680,1480,-200,-0.119,84630,98590,13960,0.165,Bachelor's degree,None,None
+17-2031,Bioengineers and biomedical engineers,17-0000,Architecture and Engineering Occupations,21860,23480,1620,0.0741,106950,109370,2420,0.0226,Bachelor's degree,None,None
+17-2041,Chemical engineers,17-0000,Architecture and Engineering Occupations,20330,21070,740,0.0364,121860,125040,3180,0.0261,Bachelor's degree,None,None
+17-2051,Civil engineers,17-0000,Architecture and Engineering Occupations,355410,367840,12430,0.035,99590,100840,1250,0.0126,Bachelor's degree,None,None
+17-2061,Computer hardware engineers,17-0000,Architecture and Engineering Occupations,75710,76660,950,0.0125,155020,161740,6720,0.0433,Bachelor's degree,None,None
+17-2071,Electrical engineers,17-0000,Architecture and Engineering Occupations,188790,198750,9960,0.0528,111910,120630,8720,0.0779,Bachelor's degree,None,None
+17-2072,"Electronics engineers, except computer",17-0000,Architecture and Engineering Occupations,93940,96900,2960,0.0315,127590,130220,2630,0.0206,Bachelor's degree,None,None
+17-2081,Environmental engineers,17-0000,Architecture and Engineering Occupations,37950,38340,390,0.0103,104170,107110,2940,0.0282,Bachelor's degree,None,None
+17-2111,"Health and safety engineers, except mining safety engineers and inspectors",17-0000,Architecture and Engineering Occupations,23220,21450,-1770,-0.0762,109660,115160,5500,0.0502,Bachelor's degree,None,None
+17-2112,Industrial engineers,17-0000,Architecture and Engineering Occupations,350230,365740,15510,0.0443,101140,102440,1300,0.0129,Bachelor's degree,None,None
+17-2121,Marine engineers and naval architects,17-0000,Architecture and Engineering Occupations,8440,8250,-190,-0.0225,105670,112230,6560,0.0621,Bachelor's degree,None,None
+17-2131,Materials engineers,17-0000,Architecture and Engineering Occupations,22770,22770,0,0.0,108310,112860,4550,0.042,Bachelor's degree,None,None
+17-2141,Mechanical engineers,17-0000,Architecture and Engineering Occupations,286760,296810,10050,0.035,102320,104110,1790,0.0175,Bachelor's degree,None,None
+17-2151,"Mining and geological engineers, including mining safety engineers",17-0000,Architecture and Engineering Occupations,6770,6080,-690,-0.1019,101020,106220,5200,0.0515,Bachelor's degree,None,None
+17-2161,Nuclear engineers,17-0000,Architecture and Engineering Occupations,14740,15280,540,0.0366,127520,133970,6450,0.0506,Bachelor's degree,None,None
+17-2171,Petroleum engineers,17-0000,Architecture and Engineering Occupations,18970,18060,-910,-0.048,141280,144910,3630,0.0257,Bachelor's degree,None,None
+17-2199,"Engineers, all other",17-0000,Architecture and Engineering Occupations,150750,154070,3320,0.022,117750,122930,5180,0.044,Bachelor's degree,None,None
+17-3011,Architectural and civil drafters,17-0000,Architecture and Engineering Occupations,109550,103700,-5850,-0.0534,64280,66150,1870,0.0291,Associate's degree,None,None
+17-3012,Electrical and electronics drafters,17-0000,Architecture and Engineering Occupations,20020,17920,-2100,-0.1049,73720,76870,3150,0.0427,Associate's degree,None,None
+17-3013,Mechanical drafters,17-0000,Architecture and Engineering Occupations,39900,39960,60,0.0015,68510,71550,3040,0.0444,Associate's degree,None,None
+17-3019,"Drafters, all other",17-0000,Architecture and Engineering Occupations,16010,14470,-1540,-0.0962,62010,63520,1510,0.0244,Associate's degree,None,None
+17-3021,Aerospace engineering and operations technologists and technicians,17-0000,Architecture and Engineering Occupations,9060,11280,2220,0.245,79830,82890,3060,0.0383,Associate's degree,None,None
+17-3022,Civil engineering technologists and technicians,17-0000,Architecture and Engineering Occupations,62130,68520,6390,0.1028,64200,64950,750,0.0117,Associate's degree,None,None
+17-3023,Electrical and electronic engineering technologists and technicians,17-0000,Architecture and Engineering Occupations,92710,95130,2420,0.0261,77180,78190,1010,0.0131,Associate's degree,None,None
+17-3024,Electro-mechanical and mechatronics technologists and technicians,17-0000,Architecture and Engineering Occupations,14680,15520,840,0.0572,70760,73900,3140,0.0444,Associate's degree,None,None
+17-3025,Environmental engineering technologists and technicians,17-0000,Architecture and Engineering Occupations,12500,12190,-310,-0.0248,58890,59920,1030,0.0175,Associate's degree,None,None
+17-3026,Industrial engineering technologists and technicians,17-0000,Architecture and Engineering Occupations,73410,75570,2160,0.0294,64790,66120,1330,0.0205,Associate's degree,None,None
+17-3027,Mechanical engineering technologists and technicians,17-0000,Architecture and Engineering Occupations,37450,36190,-1260,-0.0336,68730,74510,5780,0.0841,Associate's degree,None,None
+17-3028,Calibration technologists and technicians,17-0000,Architecture and Engineering Occupations,15320,16540,1220,0.0796,65040,67820,2780,0.0427,Associate's degree,None,None
+17-3029,"Engineering technologists and technicians, except drafters, all other",17-0000,Architecture and Engineering Occupations,64410,59930,-4480,-0.0696,77390,78350,960,0.0124,Associate's degree,None,None
+17-3031,Surveying and mapping technicians,17-0000,Architecture and Engineering Occupations,56720,58010,1290,0.0227,51940,54240,2300,0.0443,High school diploma or equivalent,None,Moderate-term on-the-job training
+19-1011,Animal scientists,19-0000,"Life, Physical, and Social Science Occupations",2470,3100,630,0.2551,79120,68940,-10180,-0.1287,Bachelor's degree,None,None
+19-1012,Food scientists and technologists,19-0000,"Life, Physical, and Social Science Occupations",14370,13060,-1310,-0.0912,85310,88720,3410,0.04,Bachelor's degree,None,None
+19-1013,Soil and plant scientists,19-0000,"Life, Physical, and Social Science Occupations",16600,15730,-870,-0.0524,71410,78850,7440,0.1042,Bachelor's degree,None,None
+19-1021,Biochemists and biophysicists,19-0000,"Life, Physical, and Social Science Occupations",34520,33830,-690,-0.02,103650,127410,23760,0.2292,Doctoral or professional degree,None,None
+19-1022,Microbiologists,19-0000,"Life, Physical, and Social Science Occupations",19760,18940,-820,-0.0415,87330,87990,660,0.0076,Bachelor's degree,None,None
+19-1023,Zoologists and wildlife biologists,19-0000,"Life, Physical, and Social Science Occupations",16920,18120,1200,0.0709,72860,76780,3920,0.0538,Bachelor's degree,None,None
+19-1029,"Biological scientists, all other",19-0000,"Life, Physical, and Social Science Occupations",59710,55850,-3860,-0.0646,93330,98920,5590,0.0599,Bachelor's degree,None,None
+19-1031,Conservation scientists,19-0000,"Life, Physical, and Social Science Occupations",25590,25950,360,0.0141,67950,73010,5060,0.0745,Bachelor's degree,None,None
+19-1032,Foresters,19-0000,"Life, Physical, and Social Science Occupations",9650,10430,780,0.0808,70660,76400,5740,0.0812,Bachelor's degree,None,None
+19-1041,Epidemiologists,19-0000,"Life, Physical, and Social Science Occupations",11460,12090,630,0.055,83980,87220,3240,0.0386,Master's degree,None,None
+19-1042,"Medical scientists, except epidemiologists",19-0000,"Life, Physical, and Social Science Occupations",156300,172340,16040,0.1026,100590,103410,2820,0.028,Doctoral or professional degree,None,None
+19-1099,"Life scientists, all other",19-0000,"Life, Physical, and Social Science Occupations",7320,7460,140,0.0191,87800,93750,5950,0.0678,Bachelor's degree,None,None
+19-2011,Astronomers,19-0000,"Life, Physical, and Social Science Occupations",1560,2120,560,0.359,132170,128820,-3350,-0.0253,Doctoral or professional degree,None,None
+19-2012,Physicists,19-0000,"Life, Physical, and Social Science Occupations",21340,20430,-910,-0.0426,166290,172250,5960,0.0358,Doctoral or professional degree,None,None
+19-2021,Atmospheric and space scientists,19-0000,"Life, Physical, and Social Science Occupations",8780,10000,1220,0.139,97450,99070,1620,0.0166,Bachelor's degree,None,None
+19-2031,Chemists,19-0000,"Life, Physical, and Social Science Occupations",83250,82770,-480,-0.0058,84150,91240,7090,0.0843,Bachelor's degree,None,None
+19-2032,Materials scientists,19-0000,"Life, Physical, and Social Science Occupations",8330,8470,140,0.0168,104160,117790,13630,0.1309,Bachelor's degree,None,None
+19-2041,"Environmental scientists and specialists, including health",19-0000,"Life, Physical, and Social Science Occupations",84930,89250,4320,0.0509,80060,82220,2160,0.027,Bachelor's degree,None,None
+19-2042,"Geoscientists, except hydrologists and geographers",19-0000,"Life, Physical, and Social Science Occupations",22510,23470,960,0.0426,99240,101920,2680,0.027,Bachelor's degree,None,None
+19-2043,Hydrologists,19-0000,"Life, Physical, and Social Science Occupations",5720,5850,130,0.0227,92060,96600,4540,0.0493,Bachelor's degree,None,None
+19-2099,"Physical scientists, all other",19-0000,"Life, Physical, and Social Science Occupations",22580,22300,-280,-0.0124,117960,122570,4610,0.0391,Bachelor's degree,None,None
+19-3011,Economists,19-0000,"Life, Physical, and Social Science Occupations",15880,17790,1910,0.1203,115440,124720,9280,0.0804,Master's degree,None,None
+19-3022,Survey researchers,19-0000,"Life, Physical, and Social Science Occupations",7720,8290,570,0.0738,63380,69460,6080,0.0959,Master's degree,None,None
+19-3032,Industrial-organizational psychologists,19-0000,"Life, Physical, and Social Science Occupations",1050,790,-260,-0.2476,109840,193950,84110,0.7658,Master's degree,None,Internship/residency
+19-3033,Clinical and counseling psychologists,19-0000,"Life, Physical, and Social Science Occupations",72190,75990,3800,0.0526,95830,100580,4750,0.0496,Doctoral or professional degree,None,Internship/residency
+19-3034,School psychologists,19-0000,"Life, Physical, and Social Science Occupations",63830,63940,110,0.0017,86930,95990,9060,0.1042,Master's degree,None,Internship/residency
+19-3039,"Psychologists, all other",19-0000,"Life, Physical, and Social Science Occupations",17790,18820,1030,0.0579,117580,110840,-6740,-0.0573,Master's degree,None,Internship/residency
+19-3041,Sociologists,19-0000,"Life, Physical, and Social Science Occupations",2950,2260,-690,-0.2339,101690,106030,4340,0.0427,Master's degree,None,None
+19-3051,Urban and regional planners,19-0000,"Life, Physical, and Social Science Occupations",43040,44230,1190,0.0276,83720,89320,5600,0.0669,Master's degree,None,None
+19-3091,Anthropologists and archeologists,19-0000,"Life, Physical, and Social Science Occupations",8070,8990,920,0.114,64910,70770,5860,0.0903,Master's degree,None,None
+19-3092,Geographers,19-0000,"Life, Physical, and Social Science Occupations",1380,1400,20,0.0145,97200,102040,4840,0.0498,Bachelor's degree,None,None
+19-3093,Historians,19-0000,"Life, Physical, and Social Science Occupations",3140,3450,310,0.0987,74050,76750,2700,0.0365,Master's degree,None,None
+19-3094,Political scientists,19-0000,"Life, Physical, and Social Science Occupations",5950,5540,-410,-0.0689,139380,142080,2700,0.0194,Master's degree,None,None
+19-3099,"Social scientists and related workers, all other",19-0000,"Life, Physical, and Social Science Occupations",36970,37100,130,0.0035,100340,101110,770,0.0077,Bachelor's degree,None,None
+19-4012,Agricultural technicians,19-0000,"Life, Physical, and Social Science Occupations",14340,15130,790,0.0551,46790,49630,2840,0.0607,Associate's degree,None,Moderate-term on-the-job training
+19-4013,Food science technicians,19-0000,"Life, Physical, and Social Science Occupations",14200,14600,400,0.0282,49430,52130,2700,0.0546,Associate's degree,None,Moderate-term on-the-job training
+19-4021,Biological technicians,19-0000,"Life, Physical, and Social Science Occupations",76190,69620,-6570,-0.0862,52000,57510,5510,0.106,Bachelor's degree,None,None
+19-4031,Chemical technicians,19-0000,"Life, Physical, and Social Science Occupations",55640,57540,1900,0.0341,57790,60390,2600,0.045,Associate's degree,None,Moderate-term on-the-job training
+19-4042,"Environmental science and protection technicians, including health",19-0000,"Life, Physical, and Social Science Occupations",39390,34670,-4720,-0.1198,49490,55090,5600,0.1132,Associate's degree,None,None
+19-4043,"Geological technicians, except hydrologic technicians",19-0000,"Life, Physical, and Social Science Occupations",9710,6980,-2730,-0.2812,48390,53350,4960,0.1025,Associate's degree,None,Moderate-term on-the-job training
+19-4044,Hydrologic technicians,19-0000,"Life, Physical, and Social Science Occupations",2940,2840,-100,-0.034,58570,64790,6220,0.1062,Associate's degree,None,Moderate-term on-the-job training
+19-4051,Nuclear technicians,19-0000,"Life, Physical, and Social Science Occupations",5990,6470,480,0.0801,104240,110240,6000,0.0576,Associate's degree,None,Moderate-term on-the-job training
+19-4061,Social science research assistants,19-0000,"Life, Physical, and Social Science Occupations",32940,30640,-2300,-0.0698,58040,61990,3950,0.0681,Bachelor's degree,None,None
+19-4071,Forest and conservation technicians,19-0000,"Life, Physical, and Social Science Occupations",31080,30410,-670,-0.0216,54310,54560,250,0.0046,Associate's degree,None,None
+19-4092,Forensic science technicians,19-0000,"Life, Physical, and Social Science Occupations",19450,19120,-330,-0.017,67440,72060,4620,0.0685,Bachelor's degree,None,Moderate-term on-the-job training
+19-4099,"Life, physical, and social science technicians, all other",19-0000,"Life, Physical, and Social Science Occupations",71400,73910,2510,0.0352,60130,62280,2150,0.0358,Associate's degree,None,None
+19-5011,Occupational health and safety specialists,19-0000,"Life, Physical, and Social Science Occupations",128430,140610,12180,0.0948,83910,90150,6240,0.0744,Bachelor's degree,None,None
+19-5012,Occupational health and safety technicians,19-0000,"Life, Physical, and Social Science Occupations",31450,30590,-860,-0.0273,58440,61560,3120,0.0534,High school diploma or equivalent,None,Moderate-term on-the-job training
+21-1012,"Educational, guidance, and career counselors and advisors",21-0000,Community and Social Service Occupations,342350,353310,10960,0.032,65140,64330,-810,-0.0124,Master's degree,None,None
+21-1013,Marriage and family therapists,21-0000,Community and Social Service Occupations,65870,66740,870,0.0132,63780,66940,3160,0.0495,Master's degree,None,Internship/residency
+21-1015,Rehabilitation counselors,21-0000,Community and Social Service Occupations,88930,94740,5810,0.0653,46110,46850,740,0.016,Master's degree,None,None
+21-1018,"Substance abuse, behavioral disorder, and mental health counselors",21-0000,Community and Social Service Occupations,440380,491930,51550,0.1171,59190,59350,160,0.0027,Master's degree,None,Internship/residency
+21-1019,"Counselors, all other",21-0000,Community and Social Service Occupations,33340,28580,-4760,-0.1428,49830,50860,1030,0.0207,Master's degree,None,None
+21-1021,"Child, family, and school social workers",21-0000,Community and Social Service Occupations,382960,392550,9590,0.025,58570,59550,980,0.0167,Bachelor's degree,None,None
+21-1022,Healthcare social workers,21-0000,Community and Social Service Occupations,185940,187630,1690,0.0091,68090,67880,-210,-0.0031,Master's degree,None,Internship/residency
+21-1023,Mental health and substance abuse social workers,21-0000,Community and Social Service Occupations,125910,132810,6900,0.0548,60060,60280,220,0.0037,Master's degree,None,Internship/residency
+21-1029,"Social workers, all other",21-0000,Community and Social Service Occupations,64940,62930,-2010,-0.031,69480,71900,2420,0.0348,Bachelor's degree,None,None
+21-1091,Health education specialists,21-0000,Community and Social Service Occupations,65150,65690,540,0.0083,63000,64070,1070,0.017,Bachelor's degree,None,None
+21-1092,Probation officers and correctional treatment specialists,21-0000,Community and Social Service Occupations,86820,89390,2570,0.0296,64520,66270,1750,0.0271,Bachelor's degree,None,Moderate-term on-the-job training
+21-1093,Social and human service assistants,21-0000,Community and Social Service Occupations,424220,437860,13640,0.0322,45120,45930,810,0.018,High school diploma or equivalent,None,Short-term on-the-job training
+21-1094,Community health workers,21-0000,Community and Social Service Occupations,60730,61660,930,0.0153,51030,51850,820,0.0161,High school diploma or equivalent,None,Short-term on-the-job training
+21-1099,"Community and social service specialists, all other",21-0000,Community and Social Service Occupations,110390,107730,-2660,-0.0241,54940,56730,1790,0.0326,Bachelor's degree,None,None
+21-2011,Clergy,21-0000,Community and Social Service Occupations,58080,57200,-880,-0.0152,60820,60810,-10,-0.0002,Bachelor's degree,None,Moderate-term on-the-job training
+21-2021,"Directors, religious activities and education",21-0000,Community and Social Service Occupations,21460,22160,700,0.0326,54840,52100,-2740,-0.05,Bachelor's degree,Less than 5 years,None
+21-2099,"Religious workers, all other",21-0000,Community and Social Service Occupations,12170,15760,3590,0.295,45120,45280,160,0.0035,Bachelor's degree,None,None
+23-1011,Lawyers,23-0000,Legal Occupations,747750,754500,6750,0.009,151160,159670,8510,0.0563,Doctoral or professional degree,None,None
+23-1012,Judicial law clerks,23-0000,Legal Occupations,13220,13290,70,0.0053,60400,64920,4520,0.0748,Doctoral or professional degree,None,None
+23-1021,"Administrative law judges, adjudicators, and hearing officers",23-0000,Legal Occupations,16230,16370,140,0.0086,115230,117860,2630,0.0228,Doctoral or professional degree,5 years or more,Short-term on-the-job training
+23-1022,"Arbitrators, mediators, and conciliators",23-0000,Legal Occupations,7860,9210,1350,0.1718,67710,75530,7820,0.1155,Bachelor's degree,Less than 5 years,Moderate-term on-the-job training
+23-1023,"Judges, magistrate judges, and magistrates",23-0000,Legal Occupations,25580,24030,-1550,-0.0606,156210,153990,-2220,-0.0142,Doctoral or professional degree,5 years or more,Short-term on-the-job training
+23-2011,Paralegals and legal assistants,23-0000,Legal Occupations,367220,392880,25660,0.0699,61010,62890,1880,0.0308,Associate's degree,None,None
+23-2093,"Title examiners, abstractors, and searchers",23-0000,Legal Occupations,48170,48580,410,0.0085,54980,58650,3670,0.0668,High school diploma or equivalent,None,Moderate-term on-the-job training
+23-2099,"Legal support workers, all other",23-0000,Legal Occupations,47380,46760,-620,-0.0131,68760,72110,3350,0.0487,Associate's degree,None,None
+25-1011,"Business teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,81780,82150,370,0.0045,97270,99080,1810,0.0186,Doctoral or professional degree,None,None
+25-1021,"Computer science teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,36240,35480,-760,-0.021,96690,96980,290,0.003,Doctoral or professional degree,None,None
+25-1022,"Mathematical science teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,48820,47670,-1150,-0.0236,79350,79940,590,0.0074,Doctoral or professional degree,None,None
+25-1031,"Architecture teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,9120,7700,-1420,-0.1557,101480,96870,-4610,-0.0454,Doctoral or professional degree,None,None
+25-1032,"Engineering teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,39910,40270,360,0.009,106120,109270,3150,0.0297,Doctoral or professional degree,None,None
+25-1041,"Agricultural sciences teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,8700,8920,220,0.0253,86350,98700,12350,0.143,Doctoral or professional degree,None,None
+25-1042,"Biological science teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,53250,50190,-3060,-0.0575,83460,84620,1160,0.0139,Doctoral or professional degree,None,None
+25-1043,"Forestry and conservation science teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,1310,1520,210,0.1603,100830,101420,590,0.0059,Doctoral or professional degree,None,None
+25-1051,"Atmospheric, earth, marine, and space sciences teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,11480,9900,-1580,-0.1376,101390,103170,1780,0.0176,Doctoral or professional degree,None,None
+25-1052,"Chemistry teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,20390,19980,-410,-0.0201,86220,93250,7030,0.0815,Doctoral or professional degree,None,None
+25-1053,"Environmental science teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,7130,6690,-440,-0.0617,87710,94980,7270,0.0829,Doctoral or professional degree,None,None
+25-1054,"Physics teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,13590,13090,-500,-0.0368,97360,100310,2950,0.0303,Doctoral or professional degree,None,None
+25-1061,"Anthropology and archeology teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,5260,5240,-20,-0.0038,95770,99650,3880,0.0405,Doctoral or professional degree,None,None
+25-1062,"Area, ethnic, and cultural studies teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,11430,11300,-130,-0.0114,84290,85020,730,0.0087,Doctoral or professional degree,None,None
+25-1063,"Economics teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,12420,11560,-860,-0.0692,119980,123920,3940,0.0328,Doctoral or professional degree,None,None
+25-1064,"Geography teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,3290,3330,40,0.0122,86730,97590,10860,0.1252,Doctoral or professional degree,None,None
+25-1065,"Political science teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,17170,16970,-200,-0.0116,94680,98070,3390,0.0358,Doctoral or professional degree,None,None
+25-1066,"Psychology teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,41610,41530,-80,-0.0019,80330,80340,10,0.0001,Doctoral or professional degree,None,None
+25-1067,"Sociology teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,12380,11850,-530,-0.0428,82540,84290,1750,0.0212,Doctoral or professional degree,None,None
+25-1069,"Social sciences teachers, postsecondary, all other",25-0000,Educational Instruction and Library Occupations,17540,16580,-960,-0.0547,75040,72990,-2050,-0.0273,Doctoral or professional degree,None,None
+25-1071,"Health specialties teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,229720,221270,-8450,-0.0368,105620,107310,1690,0.016,Doctoral or professional degree,Less than 5 years,None
+25-1072,"Nursing instructors and teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,74250,77960,3710,0.05,79940,80250,310,0.0039,Doctoral or professional degree,Less than 5 years,None
+25-1081,"Education teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,59090,60830,1740,0.0294,72090,75350,3260,0.0452,Doctoral or professional degree,Less than 5 years,None
+25-1082,"Library science teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,4100,3630,-470,-0.1146,78630,80340,1710,0.0217,Doctoral or professional degree,None,None
+25-1111,"Criminal justice and law enforcement teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,13560,13150,-410,-0.0302,71470,76590,5120,0.0716,Doctoral or professional degree,None,None
+25-1112,"Law teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,22800,20060,-2740,-0.1202,126650,128500,1850,0.0146,Doctoral or professional degree,Less than 5 years,None
+25-1113,"Social work teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,13350,12610,-740,-0.0554,76210,77570,1360,0.0178,Doctoral or professional degree,None,None
+25-1121,"Art, drama, and music teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,97890,93560,-4330,-0.0442,80190,78620,-1570,-0.0196,Master's degree,None,None
+25-1122,"Communications teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,29260,29420,160,0.0055,77800,78580,780,0.01,Doctoral or professional degree,None,None
+25-1123,"English language and literature teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,59590,57720,-1870,-0.0314,78270,78760,490,0.0063,Doctoral or professional degree,None,None
+25-1124,"Foreign language and literature teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,21170,19830,-1340,-0.0633,77010,79350,2340,0.0304,Doctoral or professional degree,None,None
+25-1125,"History teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,19860,18790,-1070,-0.0539,81500,83820,2320,0.0285,Doctoral or professional degree,None,None
+25-1126,"Philosophy and religion teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,20840,20460,-380,-0.0182,78050,80260,2210,0.0283,Doctoral or professional degree,None,None
+25-1192,"Family and consumer sciences teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,2630,2770,140,0.0532,77280,75870,-1410,-0.0182,Doctoral or professional degree,None,None
+25-1193,"Recreation and fitness studies teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,12680,12630,-50,-0.0039,75890,77270,1380,0.0182,Doctoral or professional degree,None,None
+25-1194,"Career/technical education teachers, postsecondary",25-0000,Educational Instruction and Library Occupations,111150,114110,2960,0.0266,61490,63820,2330,0.0379,Bachelor's degree,Less than 5 years,None
+25-1199,"Postsecondary teachers, all other",25-0000,Educational Instruction and Library Occupations,151530,149840,-1690,-0.0112,78490,77640,-850,-0.0108,Doctoral or professional degree,None,None
+25-2011,"Preschool teachers, except special education",25-0000,Educational Instruction and Library Occupations,445080,478780,33700,0.0757,37120,38140,1020,0.0275,Associate's degree,None,None
+25-2012,"Kindergarten teachers, except special education",25-0000,Educational Instruction and Library Occupations,114410,108870,-5540,-0.0484,61430,62680,1250,0.0203,Bachelor's degree,None,None
+25-2021,"Elementary school teachers, except special education",25-0000,Educational Instruction and Library Occupations,1393310,1388390,-4920,-0.0035,62340,63970,1630,0.0261,Bachelor's degree,None,None
+25-2022,"Middle school teachers, except special and career/technical education",25-0000,Educational Instruction and Library Occupations,620370,620090,-280,-0.0005,62970,64370,1400,0.0222,Bachelor's degree,None,None
+25-2023,"Career/technical education teachers, middle school",25-0000,Educational Instruction and Library Occupations,14200,16870,2670,0.188,63620,65030,1410,0.0222,Bachelor's degree,Less than 5 years,None
+25-2031,"Secondary school teachers, except special and career/technical education",25-0000,Educational Instruction and Library Occupations,1072540,1065210,-7330,-0.0068,64580,72040,7460,0.1155,Bachelor's degree,None,None
+25-2032,"Career/technical education teachers, secondary school",25-0000,Educational Instruction and Library Occupations,104450,111420,6970,0.0667,63910,66270,2360,0.0369,Bachelor's degree,Less than 5 years,None
+25-2051,"Special education teachers, preschool",25-0000,Educational Instruction and Library Occupations,28200,29510,1310,0.0465,62190,64830,2640,0.0425,Bachelor's degree,None,None
+25-2052,"Special education teachers, kindergarten and elementary school",25-0000,Educational Instruction and Library Occupations,231570,260870,29300,0.1265,63000,65120,2120,0.0337,Bachelor's degree,None,None
+25-2057,"Special education teachers, middle school",25-0000,Educational Instruction and Library Occupations,95330,95200,-130,-0.0014,64880,66810,1930,0.0297,Bachelor's degree,None,None
+25-2058,"Special education teachers, secondary school",25-0000,Educational Instruction and Library Occupations,162780,163930,1150,0.0071,69590,74260,4670,0.0671,Bachelor's degree,None,None
+25-2059,"Special education teachers, all other",25-0000,Educational Instruction and Library Occupations,39350,33930,-5420,-0.1377,67430,76580,9150,0.1357,Bachelor's degree,None,None
+25-3011,"Adult basic education, adult secondary education, and english as a second language instructors",25-0000,Educational Instruction and Library Occupations,36260,37310,1050,0.029,59950,61540,1590,0.0265,Bachelor's degree,None,None
+25-3021,Self-enrichment teachers,25-0000,Educational Instruction and Library Occupations,308520,332110,23590,0.0765,45590,46800,1210,0.0265,High school diploma or equivalent,Less than 5 years,None
+25-3031,"Substitute teachers, short-term",25-0000,Educational Instruction and Library Occupations,481300,524770,43470,0.0903,38470,41670,3200,0.0832,Bachelor's degree,None,None
+25-3041,Tutors,25-0000,Educational Instruction and Library Occupations,174660,175070,410,0.0023,40090,43350,3260,0.0813,"Some college, no degree",None,None
+25-3099,"Teachers and instructors, all other",25-0000,Educational Instruction and Library Occupations,125010,113790,-11220,-0.0898,64690,66140,1450,0.0224,Bachelor's degree,None,None
+25-4011,Archivists,25-0000,Educational Instruction and Library Occupations,7050,7970,920,0.1305,61570,64550,2980,0.0484,Master's degree,None,None
+25-4012,Curators,25-0000,Educational Instruction and Library Occupations,12280,12150,-130,-0.0106,61770,63420,1650,0.0267,Master's degree,None,None
+25-4013,Museum technicians and conservators,25-0000,Educational Instruction and Library Occupations,13070,12310,-760,-0.0581,47460,51440,3980,0.0839,Bachelor's degree,None,None
+25-4022,Librarians and media collections specialists,25-0000,Educational Instruction and Library Occupations,131830,133790,1960,0.0149,64320,68270,3950,0.0614,Master's degree,None,None
+25-4031,Library technicians,25-0000,Educational Instruction and Library Occupations,73770,68690,-5080,-0.0689,39970,44580,4610,0.1153,Postsecondary nondegree award,None,None
+25-9021,Farm and home management educators,25-0000,Educational Instruction and Library Occupations,10260,8220,-2040,-0.1988,58120,60220,2100,0.0361,Master's degree,None,None
+25-9031,Instructional coordinators,25-0000,Educational Instruction and Library Occupations,210850,227760,16910,0.0802,74720,77440,2720,0.0364,Master's degree,5 years or more,None
+25-9044,"Teaching assistants, postsecondary",25-0000,Educational Instruction and Library Occupations,155010,164090,9080,0.0586,44930,42910,-2020,-0.045,Bachelor's degree,None,None
+25-9045,"Teaching assistants, except postsecondary",25-0000,Educational Instruction and Library Occupations,1375300,1420350,45050,0.0328,35240,36780,1540,0.0437,"Some college, no degree",None,None
+25-9099,"Educational instruction and library workers, all other",25-0000,Educational Instruction and Library Occupations,114640,118590,3950,0.0345,48400,50890,2490,0.0514,Bachelor's degree,None,None
+27-1011,Art directors,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",50370,53070,2700,0.0536,111040,114850,3810,0.0343,Bachelor's degree,5 years or more,None
+27-1012,Craft artists,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",4370,4580,210,0.0481,38480,46080,7600,0.1975,No formal educational credential,None,Long-term on-the-job training
+27-1013,"Fine artists, including painters, sculptors, and illustrators",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",10000,11220,1220,0.122,60560,55490,-5070,-0.0837,Bachelor's degree,None,Long-term on-the-job training
+27-1014,Special effects artists and animators,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",21280,19970,-1310,-0.0616,99800,102030,2230,0.0223,Bachelor's degree,None,None
+27-1019,"Artists and related workers, all other",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",7370,6930,-440,-0.0597,72760,71240,-1520,-0.0209,No formal educational credential,None,Long-term on-the-job training
+27-1021,Commercial and industrial designers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",30250,33490,3240,0.1071,79450,83910,4460,0.0561,Bachelor's degree,None,None
+27-1022,Fashion designers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",20910,21450,540,0.0258,80690,80960,270,0.0033,Bachelor's degree,None,None
+27-1023,Floral designers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",40160,40590,430,0.0107,36120,37360,1240,0.0343,High school diploma or equivalent,None,Moderate-term on-the-job training
+27-1024,Graphic designers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",214260,197830,-16430,-0.0767,61300,62960,1660,0.0271,Bachelor's degree,None,None
+27-1025,Interior designers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",69580,71500,1920,0.0276,63490,67190,3700,0.0583,Bachelor's degree,None,None
+27-1026,Merchandise displayers and window trimmers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",192480,165220,-27260,-0.1416,37350,39390,2040,0.0546,High school diploma or equivalent,None,Short-term on-the-job training
+27-1027,Set and exhibit designers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",10850,10630,-220,-0.0203,66280,75240,8960,0.1352,Bachelor's degree,None,None
+27-1029,"Designers, all other",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",9680,9480,-200,-0.0207,66220,64950,-1270,-0.0192,Bachelor's degree,None,None
+27-2011,Actors,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",38800,55000,16200,0.4175,,,,,"Some college, no degree",None,Long-term on-the-job training
+27-2012,Producers and directors,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",145270,143120,-2150,-0.0148,83480,90360,6880,0.0824,Bachelor's degree,Less than 5 years,None
+27-2021,Athletes and sports competitors,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",14370,15070,700,0.0487,62360,66710,4350,0.0698,No formal educational credential,None,Long-term on-the-job training
+27-2022,Coaches and scouts,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",250940,248950,-1990,-0.0079,45920,47320,1400,0.0305,Bachelor's degree,None,None
+27-2023,"Umpires, referees, and other sports officials",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",15080,15780,700,0.0464,38820,40710,1890,0.0487,High school diploma or equivalent,None,Moderate-term on-the-job training
+27-2031,Dancers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",9060,8130,-930,-0.1026,,,,,No formal educational credential,None,Long-term on-the-job training
+27-2032,Choreographers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",3430,2860,-570,-0.1662,55600,55310,-290,-0.0052,High school diploma or equivalent,5 years or more,Long-term on-the-job training
+27-2041,Music directors and composers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",12330,12540,210,0.017,63670,73710,10040,0.1577,Bachelor's degree,Less than 5 years,None
+27-2042,Musicians and singers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",38350,36180,-2170,-0.0566,,,,,No formal educational credential,None,Long-term on-the-job training
+27-2091,"Disc jockeys, except radio",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",8170,7920,-250,-0.0306,,,,,High school diploma or equivalent,None,Short-term on-the-job training
+27-2099,"Entertainers and performers, sports and related workers, all other",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",15040,16550,1510,0.1004,,,,,No formal educational credential,None,Short-term on-the-job training
+27-3011,Broadcast announcers and radio disc jockeys,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",23880,21240,-2640,-0.1106,45680,47340,1660,0.0363,Bachelor's degree,None,None
+27-3023,"News analysts, reporters, and journalists",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",41550,39250,-2300,-0.0554,60280,62200,1920,0.0319,Bachelor's degree,None,None
+27-3031,Public relations specialists,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",280590,283380,2790,0.0099,69780,74750,4970,0.0712,Bachelor's degree,None,None
+27-3041,Editors,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",95480,91690,-3790,-0.0397,75260,77920,2660,0.0353,Bachelor's degree,Less than 5 years,None
+27-3042,Technical writers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",55530,45500,-10030,-0.1806,91670,90390,-1280,-0.014,Bachelor's degree,Less than 5 years,Short-term on-the-job training
+27-3043,Writers and authors,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",47800,47940,140,0.0029,72270,76910,4640,0.0642,Bachelor's degree,None,Long-term on-the-job training
+27-3091,Interpreters and translators,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",53360,52060,-1300,-0.0244,59440,60170,730,0.0123,Bachelor's degree,None,None
+27-3092,Court reporters and simultaneous captioners,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",12630,12870,240,0.019,67310,72420,5110,0.0759,Postsecondary nondegree award,None,Short-term on-the-job training
+27-3099,"Media and communication workers, all other",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",23590,19590,-4000,-0.1696,71770,73620,1850,0.0258,High school diploma or equivalent,None,Short-term on-the-job training
+27-4011,Audio and video technicians,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",70080,70230,150,0.0021,54830,58100,3270,0.0596,Postsecondary nondegree award,None,Short-term on-the-job training
+27-4012,Broadcast technicians,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",21080,21110,30,0.0014,53920,59570,5650,0.1048,Associate's degree,None,Short-term on-the-job training
+27-4014,Sound engineering technicians,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",13050,13080,30,0.0023,66430,73130,6700,0.1009,Postsecondary nondegree award,None,Short-term on-the-job training
+27-4015,Lighting technicians,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",10130,8900,-1230,-0.1214,60560,68060,7500,0.1238,Postsecondary nondegree award,None,Short-term on-the-job training
+27-4021,Photographers,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",51230,51760,530,0.0103,42520,44660,2140,0.0503,High school diploma or equivalent,None,Moderate-term on-the-job training
+27-4031,"Camera operators, television, video, and film",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",24460,21550,-2910,-0.119,68810,74990,6180,0.0898,Bachelor's degree,None,None
+27-4032,Film and video editors,27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",28860,25610,-3250,-0.1126,70980,75420,4440,0.0626,Bachelor's degree,None,None
+27-4099,"Media and communication equipment workers, all other",27-0000,"Arts, Design, Entertainment, Sports, and Media Occupations",13020,12450,-570,-0.0438,67190,70720,3530,0.0525,High school diploma or equivalent,None,Short-term on-the-job training
+29-1011,Chiropractors,29-0000,Healthcare Practitioners and Technical Occupations,37630,39630,2000,0.0531,79000,79200,200,0.0025,Doctoral or professional degree,None,None
+29-1021,"Dentists, general",29-0000,Healthcare Practitioners and Technical Occupations,113490,124390,10900,0.096,172790,170950,-1840,-0.0106,Doctoral or professional degree,None,None
+29-1022,Oral and maxillofacial surgeons,29-0000,Healthcare Practitioners and Technical Occupations,5330,4910,-420,-0.0788,,352220,,,Doctoral or professional degree,None,Internship/residency
+29-1023,Orthodontists,29-0000,Healthcare Practitioners and Technical Occupations,5150,6210,1060,0.2058,,289140,,,Doctoral or professional degree,None,Internship/residency
+29-1024,Prosthodontists,29-0000,Healthcare Practitioners and Technical Occupations,760,870,110,0.1447,,311180,,,Doctoral or professional degree,None,Internship/residency
+29-1029,"Dentists, all other specialists",29-0000,Healthcare Practitioners and Technical Occupations,5900,5230,-670,-0.1136,225770,224990,-780,-0.0035,Doctoral or professional degree,None,Internship/residency
+29-1031,Dietitians and nutritionists,29-0000,Healthcare Practitioners and Technical Occupations,76570,77570,1000,0.0131,73850,76400,2550,0.0345,Bachelor's degree,None,Internship/residency
+29-1041,Optometrists,29-0000,Healthcare Practitioners and Technical Occupations,41890,42790,900,0.0215,134830,136570,1740,0.0129,Doctoral or professional degree,None,None
+29-1051,Pharmacists,29-0000,Healthcare Practitioners and Technical Occupations,328870,321970,-6900,-0.021,137480,140910,3430,0.0249,Doctoral or professional degree,None,None
+29-1071,Physician assistants,29-0000,Healthcare Practitioners and Technical Occupations,155540,162150,6610,0.0425,133260,135880,2620,0.0197,Master's degree,None,None
+29-1081,Podiatrists,29-0000,Healthcare Practitioners and Technical Occupations,9520,9680,160,0.0168,152800,160300,7500,0.0491,Doctoral or professional degree,None,Internship/residency
+29-1122,Occupational therapists,29-0000,Healthcare Practitioners and Technical Occupations,152280,162450,10170,0.0668,98340,100330,1990,0.0202,Master's degree,None,None
+29-1123,Physical therapists,29-0000,Healthcare Practitioners and Technical Occupations,248630,267330,18700,0.0752,101020,102760,1740,0.0172,Doctoral or professional degree,None,None
+29-1124,Radiation therapists,29-0000,Healthcare Practitioners and Technical Occupations,18700,17070,-1630,-0.0872,101990,105310,3320,0.0326,Associate's degree,None,None
+29-1125,Recreational therapists,29-0000,Healthcare Practitioners and Technical Occupations,15060,14930,-130,-0.0086,60280,61960,1680,0.0279,Bachelor's degree,None,None
+29-1126,Respiratory therapists,29-0000,Healthcare Practitioners and Technical Occupations,136420,139790,3370,0.0247,80450,82280,1830,0.0227,Associate's degree,None,None
+29-1127,Speech-language pathologists,29-0000,Healthcare Practitioners and Technical Occupations,178790,183390,4600,0.0257,95410,97870,2460,0.0258,Master's degree,None,Internship/residency
+29-1128,Exercise physiologists,29-0000,Healthcare Practitioners and Technical Occupations,8110,8560,450,0.0555,58160,59460,1300,0.0224,Bachelor's degree,None,None
+29-1129,"Therapists, all other",29-0000,Healthcare Practitioners and Technical Occupations,19320,22640,3320,0.1718,65010,77930,12920,0.1987,Bachelor's degree,None,None
+29-1131,Veterinarians,29-0000,Healthcare Practitioners and Technical Occupations,80630,83900,3270,0.0406,125510,130100,4590,0.0366,Doctoral or professional degree,None,None
+29-1141,Registered nurses,29-0000,Healthcare Practitioners and Technical Occupations,3282010,3379720,97710,0.0298,93600,97550,3950,0.0422,Bachelor's degree,None,None
+29-1151,Nurse anesthetists,29-0000,Healthcare Practitioners and Technical Occupations,50350,51840,1490,0.0296,223210,236590,13380,0.0599,Master's degree,None,None
+29-1161,Nurse midwives,29-0000,Healthcare Practitioners and Technical Occupations,8280,7920,-360,-0.0435,128790,134040,5250,0.0408,Master's degree,None,None
+29-1171,Nurse practitioners,29-0000,Healthcare Practitioners and Technical Occupations,307390,323040,15650,0.0509,129210,132300,3090,0.0239,Master's degree,None,None
+29-1181,Audiologists,29-0000,Healthcare Practitioners and Technical Occupations,14730,13660,-1070,-0.0726,92120,95780,3660,0.0397,Doctoral or professional degree,None,None
+29-1211,Anesthesiologists,29-0000,Healthcare Practitioners and Technical Occupations,41890,38760,-3130,-0.0747,,391490,,,Doctoral or professional degree,None,Internship/residency
+29-1212,Cardiologists,29-0000,Healthcare Practitioners and Technical Occupations,18020,17290,-730,-0.0405,,496010,,,Doctoral or professional degree,None,Internship/residency
+29-1213,Dermatologists,29-0000,Healthcare Practitioners and Technical Occupations,10080,11370,1290,0.128,,328730,,,Doctoral or professional degree,None,Internship/residency
+29-1214,Emergency medicine physicians,29-0000,Healthcare Practitioners and Technical Occupations,33680,32880,-800,-0.0238,,335550,,,Doctoral or professional degree,None,Internship/residency
+29-1215,Family medicine physicians,29-0000,Healthcare Practitioners and Technical Occupations,107950,107510,-440,-0.0041,238380,244180,5800,0.0243,Doctoral or professional degree,None,Internship/residency
+29-1216,General internal medicine physicians,29-0000,Healthcare Practitioners and Technical Occupations,66640,67150,510,0.0077,236350,256560,20210,0.0855,Doctoral or professional degree,None,Internship/residency
+29-1217,Neurologists,29-0000,Healthcare Practitioners and Technical Occupations,7700,10590,2890,0.3753,,248560,,,Doctoral or professional degree,None,Internship/residency
+29-1218,Obstetricians and gynecologists,29-0000,Healthcare Practitioners and Technical Occupations,19900,21260,1360,0.0683,,292910,,,Doctoral or professional degree,None,Internship/residency
+29-1221,"Pediatricians, general",29-0000,Healthcare Practitioners and Technical Occupations,42960,39390,-3570,-0.0831,210130,210040,-90,-0.0004,Doctoral or professional degree,None,Internship/residency
+29-1222,"Physicians, pathologists",29-0000,Healthcare Practitioners and Technical Occupations,11800,11110,-690,-0.0585,,312400,,,Doctoral or professional degree,None,Internship/residency
+29-1223,Psychiatrists,29-0000,Healthcare Practitioners and Technical Occupations,24800,27980,3180,0.1282,,281870,,,Doctoral or professional degree,None,Internship/residency
+29-1224,Radiologists,29-0000,Healthcare Practitioners and Technical Occupations,26290,26770,480,0.0183,,420860,,,Doctoral or professional degree,None,Internship/residency
+29-1229,"Physicians, all other",29-0000,Healthcare Practitioners and Technical Occupations,315360,342720,27360,0.0868,,265930,,,Doctoral or professional degree,None,Internship/residency
+29-1241,"Ophthalmologists, except pediatric",29-0000,Healthcare Practitioners and Technical Occupations,12110,8950,-3160,-0.2609,,300080,,,Doctoral or professional degree,None,Internship/residency
+29-1242,"Orthopedic surgeons, except pediatric",29-0000,Healthcare Practitioners and Technical Occupations,14160,14100,-60,-0.0042,,358550,,,Doctoral or professional degree,None,Internship/residency
+29-1243,Pediatric surgeons,29-0000,Healthcare Practitioners and Technical Occupations,1050,1190,140,0.1333,,559030,,,Doctoral or professional degree,None,Internship/residency
+29-1249,"Surgeons, all other",29-0000,Healthcare Practitioners and Technical Occupations,24080,25140,1060,0.044,,414010,,,Doctoral or professional degree,None,Internship/residency
+29-1291,Acupuncturists,29-0000,Healthcare Practitioners and Technical Occupations,8440,7830,-610,-0.0723,78140,76040,-2100,-0.0269,Master's degree,None,None
+29-1292,Dental hygienists,29-0000,Healthcare Practitioners and Technical Occupations,219070,222740,3670,0.0168,94260,98100,3840,0.0407,Associate's degree,None,None
+29-1299,"Healthcare diagnosing or treating practitioners, all other",29-0000,Healthcare Practitioners and Technical Occupations,30870,28630,-2240,-0.0726,113730,115210,1480,0.013,Master's degree,None,None
+29-2010,Clinical laboratory technologists and technicians,29-0000,Healthcare Practitioners and Technical Occupations,343040,332940,-10100,-0.0294,61890,62930,1040,0.0168,Bachelor's degree,None,None
+29-2031,Cardiovascular technologists and technicians,29-0000,Healthcare Practitioners and Technical Occupations,61180,62960,1780,0.0291,67260,74310,7050,0.1048,Associate's degree,None,None
+29-2032,Diagnostic medical sonographers,29-0000,Healthcare Practitioners and Technical Occupations,86460,90160,3700,0.0428,89340,96590,7250,0.0812,Associate's degree,None,None
+29-2033,Nuclear medicine technologists,29-0000,Healthcare Practitioners and Technical Occupations,16960,17080,120,0.0071,97020,101370,4350,0.0448,Associate's degree,None,None
+29-2034,Radiologic technologists and technicians,29-0000,Healthcare Practitioners and Technical Occupations,223460,230490,7030,0.0315,77660,80110,2450,0.0315,Associate's degree,None,None
+29-2035,Magnetic resonance imaging technologists,29-0000,Healthcare Practitioners and Technical Occupations,41530,43390,1860,0.0448,88180,95480,7300,0.0828,Associate's degree,Less than 5 years,None
+29-2036,Medical dosimetrists,29-0000,Healthcare Practitioners and Technical Occupations,3970,3410,-560,-0.1411,138110,147470,9360,0.0678,Bachelor's degree,None,None
+29-2042,Emergency medical technicians,29-0000,Healthcare Practitioners and Technical Occupations,177980,180510,2530,0.0142,41340,44470,3130,0.0757,Postsecondary nondegree award,None,None
+29-2043,Paramedics,29-0000,Healthcare Practitioners and Technical Occupations,99530,100610,1080,0.0109,58410,60600,2190,0.0375,Postsecondary nondegree award,Less than 5 years,None
+29-2051,Dietetic technicians,29-0000,Healthcare Practitioners and Technical Occupations,29950,31560,1610,0.0538,37040,37640,600,0.0162,Associate's degree,None,None
+29-2052,Pharmacy technicians,29-0000,Healthcare Practitioners and Technical Occupations,487920,471680,-16240,-0.0333,43460,45750,2290,0.0527,High school diploma or equivalent,None,Moderate-term on-the-job training
+29-2053,Psychiatric technicians,29-0000,Healthcare Practitioners and Technical Occupations,136300,156960,20660,0.1516,42590,45130,2540,0.0596,Postsecondary nondegree award,Less than 5 years,Short-term on-the-job training
+29-2055,Surgical technologists,29-0000,Healthcare Practitioners and Technical Occupations,113890,117460,3570,0.0313,62830,64650,1820,0.029,Postsecondary nondegree award,None,None
+29-2056,Veterinary technologists and technicians,29-0000,Healthcare Practitioners and Technical Occupations,131320,129140,-2180,-0.0166,45980,47380,1400,0.0304,Associate's degree,None,None
+29-2057,Ophthalmic medical technicians,29-0000,Healthcare Practitioners and Technical Occupations,76520,71010,-5510,-0.072,44080,45570,1490,0.0338,Postsecondary nondegree award,None,None
+29-2061,Licensed practical and licensed vocational nurses,29-0000,Healthcare Practitioners and Technical Occupations,632430,648410,15980,0.0253,62340,64400,2060,0.033,Postsecondary nondegree award,None,None
+29-2072,Medical records specialists,29-0000,Healthcare Practitioners and Technical Occupations,187910,194720,6810,0.0362,50250,51140,890,0.0177,Postsecondary nondegree award,None,None
+29-2081,"Opticians, dispensing",29-0000,Healthcare Practitioners and Technical Occupations,79690,73530,-6160,-0.0773,46560,47260,700,0.015,High school diploma or equivalent,None,Long-term on-the-job training
+29-2091,Orthotists and prosthetists,29-0000,Healthcare Practitioners and Technical Occupations,9930,9390,-540,-0.0544,78310,81110,2800,0.0358,Master's degree,None,Internship/residency
+29-2092,Hearing aid specialists,29-0000,Healthcare Practitioners and Technical Occupations,10580,11270,690,0.0652,61560,65160,3600,0.0585,High school diploma or equivalent,None,Moderate-term on-the-job training
+29-2099,"Health technologists and technicians, all other",29-0000,Healthcare Practitioners and Technical Occupations,174060,182610,8550,0.0491,48790,50290,1500,0.0307,Postsecondary nondegree award,None,None
+29-9021,Health information technologists and medical registrars,29-0000,Healthcare Practitioners and Technical Occupations,37620,38100,480,0.0128,67310,68020,710,0.0105,Associate's degree,None,None
+29-9091,Athletic trainers,29-0000,Healthcare Practitioners and Technical Occupations,28950,30500,1550,0.0535,60250,62520,2270,0.0377,Master's degree,None,None
+29-9092,Genetic counselors,29-0000,Healthcare Practitioners and Technical Occupations,3510,3740,230,0.0655,98910,100040,1130,0.0114,Master's degree,None,None
+29-9093,Surgical assistants,29-0000,Healthcare Practitioners and Technical Occupations,22860,22270,-590,-0.0258,60290,66800,6510,0.108,Postsecondary nondegree award,None,None
+29-9099,"Healthcare practitioners and technical workers, all other",29-0000,Healthcare Practitioners and Technical Occupations,36970,35010,-1960,-0.053,64030,65790,1760,0.0275,Postsecondary nondegree award,None,None
+31-1120,Home health and personal care aides,31-0000,Healthcare Support Occupations,3988140,4305810,317670,0.0797,34900,35800,900,0.0258,High school diploma or equivalent,None,Short-term on-the-job training
+31-1131,Nursing assistants,31-0000,Healthcare Support Occupations,1388430,1448910,60480,0.0436,39530,42260,2730,0.0691,Postsecondary nondegree award,None,None
+31-1132,Orderlies,31-0000,Healthcare Support Occupations,53020,52440,-580,-0.0109,37700,38290,590,0.0156,High school diploma or equivalent,None,Short-term on-the-job training
+31-1133,Psychiatric aides,31-0000,Healthcare Support Occupations,34900,35520,620,0.0178,41590,44910,3320,0.0798,High school diploma or equivalent,None,Short-term on-the-job training
+31-2011,Occupational therapy assistants,31-0000,Healthcare Support Occupations,47910,51290,3380,0.0705,68340,72300,3960,0.0579,Associate's degree,None,None
+31-2012,Occupational therapy aides,31-0000,Healthcare Support Occupations,5000,4310,-690,-0.138,37370,39160,1790,0.0479,High school diploma or equivalent,None,Short-term on-the-job training
+31-2021,Physical therapist assistants,31-0000,Healthcare Support Occupations,108010,112430,4420,0.0409,65510,68380,2870,0.0438,Associate's degree,None,None
+31-2022,Physical therapist aides,31-0000,Healthcare Support Occupations,44010,48150,4140,0.0941,34520,35240,720,0.0209,High school diploma or equivalent,None,Short-term on-the-job training
+31-9011,Massage therapists,31-0000,Healthcare Support Occupations,96040,98790,2750,0.0286,57950,58450,500,0.0086,Postsecondary nondegree award,None,None
+31-9091,Dental assistants,31-0000,Healthcare Support Occupations,375430,387790,12360,0.0329,47300,48070,770,0.0163,Postsecondary nondegree award,None,None
+31-9092,Medical assistants,31-0000,Healthcare Support Occupations,793460,817870,24410,0.0308,44200,45690,1490,0.0337,Postsecondary nondegree award,None,None
+31-9093,Medical equipment preparers,31-0000,Healthcare Support Occupations,72760,77420,4660,0.064,46490,47700,1210,0.026,High school diploma or equivalent,None,Moderate-term on-the-job training
+31-9094,Medical transcriptionists,31-0000,Healthcare Support Occupations,43070,41550,-1520,-0.0353,37550,40410,2860,0.0762,Postsecondary nondegree award,None,None
+31-9095,Pharmacy aides,31-0000,Healthcare Support Occupations,41100,39530,-1570,-0.0382,37000,37680,680,0.0184,High school diploma or equivalent,None,Short-term on-the-job training
+31-9096,Veterinary assistants and laboratory animal caretakers,31-0000,Healthcare Support Occupations,114190,126580,12390,0.1085,37320,38150,830,0.0222,High school diploma or equivalent,None,Short-term on-the-job training
+31-9097,Phlebotomists,31-0000,Healthcare Support Occupations,138880,143540,4660,0.0336,43660,45230,1570,0.036,Postsecondary nondegree award,None,None
+31-9099,"Healthcare support workers, all other",31-0000,Healthcare Support Occupations,103650,109740,6090,0.0588,46050,48430,2380,0.0517,High school diploma or equivalent,None,None
+33-1011,First-line supervisors of correctional officers,33-0000,Protective Service Occupations,53390,53380,-10,-0.0002,76310,77970,1660,0.0218,High school diploma or equivalent,Less than 5 years,None
+33-1012,First-line supervisors of police and detectives,33-0000,Protective Service Occupations,153130,154610,1480,0.0097,105980,106040,60,0.0006,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+33-1021,First-line supervisors of firefighting and prevention workers,33-0000,Protective Service Occupations,93680,99140,5460,0.0583,92430,93530,1100,0.0119,Postsecondary nondegree award,Less than 5 years,Moderate-term on-the-job training
+33-1091,First-line supervisors of security workers,33-0000,Protective Service Occupations,70310,81480,11170,0.1589,58610,55940,-2670,-0.0456,High school diploma or equivalent,Less than 5 years,None
+33-1099,"First-line supervisors of protective service workers, all other",33-0000,Protective Service Occupations,20460,20690,230,0.0112,74960,76400,1440,0.0192,High school diploma or equivalent,Less than 5 years,None
+33-2011,Firefighters,33-0000,Protective Service Occupations,332240,345990,13750,0.0414,59530,59280,-250,-0.0042,Postsecondary nondegree award,None,Long-term on-the-job training
+33-2021,Fire inspectors and investigators,33-0000,Protective Service Occupations,14050,13800,-250,-0.0178,78060,75920,-2140,-0.0274,Postsecondary nondegree award,5 years or more,Moderate-term on-the-job training
+33-2022,Forest fire inspectors and prevention specialists,33-0000,Protective Service Occupations,2780,2780,0,0.0,52380,56870,4490,0.0857,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+33-3011,Bailiffs,33-0000,Protective Service Occupations,16910,17310,400,0.0237,57050,56600,-450,-0.0079,High school diploma or equivalent,None,Moderate-term on-the-job training
+33-3012,Correctional officers and jailers,33-0000,Protective Service Occupations,365380,380500,15120,0.0414,57970,58940,970,0.0167,High school diploma or equivalent,None,Moderate-term on-the-job training
+33-3021,Detectives and criminal investigators,33-0000,Protective Service Occupations,110790,114430,3640,0.0329,93580,93790,210,0.0022,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+33-3031,Fish and game wardens,33-0000,Protective Service Occupations,6420,5770,-650,-0.1012,68180,74060,5880,0.0862,Bachelor's degree,None,Moderate-term on-the-job training
+33-3041,Parking enforcement workers,33-0000,Protective Service Occupations,7770,9050,1280,0.1647,47150,46730,-420,-0.0089,High school diploma or equivalent,None,Short-term on-the-job training
+33-3051,Police and sheriff's patrol officers,33-0000,Protective Service Occupations,666990,670520,3530,0.0053,76290,76210,-80,-0.001,High school diploma or equivalent,None,Moderate-term on-the-job training
+33-3052,Transit and railroad police,33-0000,Protective Service Occupations,3000,4390,1390,0.4633,82320,90230,7910,0.0961,High school diploma or equivalent,None,Moderate-term on-the-job training
+33-9011,Animal control workers,33-0000,Protective Service Occupations,11790,12070,280,0.0237,45830,45660,-170,-0.0037,High school diploma or equivalent,None,Moderate-term on-the-job training
+33-9021,Private detectives and investigators,33-0000,Protective Service Occupations,38700,35580,-3120,-0.0806,52370,51220,-1150,-0.022,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+33-9031,Gambling surveillance officers and gambling investigators,33-0000,Protective Service Occupations,10000,9520,-480,-0.048,43900,43370,-530,-0.0121,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+33-9032,Security guards,33-0000,Protective Service Occupations,1241770,1283470,41700,0.0336,38370,38020,-350,-0.0091,High school diploma or equivalent,None,Short-term on-the-job training
+33-9091,Crossing guards and flaggers,33-0000,Protective Service Occupations,90180,94360,4180,0.0464,37700,38100,400,0.0106,No formal educational credential,None,Short-term on-the-job training
+33-9092,"Lifeguards, ski patrol, and other recreational protective service workers",33-0000,Protective Service Occupations,143590,157550,13960,0.0972,33720,33580,-140,-0.0042,No formal educational credential,None,Short-term on-the-job training
+33-9093,Transportation security screeners,33-0000,Protective Service Occupations,46340,50290,3950,0.0852,63360,66770,3410,0.0538,High school diploma or equivalent,None,Short-term on-the-job training
+33-9094,School bus monitors,33-0000,Protective Service Occupations,72140,78420,6280,0.0871,34980,35100,120,0.0034,High school diploma or equivalent,None,Short-term on-the-job training
+33-9099,"Protective service workers, all other",33-0000,Protective Service Occupations,83110,81500,-1610,-0.0194,41600,42540,940,0.0226,High school diploma or equivalent,None,Short-term on-the-job training
+35-1011,Chefs and head cooks,35-0000,Food Preparation and Serving Related Occupations,182320,200040,17720,0.0972,60990,62470,1480,0.0243,High school diploma or equivalent,5 years or more,None
+35-1012,First-line supervisors of food preparation and serving workers,35-0000,Food Preparation and Serving Related Occupations,1187460,1223240,35780,0.0301,42010,44080,2070,0.0493,High school diploma or equivalent,Less than 5 years,None
+35-2011,"Cooks, fast food",35-0000,Food Preparation and Serving Related Occupations,668230,641070,-27160,-0.0406,30160,30890,730,0.0242,No formal educational credential,None,Short-term on-the-job training
+35-2012,"Cooks, institution and cafeteria",35-0000,Food Preparation and Serving Related Occupations,448260,441050,-7210,-0.0161,36450,37450,1000,0.0274,No formal educational credential,None,Short-term on-the-job training
+35-2013,"Cooks, private household",35-0000,Food Preparation and Serving Related Occupations,900,1100,200,0.2222,44530,47940,3410,0.0766,Postsecondary nondegree award,Less than 5 years,None
+35-2014,"Cooks, restaurant",35-0000,Food Preparation and Serving Related Occupations,1452130,1409890,-42240,-0.0291,36830,37390,560,0.0152,No formal educational credential,Less than 5 years,Moderate-term on-the-job training
+35-2015,"Cooks, short order",35-0000,Food Preparation and Serving Related Occupations,150420,138650,-11770,-0.0782,35620,35880,260,0.0073,No formal educational credential,None,Short-term on-the-job training
+35-2019,"Cooks, all other",35-0000,Food Preparation and Serving Related Occupations,23590,19350,-4240,-0.1797,36210,37690,1480,0.0409,No formal educational credential,None,Moderate-term on-the-job training
+35-2021,Food preparation workers,35-0000,Food Preparation and Serving Related Occupations,888770,893600,4830,0.0054,34220,35320,1100,0.0321,No formal educational credential,None,Short-term on-the-job training
+35-3011,Bartenders,35-0000,Food Preparation and Serving Related Occupations,745610,756390,10780,0.0145,33530,34340,810,0.0242,No formal educational credential,None,Short-term on-the-job training
+35-3023,Fast food and counter workers,35-0000,Food Preparation and Serving Related Occupations,3780930,3854050,73120,0.0193,30480,31200,720,0.0236,No formal educational credential,None,Short-term on-the-job training
+35-3031,Waiters and waitresses,35-0000,Food Preparation and Serving Related Occupations,2302690,2270910,-31780,-0.0138,33760,35230,1470,0.0435,No formal educational credential,None,Short-term on-the-job training
+35-3041,"Food servers, nonrestaurant",35-0000,Food Preparation and Serving Related Occupations,271780,293900,22120,0.0814,34460,35360,900,0.0261,No formal educational credential,None,Short-term on-the-job training
+35-9011,Dining room and cafeteria attendants and bartender helpers,35-0000,Food Preparation and Serving Related Occupations,522010,542750,20740,0.0397,32670,33980,1310,0.0401,No formal educational credential,None,Short-term on-the-job training
+35-9021,Dishwashers,35-0000,Food Preparation and Serving Related Occupations,471670,477450,5780,0.0123,33670,34810,1140,0.0339,No formal educational credential,None,Short-term on-the-job training
+35-9031,"Hosts and hostesses, restaurant, lounge, and coffee shop",35-0000,Food Preparation and Serving Related Occupations,427150,432690,5540,0.013,30380,31200,820,0.027,No formal educational credential,None,Short-term on-the-job training
+35-9099,"Food preparation and serving related workers, all other",35-0000,Food Preparation and Serving Related Occupations,89580,84630,-4950,-0.0553,34830,35840,1010,0.029,No formal educational credential,None,Short-term on-the-job training
+37-1011,First-line supervisors of housekeeping and janitorial workers,37-0000,Building and Grounds Cleaning and Maintenance Occupations,174660,178760,4100,0.0235,47520,49100,1580,0.0332,High school diploma or equivalent,Less than 5 years,None
+37-1012,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",37-0000,Building and Grounds Cleaning and Maintenance Occupations,124130,130760,6630,0.0534,56170,58430,2260,0.0402,High school diploma or equivalent,Less than 5 years,None
+37-2011,"Janitors and cleaners, except maids and housekeeping cleaners",37-0000,Building and Grounds Cleaning and Maintenance Occupations,2199900,2209760,9860,0.0045,35930,36840,910,0.0253,No formal educational credential,None,Short-term on-the-job training
+37-2012,Maids and housekeeping cleaners,37-0000,Building and Grounds Cleaning and Maintenance Occupations,854910,860670,5760,0.0067,34660,35510,850,0.0245,No formal educational credential,None,Short-term on-the-job training
+37-2019,"Building cleaning workers, all other",37-0000,Building and Grounds Cleaning and Maintenance Occupations,16370,17210,840,0.0513,42360,44040,1680,0.0397,No formal educational credential,None,Short-term on-the-job training
+37-2021,Pest control workers,37-0000,Building and Grounds Cleaning and Maintenance Occupations,96110,102620,6510,0.0677,44730,45250,520,0.0116,High school diploma or equivalent,None,Moderate-term on-the-job training
+37-3011,Landscaping and groundskeeping workers,37-0000,Building and Grounds Cleaning and Maintenance Occupations,943430,952640,9210,0.0098,38090,39150,1060,0.0278,No formal educational credential,None,Short-term on-the-job training
+37-3012,"Pesticide handlers, sprayers, and applicators, vegetation",37-0000,Building and Grounds Cleaning and Maintenance Occupations,25200,27050,1850,0.0734,45200,46340,1140,0.0252,High school diploma or equivalent,None,Moderate-term on-the-job training
+37-3013,Tree trimmers and pruners,37-0000,Building and Grounds Cleaning and Maintenance Occupations,47870,55160,7290,0.1523,50430,50960,530,0.0105,High school diploma or equivalent,None,Short-term on-the-job training
+37-3019,"Grounds maintenance workers, all other",37-0000,Building and Grounds Cleaning and Maintenance Occupations,13580,13630,50,0.0037,43410,46860,3450,0.0795,No formal educational credential,None,Short-term on-the-job training
+39-1013,First-line supervisors of gambling services workers,39-0000,Personal Care and Service Occupations,25530,26010,480,0.0188,61590,63820,2230,0.0362,High school diploma or equivalent,Less than 5 years,None
+39-1014,"First-line supervisors of entertainment and recreation workers, except gambling services",39-0000,Personal Care and Service Occupations,92830,103190,10360,0.1116,46900,48560,1660,0.0354,High school diploma or equivalent,Less than 5 years,None
+39-1022,First-line supervisors of personal service workers,39-0000,Personal Care and Service Occupations,107060,114110,7050,0.0659,47080,48590,1510,0.0321,High school diploma or equivalent,Less than 5 years,None
+39-2011,Animal trainers,39-0000,Personal Care and Service Occupations,20110,18770,-1340,-0.0666,38750,39990,1240,0.032,High school diploma or equivalent,None,Moderate-term on-the-job training
+39-2021,Animal caretakers,39-0000,Personal Care and Service Occupations,277300,266910,-10390,-0.0375,33470,35360,1890,0.0565,High school diploma or equivalent,None,Short-term on-the-job training
+39-3011,Gambling dealers,39-0000,Personal Care and Service Occupations,82980,83910,930,0.0112,33280,34320,1040,0.0312,High school diploma or equivalent,None,Short-term on-the-job training
+39-3012,Gambling and sports book writers and runners,39-0000,Personal Care and Service Occupations,7600,8950,1350,0.1776,30460,34980,4520,0.1484,High school diploma or equivalent,None,Short-term on-the-job training
+39-3019,"Gambling service workers, all other",39-0000,Personal Care and Service Occupations,14920,14140,-780,-0.0523,34530,36310,1780,0.0515,High school diploma or equivalent,None,Short-term on-the-job training
+39-3021,Motion picture projectionists,39-0000,Personal Care and Service Occupations,1950,1480,-470,-0.241,38180,38270,90,0.0024,No formal educational credential,None,Short-term on-the-job training
+39-3031,"Ushers, lobby attendants, and ticket takers",39-0000,Personal Care and Service Occupations,119210,121770,2560,0.0215,31150,32910,1760,0.0565,No formal educational credential,None,Short-term on-the-job training
+39-3091,Amusement and recreation attendants,39-0000,Personal Care and Service Occupations,371590,397830,26240,0.0706,30490,32150,1660,0.0544,No formal educational credential,None,Short-term on-the-job training
+39-3092,Costume attendants,39-0000,Personal Care and Service Occupations,6290,6510,220,0.035,54810,50400,-4410,-0.0805,High school diploma or equivalent,None,Short-term on-the-job training
+39-3093,"Locker room, coatroom, and dressing room attendants",39-0000,Personal Care and Service Occupations,14960,15560,600,0.0401,34800,36300,1500,0.0431,High school diploma or equivalent,None,Short-term on-the-job training
+39-3099,"Entertainment attendants and related workers, all other",39-0000,Personal Care and Service Occupations,8060,7060,-1000,-0.1241,34550,32640,-1910,-0.0553,High school diploma or equivalent,None,Short-term on-the-job training
+39-4011,Embalmers,39-0000,Personal Care and Service Occupations,3420,3890,470,0.1374,56280,58780,2500,0.0444,Associate's degree,None,Long-term on-the-job training
+39-4012,Crematory operators,39-0000,Personal Care and Service Occupations,2950,2970,20,0.0068,42880,43650,770,0.018,High school diploma or equivalent,None,Short-term on-the-job training
+39-4021,Funeral attendants,39-0000,Personal Care and Service Occupations,30560,31090,530,0.0173,34610,35680,1070,0.0309,High school diploma or equivalent,None,Short-term on-the-job training
+39-4031,"Morticians, undertakers, and funeral arrangers",39-0000,Personal Care and Service Occupations,25700,25100,-600,-0.0233,49800,55010,5210,0.1046,Associate's degree,None,Long-term on-the-job training
+39-5011,Barbers,39-0000,Personal Care and Service Occupations,18100,15000,-3100,-0.1713,38960,38210,-750,-0.0193,Postsecondary nondegree award,None,None
+39-5012,"Hairdressers, hairstylists, and cosmetologists",39-0000,Personal Care and Service Occupations,295460,305710,10250,0.0347,35250,35790,540,0.0153,Postsecondary nondegree award,None,None
+39-5091,"Makeup artists, theatrical and performance",39-0000,Personal Care and Service Occupations,3320,2340,-980,-0.2952,50280,97150,46870,0.9322,Postsecondary nondegree award,None,None
+39-5092,Manicurists and pedicurists,39-0000,Personal Care and Service Occupations,147820,152770,4950,0.0335,34660,35760,1100,0.0317,Postsecondary nondegree award,None,None
+39-5093,Shampooers,39-0000,Personal Care and Service Occupations,8890,8070,-820,-0.0922,31470,32600,1130,0.0359,No formal educational credential,None,Short-term on-the-job training
+39-5094,Skincare specialists,39-0000,Personal Care and Service Occupations,70240,72890,2650,0.0377,41560,45330,3770,0.0907,Postsecondary nondegree award,None,None
+39-6011,Baggage porters and bellhops,39-0000,Personal Care and Service Occupations,31220,28510,-2710,-0.0868,36020,37080,1060,0.0294,High school diploma or equivalent,None,Short-term on-the-job training
+39-6012,Concierges,39-0000,Personal Care and Service Occupations,44200,49240,5040,0.114,37320,38950,1630,0.0437,High school diploma or equivalent,None,Moderate-term on-the-job training
+39-7010,Tour and travel guides,39-0000,Personal Care and Service Occupations,49010,53500,4490,0.0916,36660,38120,1460,0.0398,High school diploma or equivalent,None,Moderate-term on-the-job training
+39-9011,Childcare workers,39-0000,Personal Care and Service Occupations,520180,518910,-1270,-0.0024,32050,34980,2930,0.0914,High school diploma or equivalent,None,Short-term on-the-job training
+39-9031,Exercise trainers and group fitness instructors,39-0000,Personal Care and Service Occupations,303620,322930,19310,0.0636,46180,47160,980,0.0212,High school diploma or equivalent,None,Short-term on-the-job training
+39-9032,Recreation workers,39-0000,Personal Care and Service Occupations,309640,331490,21850,0.0706,35380,36560,1180,0.0334,High school diploma or equivalent,None,Short-term on-the-job training
+39-9041,Residential advisors,39-0000,Personal Care and Service Occupations,82810,84760,1950,0.0235,39180,42240,3060,0.0781,High school diploma or equivalent,None,Short-term on-the-job training
+39-9099,"Personal care and service workers, all other",39-0000,Personal Care and Service Occupations,62390,60420,-1970,-0.0316,37900,41600,3700,0.0976,High school diploma or equivalent,None,Short-term on-the-job training
+41-1011,First-line supervisors of retail sales workers,41-0000,Sales and Related Occupations,1113160,1121800,8640,0.0078,47320,48520,1200,0.0254,High school diploma or equivalent,Less than 5 years,None
+41-1012,First-line supervisors of non-retail sales workers,41-0000,Sales and Related Occupations,219010,214390,-4620,-0.0211,84130,87520,3390,0.0403,High school diploma or equivalent,Less than 5 years,None
+41-2011,Cashiers,41-0000,Sales and Related Occupations,3148030,3089410,-58620,-0.0186,31190,32880,1690,0.0542,No formal educational credential,None,Short-term on-the-job training
+41-2012,Gambling change persons and booth cashiers,41-0000,Sales and Related Occupations,21930,21530,-400,-0.0182,34810,36220,1410,0.0405,No formal educational credential,None,Short-term on-the-job training
+41-2021,Counter and rental clerks,41-0000,Sales and Related Occupations,398620,400810,2190,0.0055,38540,41300,2760,0.0716,No formal educational credential,None,Short-term on-the-job training
+41-2022,Parts salespersons,41-0000,Sales and Related Occupations,265060,270070,5010,0.0189,37440,38630,1190,0.0318,No formal educational credential,None,Moderate-term on-the-job training
+41-2031,Retail salespersons,41-0000,Sales and Related Occupations,3800250,3897860,97610,0.0257,34580,35410,830,0.024,No formal educational credential,None,Short-term on-the-job training
+41-3011,Advertising sales agents,41-0000,Sales and Related Occupations,97470,91700,-5770,-0.0592,61460,64820,3360,0.0547,High school diploma or equivalent,None,Moderate-term on-the-job training
+41-3021,Insurance sales agents,41-0000,Sales and Related Occupations,469480,479100,9620,0.0205,60370,62280,1910,0.0316,High school diploma or equivalent,None,Moderate-term on-the-job training
+41-3031,"Securities, commodities, and financial services sales agents",41-0000,Sales and Related Occupations,472300,489570,17270,0.0366,78140,78660,520,0.0067,Bachelor's degree,None,Moderate-term on-the-job training
+41-3041,Travel agents,41-0000,Sales and Related Occupations,59150,55110,-4040,-0.0683,48450,50160,1710,0.0353,High school diploma or equivalent,None,Moderate-term on-the-job training
+41-3091,"Sales representatives of services, except advertising, insurance, financial services, and travel",41-0000,Sales and Related Occupations,1189330,1256010,66680,0.0561,66260,69990,3730,0.0563,High school diploma or equivalent,None,Moderate-term on-the-job training
+41-4011,"Sales representatives, wholesale and manufacturing, technical and scientific products",41-0000,Sales and Related Occupations,293930,284800,-9130,-0.0311,100070,104920,4850,0.0485,Bachelor's degree,None,Moderate-term on-the-job training
+41-4012,"Sales representatives, wholesale and manufacturing, except technical and scientific products",41-0000,Sales and Related Occupations,1266860,1238190,-28670,-0.0226,66780,72080,5300,0.0794,High school diploma or equivalent,None,Moderate-term on-the-job training
+41-9011,Demonstrators and product promoters,41-0000,Sales and Related Occupations,64770,64520,-250,-0.0039,37960,39320,1360,0.0358,No formal educational credential,None,Short-term on-the-job training
+41-9012,Models,41-0000,Sales and Related Occupations,5350,3780,-1570,-0.2935,89990,48470,-41520,-0.4614,No formal educational credential,None,None
+41-9021,Real estate brokers,41-0000,Sales and Related Occupations,49590,46100,-3490,-0.0704,72280,73220,940,0.013,High school diploma or equivalent,Less than 5 years,None
+41-9022,Real estate sales agents,41-0000,Sales and Related Occupations,190600,193370,2770,0.0145,56320,52830,-3490,-0.062,High school diploma or equivalent,None,Moderate-term on-the-job training
+41-9031,Sales engineers,41-0000,Sales and Related Occupations,56690,51790,-4900,-0.0864,121520,124900,3380,0.0278,Bachelor's degree,None,Moderate-term on-the-job training
+41-9041,Telemarketers,41-0000,Sales and Related Occupations,66430,58430,-8000,-0.1204,34410,35450,1040,0.0302,No formal educational credential,None,Short-term on-the-job training
+41-9091,"Door-to-door sales workers, news and street vendors, and related workers",41-0000,Sales and Related Occupations,4590,2760,-1830,-0.3987,34530,41380,6850,0.1984,No formal educational credential,None,Short-term on-the-job training
+41-9099,"Sales and related workers, all other",41-0000,Sales and Related Occupations,99070,93180,-5890,-0.0595,46370,48280,1910,0.0412,High school diploma or equivalent,None,None
+43-1011,First-line supervisors of office and administrative support workers,43-0000,Office and Administrative Support Occupations,1495580,1436680,-58900,-0.0394,66140,69500,3360,0.0508,High school diploma or equivalent,Less than 5 years,None
+43-2011,"Switchboard operators, including answering service",43-0000,Office and Administrative Support Occupations,35730,34280,-1450,-0.0406,38370,38630,260,0.0068,High school diploma or equivalent,None,Short-term on-the-job training
+43-2021,Telephone operators,43-0000,Office and Administrative Support Occupations,3950,3430,-520,-0.1316,39130,41740,2610,0.0667,High school diploma or equivalent,None,Short-term on-the-job training
+43-2099,"Communications equipment operators, all other",43-0000,Office and Administrative Support Occupations,1390,1200,-190,-0.1367,49910,54680,4770,0.0956,High school diploma or equivalent,None,Short-term on-the-job training
+43-3011,Bill and account collectors,43-0000,Office and Administrative Support Occupations,165020,158830,-6190,-0.0375,46040,47030,990,0.0215,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-3021,Billing and posting clerks,43-0000,Office and Administrative Support Occupations,417500,404060,-13440,-0.0322,47170,48500,1330,0.0282,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-3031,"Bookkeeping, accounting, and auditing clerks",43-0000,Office and Administrative Support Occupations,1455770,1373680,-82090,-0.0564,49210,50670,1460,0.0297,"Some college, no degree",None,Moderate-term on-the-job training
+43-3041,Gambling cage workers,43-0000,Office and Administrative Support Occupations,13490,14430,940,0.0697,36990,37580,590,0.016,High school diploma or equivalent,None,Short-term on-the-job training
+43-3051,Payroll and timekeeping clerks,43-0000,Office and Administrative Support Occupations,156950,153140,-3810,-0.0243,55290,58260,2970,0.0537,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-3061,Procurement clerks,43-0000,Office and Administrative Support Occupations,59900,55810,-4090,-0.0683,48510,50580,2070,0.0427,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-3071,Tellers,43-0000,Office and Administrative Support Occupations,339340,329480,-9860,-0.0291,39340,43030,3690,0.0938,High school diploma or equivalent,None,Short-term on-the-job training
+43-3099,"Financial clerks, all other",43-0000,Office and Administrative Support Occupations,37030,36260,-770,-0.0208,52150,53830,1680,0.0322,High school diploma or equivalent,None,Short-term on-the-job training
+43-4011,Brokerage clerks,43-0000,Office and Administrative Support Occupations,40090,35940,-4150,-0.1035,62940,65750,2810,0.0446,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-4021,Correspondence clerks,43-0000,Office and Administrative Support Occupations,6260,4290,-1970,-0.3147,46740,46800,60,0.0013,High school diploma or equivalent,None,Short-term on-the-job training
+43-4031,"Court, municipal, and license clerks",43-0000,Office and Administrative Support Occupations,170010,179750,9740,0.0573,47700,48700,1000,0.021,High school diploma or equivalent,None,Long-term on-the-job training
+43-4041,"Credit authorizers, checkers, and clerks",43-0000,Office and Administrative Support Occupations,11960,12030,70,0.0059,49130,50080,950,0.0193,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-4051,Customer service representatives,43-0000,Office and Administrative Support Occupations,2725930,2595750,-130180,-0.0478,42830,44770,1940,0.0453,High school diploma or equivalent,None,Short-term on-the-job training
+43-4061,"Eligibility interviewers, government programs",43-0000,Office and Administrative Support Occupations,156260,154800,-1460,-0.0093,51500,54210,2710,0.0526,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-4071,File clerks,43-0000,Office and Administrative Support Occupations,78980,73440,-5540,-0.0701,41270,43600,2330,0.0565,High school diploma or equivalent,None,Short-term on-the-job training
+43-4081,"Hotel, motel, and resort desk clerks",43-0000,Office and Administrative Support Occupations,261430,261420,-10,-0.0,34270,35070,800,0.0233,High school diploma or equivalent,None,Short-term on-the-job training
+43-4111,"Interviewers, except eligibility and loan",43-0000,Office and Administrative Support Occupations,157310,148060,-9250,-0.0588,43830,45920,2090,0.0477,High school diploma or equivalent,None,Short-term on-the-job training
+43-4121,"Library assistants, clerical",43-0000,Office and Administrative Support Occupations,80070,85520,5450,0.0681,36010,36910,900,0.025,High school diploma or equivalent,None,Short-term on-the-job training
+43-4131,Loan interviewers and clerks,43-0000,Office and Administrative Support Occupations,173100,164790,-8310,-0.048,48950,50020,1070,0.0219,High school diploma or equivalent,None,Short-term on-the-job training
+43-4141,New accounts clerks,43-0000,Office and Administrative Support Occupations,38030,36860,-1170,-0.0308,46610,47670,1060,0.0227,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-4151,Order clerks,43-0000,Office and Administrative Support Occupations,83420,75200,-8220,-0.0985,44660,46170,1510,0.0338,"Some college, no degree",None,Short-term on-the-job training
+43-4161,"Human resources assistants, except payroll and timekeeping",43-0000,Office and Administrative Support Occupations,92580,90220,-2360,-0.0255,49440,50610,1170,0.0237,Associate's degree,None,None
+43-4171,Receptionists and information clerks,43-0000,Office and Administrative Support Occupations,964530,910180,-54350,-0.0563,37230,38010,780,0.021,High school diploma or equivalent,None,Short-term on-the-job training
+43-4181,Reservation and transportation ticket agents and travel clerks,43-0000,Office and Administrative Support Occupations,127440,118710,-8730,-0.0685,41460,44390,2930,0.0707,High school diploma or equivalent,None,Short-term on-the-job training
+43-4199,"Information and record clerks, all other",43-0000,Office and Administrative Support Occupations,143910,134920,-8990,-0.0625,48360,49500,1140,0.0236,High school diploma or equivalent,None,Short-term on-the-job training
+43-5011,Cargo and freight agents,43-0000,Office and Administrative Support Occupations,97800,97670,-130,-0.0013,49900,52260,2360,0.0473,High school diploma or equivalent,None,Short-term on-the-job training
+43-5021,Couriers and messengers,43-0000,Office and Administrative Support Occupations,71920,68640,-3280,-0.0456,38340,39200,860,0.0224,High school diploma or equivalent,None,Short-term on-the-job training
+43-5031,Public safety telecommunicators,43-0000,Office and Administrative Support Occupations,101140,102500,1360,0.0134,50730,53040,2310,0.0455,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-5032,"Dispatchers, except police, fire, and ambulance",43-0000,Office and Administrative Support Occupations,211000,202810,-8190,-0.0388,48880,50340,1460,0.0299,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-5041,"Meter readers, utilities",43-0000,Office and Administrative Support Occupations,19620,19430,-190,-0.0097,49180,48150,-1030,-0.0209,High school diploma or equivalent,None,Short-term on-the-job training
+43-5051,Postal service clerks,43-0000,Office and Administrative Support Occupations,78060,73720,-4340,-0.0556,61630,62130,500,0.0081,No formal educational credential,None,Short-term on-the-job training
+43-5052,Postal service mail carriers,43-0000,Office and Administrative Support Occupations,336040,328820,-7220,-0.0215,57490,60550,3060,0.0532,No formal educational credential,None,Short-term on-the-job training
+43-5053,"Postal service mail sorters, processors, and processing machine operators",43-0000,Office and Administrative Support Occupations,111930,105200,-6730,-0.0601,56530,58470,1940,0.0343,No formal educational credential,None,Short-term on-the-job training
+43-5061,"Production, planning, and expediting clerks",43-0000,Office and Administrative Support Occupations,385000,390160,5160,0.0134,57770,59650,1880,0.0325,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-5071,"Shipping, receiving, and inventory clerks",43-0000,Office and Administrative Support Occupations,857630,816870,-40760,-0.0475,43190,45260,2070,0.0479,High school diploma or equivalent,None,Short-term on-the-job training
+43-5111,"Weighers, measurers, checkers, and samplers, recordkeeping",43-0000,Office and Administrative Support Occupations,49720,53300,3580,0.072,45650,46380,730,0.016,High school diploma or equivalent,None,Short-term on-the-job training
+43-6011,Executive secretaries and executive administrative assistants,43-0000,Office and Administrative Support Occupations,472770,459910,-12860,-0.0272,74260,76590,2330,0.0314,High school diploma or equivalent,Less than 5 years,None
+43-6012,Legal secretaries and administrative assistants,43-0000,Office and Administrative Support Occupations,154540,156280,1740,0.0113,54140,55570,1430,0.0264,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-6013,Medical secretaries and administrative assistants,43-0000,Office and Administrative Support Occupations,830760,961610,130850,0.1575,44640,45930,1290,0.0289,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-6014,"Secretaries and administrative assistants, except legal, medical, and executive",43-0000,Office and Administrative Support Occupations,1737820,1706790,-31030,-0.0179,46290,47540,1250,0.027,High school diploma or equivalent,None,Short-term on-the-job training
+43-9021,Data entry keyers,43-0000,Office and Administrative Support Occupations,135280,127080,-8200,-0.0606,39850,41340,1490,0.0374,High school diploma or equivalent,None,Short-term on-the-job training
+43-9022,Word processors and typists,43-0000,Office and Administrative Support Occupations,36030,35010,-1020,-0.0283,47850,49280,1430,0.0299,High school diploma or equivalent,None,Short-term on-the-job training
+43-9031,Desktop publishers,43-0000,Office and Administrative Support Occupations,4000,3350,-650,-0.1625,53620,55290,1670,0.0311,Associate's degree,None,Short-term on-the-job training
+43-9041,Insurance claims and policy processing clerks,43-0000,Office and Administrative Support Occupations,229070,214260,-14810,-0.0647,48450,49230,780,0.0161,High school diploma or equivalent,None,Moderate-term on-the-job training
+43-9051,"Mail clerks and mail machine operators, except postal service",43-0000,Office and Administrative Support Occupations,62730,55230,-7500,-0.1196,38150,39280,1130,0.0296,High school diploma or equivalent,None,Short-term on-the-job training
+43-9061,"Office clerks, general",43-0000,Office and Administrative Support Occupations,2510550,2464940,-45610,-0.0182,43630,45010,1380,0.0316,High school diploma or equivalent,None,Short-term on-the-job training
+43-9071,"Office machine operators, except computer",43-0000,Office and Administrative Support Occupations,24740,25130,390,0.0158,39020,40960,1940,0.0497,High school diploma or equivalent,None,Short-term on-the-job training
+43-9081,Proofreaders and copy markers,43-0000,Office and Administrative Support Occupations,5160,4580,-580,-0.1124,49210,51120,1910,0.0388,Bachelor's degree,None,None
+43-9111,Statistical assistants,43-0000,Office and Administrative Support Occupations,5900,4710,-1190,-0.2017,51440,50330,-1110,-0.0216,Bachelor's degree,None,None
+43-9199,"Office and administrative support workers, all other",43-0000,Office and Administrative Support Occupations,195890,192260,-3630,-0.0185,46040,45670,-370,-0.008,High school diploma or equivalent,None,Short-term on-the-job training
+45-1011,"First-line supervisors of farming, fishing, and forestry workers",45-0000,"Farming, Fishing, and Forestry Occupations",29530,27960,-1570,-0.0532,59330,59320,-10,-0.0002,High school diploma or equivalent,Less than 5 years,None
+45-2011,Agricultural inspectors,45-0000,"Farming, Fishing, and Forestry Occupations",12090,14410,2320,0.1919,50990,49940,-1050,-0.0206,Bachelor's degree,None,Moderate-term on-the-job training
+45-2021,Animal breeders,45-0000,"Farming, Fishing, and Forestry Occupations",1730,1330,-400,-0.2312,52000,51130,-870,-0.0167,High school diploma or equivalent,None,Short-term on-the-job training
+45-2041,"Graders and sorters, agricultural products",45-0000,"Farming, Fishing, and Forestry Occupations",26870,25180,-1690,-0.0629,35430,35730,300,0.0085,No formal educational credential,None,Short-term on-the-job training
+45-2091,Agricultural equipment operators,45-0000,"Farming, Fishing, and Forestry Occupations",30940,28500,-2440,-0.0789,42580,41730,-850,-0.02,No formal educational credential,None,Moderate-term on-the-job training
+45-2092,"Farmworkers and laborers, crop, nursery, and greenhouse",45-0000,"Farming, Fishing, and Forestry Occupations",261690,265500,3810,0.0146,35690,35660,-30,-0.0008,No formal educational credential,None,Short-term on-the-job training
+45-2093,"Farmworkers, farm, ranch, and aquacultural animals",45-0000,"Farming, Fishing, and Forestry Occupations",35420,32810,-2610,-0.0737,36150,36670,520,0.0144,No formal educational credential,None,Short-term on-the-job training
+45-2099,"Agricultural workers, all other",45-0000,"Farming, Fishing, and Forestry Occupations",4980,3620,-1360,-0.2731,40390,39850,-540,-0.0134,No formal educational credential,None,Short-term on-the-job training
+45-3031,Fishing and hunting workers,45-0000,"Farming, Fishing, and Forestry Occupations",,,,,,,,,No formal educational credential,None,Moderate-term on-the-job training
+45-4011,Forest and conservation workers,45-0000,"Farming, Fishing, and Forestry Occupations",5630,6050,420,0.0746,43680,43680,0,0.0,High school diploma or equivalent,None,Moderate-term on-the-job training
+45-4021,Fallers,45-0000,"Farming, Fishing, and Forestry Occupations",4110,3130,-980,-0.2384,53900,52100,-1800,-0.0334,High school diploma or equivalent,None,Moderate-term on-the-job training
+45-4022,Logging equipment operators,45-0000,"Farming, Fishing, and Forestry Occupations",22520,21060,-1460,-0.0648,49210,49740,530,0.0108,High school diploma or equivalent,None,Moderate-term on-the-job training
+45-4023,Log graders and scalers,45-0000,"Farming, Fishing, and Forestry Occupations",3310,3070,-240,-0.0725,46710,46330,-380,-0.0081,High school diploma or equivalent,None,Moderate-term on-the-job training
+45-4029,"Logging workers, all other",45-0000,"Farming, Fishing, and Forestry Occupations",2160,1700,-460,-0.213,52000,50840,-1160,-0.0223,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-1011,First-line supervisors of construction trades and extraction workers,47-0000,Construction and Extraction Occupations,806080,812210,6130,0.0076,78690,79920,1230,0.0156,High school diploma or equivalent,5 years or more,None
+47-2011,Boilermakers,47-0000,Construction and Extraction Occupations,10170,10190,20,0.002,73340,76410,3070,0.0419,High school diploma or equivalent,None,Apprenticeship
+47-2021,Brickmasons and blockmasons,47-0000,Construction and Extraction Occupations,53520,52550,-970,-0.0181,60800,62120,1320,0.0217,High school diploma or equivalent,None,Apprenticeship
+47-2022,Stonemasons,47-0000,Construction and Extraction Occupations,8750,7820,-930,-0.1063,51990,57390,5400,0.1039,High school diploma or equivalent,None,Apprenticeship
+47-2031,Carpenters,47-0000,Construction and Extraction Occupations,697740,670090,-27650,-0.0396,59310,60580,1270,0.0214,High school diploma or equivalent,None,Apprenticeship
+47-2041,Carpet installers,47-0000,Construction and Extraction Occupations,14980,13780,-1200,-0.0801,49850,50340,490,0.0098,No formal educational credential,None,Short-term on-the-job training
+47-2042,"Floor layers, except carpet, wood, and hard tiles",47-0000,Construction and Extraction Occupations,24850,23640,-1210,-0.0487,54340,56460,2120,0.039,No formal educational credential,None,Moderate-term on-the-job training
+47-2043,Floor sanders and finishers,47-0000,Construction and Extraction Occupations,4140,3720,-420,-0.1014,49150,50440,1290,0.0262,No formal educational credential,None,Moderate-term on-the-job training
+47-2044,Tile and stone setters,47-0000,Construction and Extraction Occupations,38740,35850,-2890,-0.0746,52240,55690,3450,0.066,No formal educational credential,None,Long-term on-the-job training
+47-2051,Cement masons and concrete finishers,47-0000,Construction and Extraction Occupations,205230,206170,940,0.0046,54660,57020,2360,0.0432,No formal educational credential,None,Moderate-term on-the-job training
+47-2053,Terrazzo workers and finishers,47-0000,Construction and Extraction Occupations,1450,1180,-270,-0.1862,57260,76170,18910,0.3302,High school diploma or equivalent,None,Apprenticeship
+47-2061,Construction laborers,47-0000,Construction and Extraction Occupations,1057660,1096780,39120,0.037,46730,47120,390,0.0083,No formal educational credential,None,Short-term on-the-job training
+47-2071,"Paving, surfacing, and tamping equipment operators",47-0000,Construction and Extraction Occupations,45680,41820,-3860,-0.0845,51650,53340,1690,0.0327,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-2072,Pile driver operators,47-0000,Construction and Extraction Occupations,3040,2310,-730,-0.2401,70510,73300,2790,0.0396,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-2073,Operating engineers and other construction equipment operators,47-0000,Construction and Extraction Occupations,469270,478090,8820,0.0188,58710,59850,1140,0.0194,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-2081,Drywall and ceiling tile installers,47-0000,Construction and Extraction Occupations,82900,83080,180,0.0022,58140,58930,790,0.0136,No formal educational credential,None,Moderate-term on-the-job training
+47-2082,Tapers,47-0000,Construction and Extraction Occupations,12500,12840,340,0.0272,64700,68270,3570,0.0552,No formal educational credential,None,Moderate-term on-the-job training
+47-2111,Electricians,47-0000,Construction and Extraction Occupations,742580,757220,14640,0.0197,62350,63190,840,0.0135,High school diploma or equivalent,None,Apprenticeship
+47-2121,Glaziers,47-0000,Construction and Extraction Occupations,57000,58480,1480,0.026,55440,57080,1640,0.0296,High school diploma or equivalent,None,Apprenticeship
+47-2131,"Insulation workers, floor, ceiling, and wall",47-0000,Construction and Extraction Occupations,38610,44440,5830,0.151,48680,49120,440,0.009,No formal educational credential,None,Short-term on-the-job training
+47-2132,"Insulation workers, mechanical",47-0000,Construction and Extraction Occupations,25640,25660,20,0.0008,57250,58340,1090,0.019,High school diploma or equivalent,None,Apprenticeship
+47-2141,"Painters, construction and maintenance",47-0000,Construction and Extraction Occupations,224180,225190,1010,0.0045,48660,49400,740,0.0152,No formal educational credential,None,Moderate-term on-the-job training
+47-2142,Paperhangers,47-0000,Construction and Extraction Occupations,1520,1570,50,0.0329,48260,52140,3880,0.0804,No formal educational credential,None,Long-term on-the-job training
+47-2151,Pipelayers,47-0000,Construction and Extraction Occupations,33580,33050,-530,-0.0158,48710,49000,290,0.006,No formal educational credential,None,Short-term on-the-job training
+47-2152,"Plumbers, pipefitters, and steamfitters",47-0000,Construction and Extraction Occupations,455940,465840,9900,0.0217,62970,63800,830,0.0132,High school diploma or equivalent,None,Apprenticeship
+47-2161,Plasterers and stucco masons,47-0000,Construction and Extraction Occupations,20880,19310,-1570,-0.0752,56020,57660,1640,0.0293,No formal educational credential,None,Long-term on-the-job training
+47-2171,Reinforcing iron and rebar workers,47-0000,Construction and Extraction Occupations,14140,13800,-340,-0.024,59280,58970,-310,-0.0052,High school diploma or equivalent,None,Apprenticeship
+47-2181,Roofers,47-0000,Construction and Extraction Occupations,136740,135490,-1250,-0.0091,50970,55440,4470,0.0877,No formal educational credential,None,Moderate-term on-the-job training
+47-2211,Sheet metal workers,47-0000,Construction and Extraction Occupations,117470,119770,2300,0.0196,60850,61800,950,0.0156,High school diploma or equivalent,None,Apprenticeship
+47-2221,Structural iron and steel workers,47-0000,Construction and Extraction Occupations,64720,68380,3660,0.0566,62700,62780,80,0.0013,High school diploma or equivalent,None,Apprenticeship
+47-2231,Solar photovoltaic installers,47-0000,Construction and Extraction Occupations,28280,31350,3070,0.1086,51860,53140,1280,0.0247,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-3011,"Helpers--brickmasons, blockmasons, stonemasons, and tile and marble setters",47-0000,Construction and Extraction Occupations,15660,14170,-1490,-0.0951,46480,47550,1070,0.023,No formal educational credential,None,Short-term on-the-job training
+47-3012,Helpers--carpenters,47-0000,Construction and Extraction Occupations,24610,21680,-2930,-0.1191,41600,43780,2180,0.0524,No formal educational credential,None,Short-term on-the-job training
+47-3013,Helpers--electricians,47-0000,Construction and Extraction Occupations,64440,63630,-810,-0.0126,39890,42670,2780,0.0697,High school diploma or equivalent,None,Short-term on-the-job training
+47-3014,"Helpers--painters, paperhangers, plasterers, and stucco masons",47-0000,Construction and Extraction Occupations,7220,7490,270,0.0374,38140,40470,2330,0.0611,No formal educational credential,None,Short-term on-the-job training
+47-3015,"Helpers--pipelayers, plumbers, pipefitters, and steamfitters",47-0000,Construction and Extraction Occupations,43640,44330,690,0.0158,39270,42360,3090,0.0787,High school diploma or equivalent,None,Short-term on-the-job training
+47-3016,Helpers--roofers,47-0000,Construction and Extraction Occupations,5170,6030,860,0.1663,40590,44160,3570,0.088,No formal educational credential,None,Short-term on-the-job training
+47-3019,"Helpers, construction trades, all other",47-0000,Construction and Extraction Occupations,25510,24770,-740,-0.029,40760,42670,1910,0.0469,No formal educational credential,None,Short-term on-the-job training
+47-4011,Construction and building inspectors,47-0000,Construction and Extraction Occupations,137210,146720,9510,0.0693,72120,74690,2570,0.0356,High school diploma or equivalent,5 years or more,Moderate-term on-the-job training
+47-4021,Elevator and escalator installers and repairers,47-0000,Construction and Extraction Occupations,23340,23790,450,0.0193,106580,109910,3330,0.0312,High school diploma or equivalent,None,Apprenticeship
+47-4031,Fence erectors,47-0000,Construction and Extraction Occupations,22640,24480,1840,0.0813,46940,47980,1040,0.0222,No formal educational credential,None,Moderate-term on-the-job training
+47-4041,Hazardous materials removal workers,47-0000,Construction and Extraction Occupations,50570,51710,1140,0.0225,48490,49450,960,0.0198,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-4051,Highway maintenance workers,47-0000,Construction and Extraction Occupations,151750,154960,3210,0.0212,49070,50260,1190,0.0243,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-4061,Rail-track laying and maintenance equipment operators,47-0000,Construction and Extraction Occupations,16480,19580,3100,0.1881,67370,70070,2700,0.0401,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-4071,Septic tank servicers and sewer pipe cleaners,47-0000,Construction and Extraction Occupations,29050,30650,1600,0.0551,49140,49880,740,0.0151,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-4090,Miscellaneous construction and related workers,47-0000,Construction and Extraction Occupations,33530,28380,-5150,-0.1536,48120,49910,1790,0.0372,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-5011,"Derrick operators, oil and gas",47-0000,Construction and Extraction Occupations,11040,10590,-450,-0.0408,62740,58620,-4120,-0.0657,No formal educational credential,Less than 5 years,Short-term on-the-job training
+47-5012,"Rotary drill operators, oil and gas",47-0000,Construction and Extraction Occupations,13090,12600,-490,-0.0374,65010,67890,2880,0.0443,No formal educational credential,Less than 5 years,Moderate-term on-the-job training
+47-5013,"Service unit operators, oil and gas",47-0000,Construction and Extraction Occupations,44120,43140,-980,-0.0222,57980,58160,180,0.0031,No formal educational credential,Less than 5 years,Moderate-term on-the-job training
+47-5022,"Excavating and loading machine and dragline operators, surface mining",47-0000,Construction and Extraction Occupations,34210,34480,270,0.0079,52550,57430,4880,0.0929,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+47-5023,"Earth drillers, except oil and gas",47-0000,Construction and Extraction Occupations,17410,19450,2040,0.1172,59600,60190,590,0.0099,High school diploma or equivalent,Less than 5 years,Long-term on-the-job training
+47-5032,"Explosives workers, ordnance handling experts, and blasters",47-0000,Construction and Extraction Occupations,5680,5100,-580,-0.1021,59110,61390,2280,0.0386,High school diploma or equivalent,Less than 5 years,Long-term on-the-job training
+47-5041,Continuous mining machine operators,47-0000,Construction and Extraction Occupations,14340,14000,-340,-0.0237,63380,61810,-1570,-0.0248,No formal educational credential,None,Moderate-term on-the-job training
+47-5043,"Roof bolters, mining",47-0000,Construction and Extraction Occupations,2230,2160,-70,-0.0314,76640,78540,1900,0.0248,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-5044,"Loading and moving machine operators, underground mining",47-0000,Construction and Extraction Occupations,6130,5930,-200,-0.0326,68860,74500,5640,0.0819,No formal educational credential,None,Short-term on-the-job training
+47-5049,"Underground mining machine operators, all other",47-0000,Construction and Extraction Occupations,3480,3180,-300,-0.0862,67220,70130,2910,0.0433,No formal educational credential,None,Moderate-term on-the-job training
+47-5051,"Rock splitters, quarry",47-0000,Construction and Extraction Occupations,3080,3320,240,0.0779,47460,48740,1280,0.027,No formal educational credential,None,Short-term on-the-job training
+47-5071,"Roustabouts, oil and gas",47-0000,Construction and Extraction Occupations,45330,44970,-360,-0.0079,47510,46960,-550,-0.0116,No formal educational credential,None,Moderate-term on-the-job training
+47-5081,Helpers--extraction workers,47-0000,Construction and Extraction Occupations,6720,6700,-20,-0.003,48400,47730,-670,-0.0138,High school diploma or equivalent,None,Moderate-term on-the-job training
+47-5099,"Extraction workers, all other",47-0000,Construction and Extraction Occupations,6070,5540,-530,-0.0873,50110,57010,6900,0.1377,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-1011,"First-line supervisors of mechanics, installers, and repairers",49-0000,"Installation, Maintenance, and Repair Occupations",600680,617500,16820,0.028,78300,79860,1560,0.0199,High school diploma or equivalent,Less than 5 years,None
+49-2011,"Computer, automated teller, and office machine repairers",49-0000,"Installation, Maintenance, and Repair Occupations",73010,65600,-7410,-0.1015,46860,47810,950,0.0203,"Some college, no degree",None,Short-term on-the-job training
+49-2021,"Radio, cellular, and tower equipment installers and repairers",49-0000,"Installation, Maintenance, and Repair Occupations",11400,11140,-260,-0.0228,64190,63520,-670,-0.0104,Associate's degree,None,Moderate-term on-the-job training
+49-2022,"Telecommunications equipment installers and repairers, except line installers",49-0000,"Installation, Maintenance, and Repair Occupations",153890,140920,-12970,-0.0843,62630,63890,1260,0.0201,Postsecondary nondegree award,None,Moderate-term on-the-job training
+49-2091,Avionics technicians,49-0000,"Installation, Maintenance, and Repair Occupations",20900,18830,-2070,-0.099,81390,82280,890,0.0109,Postsecondary nondegree award,None,None
+49-2092,"Electric motor, power tool, and related repairers",49-0000,"Installation, Maintenance, and Repair Occupations",16570,14450,-2120,-0.1279,53990,56210,2220,0.0411,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+49-2093,"Electrical and electronics installers and repairers, transportation equipment",49-0000,"Installation, Maintenance, and Repair Occupations",7310,6940,-370,-0.0506,82730,84890,2160,0.0261,Postsecondary nondegree award,None,Moderate-term on-the-job training
+49-2094,"Electrical and electronics repairers, commercial and industrial equipment",49-0000,"Installation, Maintenance, and Repair Occupations",59990,65010,5020,0.0837,71300,74090,2790,0.0391,Postsecondary nondegree award,None,Long-term on-the-job training
+49-2095,"Electrical and electronics repairers, powerhouse, substation, and relay",49-0000,"Installation, Maintenance, and Repair Occupations",23040,20720,-2320,-0.1007,100940,103020,2080,0.0206,Postsecondary nondegree award,Less than 5 years,Moderate-term on-the-job training
+49-2096,"Electronic equipment installers and repairers, motor vehicles",49-0000,"Installation, Maintenance, and Repair Occupations",10140,8550,-1590,-0.1568,47940,48420,480,0.01,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-2097,Audiovisual equipment installers and repairers,49-0000,"Installation, Maintenance, and Repair Occupations",22170,19780,-2390,-0.1078,50620,52600,1980,0.0391,Postsecondary nondegree award,None,Short-term on-the-job training
+49-2098,Security and fire alarm systems installers,49-0000,"Installation, Maintenance, and Repair Occupations",81510,86340,4830,0.0593,59300,60070,770,0.013,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-3011,Aircraft mechanics and service technicians,49-0000,"Installation, Maintenance, and Repair Occupations",136390,138090,1700,0.0125,78680,79870,1190,0.0151,Postsecondary nondegree award,None,None
+49-3021,Automotive body and related repairers,49-0000,"Installation, Maintenance, and Repair Occupations",155220,149310,-5910,-0.0381,51680,54890,3210,0.0621,High school diploma or equivalent,None,Long-term on-the-job training
+49-3022,Automotive glass installers and repairers,49-0000,"Installation, Maintenance, and Repair Occupations",18940,20310,1370,0.0723,47260,47630,370,0.0078,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-3023,Automotive service technicians and mechanics,49-0000,"Installation, Maintenance, and Repair Occupations",688840,704640,15800,0.0229,49670,50620,950,0.0191,Postsecondary nondegree award,None,Short-term on-the-job training
+49-3031,Bus and truck mechanics and diesel engine specialists,49-0000,"Installation, Maintenance, and Repair Occupations",287230,289960,2730,0.0095,60640,61770,1130,0.0186,High school diploma or equivalent,None,Long-term on-the-job training
+49-3041,Farm equipment mechanics and service technicians,49-0000,"Installation, Maintenance, and Repair Occupations",36880,37870,990,0.0268,52080,56550,4470,0.0858,High school diploma or equivalent,None,Long-term on-the-job training
+49-3042,"Mobile heavy equipment mechanics, except engines",49-0000,"Installation, Maintenance, and Repair Occupations",180270,176600,-3670,-0.0204,63980,65510,1530,0.0239,High school diploma or equivalent,None,Long-term on-the-job training
+49-3043,Rail car repairers,49-0000,"Installation, Maintenance, and Repair Occupations",18300,21350,3050,0.1667,65680,67530,1850,0.0282,High school diploma or equivalent,None,Long-term on-the-job training
+49-3051,Motorboat mechanics and service technicians,49-0000,"Installation, Maintenance, and Repair Occupations",24250,23220,-1030,-0.0425,54950,57550,2600,0.0473,High school diploma or equivalent,None,Long-term on-the-job training
+49-3052,Motorcycle mechanics,49-0000,"Installation, Maintenance, and Repair Occupations",14010,13510,-500,-0.0357,47200,48580,1380,0.0292,Postsecondary nondegree award,None,Short-term on-the-job training
+49-3053,Outdoor power equipment and other small engine mechanics,49-0000,"Installation, Maintenance, and Repair Occupations",34240,36060,1820,0.0532,46560,47880,1320,0.0284,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-3091,Bicycle repairers,49-0000,"Installation, Maintenance, and Repair Occupations",12590,12170,-420,-0.0334,40360,42780,2420,0.06,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-3092,Recreational vehicle service technicians,49-0000,"Installation, Maintenance, and Repair Occupations",18710,17430,-1280,-0.0684,50540,52000,1460,0.0289,High school diploma or equivalent,None,Long-term on-the-job training
+49-3093,Tire repairers and changers,49-0000,"Installation, Maintenance, and Repair Occupations",106620,108410,1790,0.0168,37120,37710,590,0.0159,High school diploma or equivalent,None,Short-term on-the-job training
+49-9011,Mechanical door repairers,49-0000,"Installation, Maintenance, and Repair Occupations",27970,27120,-850,-0.0304,51050,55720,4670,0.0915,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-9012,"Control and valve installers and repairers, except mechanical door",49-0000,"Installation, Maintenance, and Repair Occupations",46920,48240,1320,0.0281,74690,74340,-350,-0.0047,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-9021,"Heating, air conditioning, and refrigeration mechanics and installers",49-0000,"Installation, Maintenance, and Repair Occupations",396870,409670,12800,0.0323,59810,61010,1200,0.0201,Postsecondary nondegree award,None,Long-term on-the-job training
+49-9031,Home appliance repairers,49-0000,"Installation, Maintenance, and Repair Occupations",31940,32150,210,0.0066,49410,50990,1580,0.032,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-9041,Industrial machinery mechanics,49-0000,"Installation, Maintenance, and Repair Occupations",421940,439640,17700,0.0419,63760,64520,760,0.0119,High school diploma or equivalent,None,Long-term on-the-job training
+49-9043,"Maintenance workers, machinery",49-0000,"Installation, Maintenance, and Repair Occupations",56540,60020,3480,0.0615,60500,60850,350,0.0058,High school diploma or equivalent,None,Long-term on-the-job training
+49-9044,Millwrights,49-0000,"Installation, Maintenance, and Repair Occupations",40660,40330,-330,-0.0081,65170,65700,530,0.0081,High school diploma or equivalent,None,Apprenticeship
+49-9045,"Refractory materials repairers, except brickmasons",49-0000,"Installation, Maintenance, and Repair Occupations",1100,1080,-20,-0.0182,58540,61290,2750,0.047,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-9051,Electrical power-line installers and repairers,49-0000,"Installation, Maintenance, and Repair Occupations",123680,131070,7390,0.0598,92560,95320,2760,0.0298,High school diploma or equivalent,None,Long-term on-the-job training
+49-9052,Telecommunications line installers and repairers,49-0000,"Installation, Maintenance, and Repair Occupations",98360,97720,-640,-0.0065,70500,74330,3830,0.0543,High school diploma or equivalent,None,Long-term on-the-job training
+49-9061,Camera and photographic equipment repairers,49-0000,"Installation, Maintenance, and Repair Occupations",2010,1650,-360,-0.1791,49300,52720,3420,0.0694,High school diploma or equivalent,None,Long-term on-the-job training
+49-9062,Medical equipment repairers,49-0000,"Installation, Maintenance, and Repair Occupations",60830,65990,5160,0.0848,62630,61660,-970,-0.0155,Associate's degree,None,Moderate-term on-the-job training
+49-9063,Musical instrument repairers and tuners,49-0000,"Installation, Maintenance, and Repair Occupations",5730,5380,-350,-0.0611,45320,46420,1100,0.0243,High school diploma or equivalent,None,Apprenticeship
+49-9064,Watch and clock repairers,49-0000,"Installation, Maintenance, and Repair Occupations",1300,1310,10,0.0077,60690,67230,6540,0.1078,High school diploma or equivalent,None,Long-term on-the-job training
+49-9069,"Precision instrument and equipment repairers, all other",49-0000,"Installation, Maintenance, and Repair Occupations",9680,9400,-280,-0.0289,67080,68990,1910,0.0285,High school diploma or equivalent,None,Long-term on-the-job training
+49-9071,"Maintenance and repair workers, general",49-0000,"Installation, Maintenance, and Repair Occupations",1531700,1529700,-2000,-0.0013,48620,49590,970,0.02,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-9081,Wind turbine service technicians,49-0000,"Installation, Maintenance, and Repair Occupations",11220,9980,-1240,-0.1105,62580,64120,1540,0.0246,Postsecondary nondegree award,None,Long-term on-the-job training
+49-9091,"Coin, vending, and amusement machine servicers and repairers",49-0000,"Installation, Maintenance, and Repair Occupations",28260,26410,-1850,-0.0655,47350,47450,100,0.0021,High school diploma or equivalent,None,Short-term on-the-job training
+49-9092,Commercial divers,49-0000,"Installation, Maintenance, and Repair Occupations",3430,3450,20,0.0058,61130,72990,11860,0.194,Postsecondary nondegree award,None,Moderate-term on-the-job training
+49-9094,Locksmiths and safe repairers,49-0000,"Installation, Maintenance, and Repair Occupations",15550,15040,-510,-0.0328,50490,51320,830,0.0164,High school diploma or equivalent,None,Long-term on-the-job training
+49-9095,Manufactured building and mobile home installers,49-0000,"Installation, Maintenance, and Repair Occupations",2610,3020,410,0.1571,41080,45990,4910,0.1195,High school diploma or equivalent,None,Short-term on-the-job training
+49-9096,Riggers,49-0000,"Installation, Maintenance, and Repair Occupations",24190,22530,-1660,-0.0686,62060,62640,580,0.0093,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-9097,Signal and track switch repairers,49-0000,"Installation, Maintenance, and Repair Occupations",8210,8720,510,0.0621,83600,92460,8860,0.106,High school diploma or equivalent,None,Moderate-term on-the-job training
+49-9098,"Helpers--installation, maintenance, and repair workers",49-0000,"Installation, Maintenance, and Repair Occupations",97540,95580,-1960,-0.0201,38860,39630,770,0.0198,High school diploma or equivalent,None,Short-term on-the-job training
+49-9099,"Installation, maintenance, and repair workers, all other",49-0000,"Installation, Maintenance, and Repair Occupations",183690,176300,-7390,-0.0402,48640,49230,590,0.0121,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-1011,First-line supervisors of production and operating workers,51-0000,Production Occupations,685140,673430,-11710,-0.0171,71190,74450,3260,0.0458,High school diploma or equivalent,Less than 5 years,None
+51-2011,"Aircraft structure, surfaces, rigging, and systems assemblers",51-0000,Production Occupations,32890,34020,1130,0.0344,61680,65380,3700,0.06,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-2021,"Coil winders, tapers, and finishers",51-0000,Production Occupations,12170,12840,670,0.0551,47260,48220,960,0.0203,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-2028,"Electrical, electronic, and electromechanical assemblers, except coil winders, tapers, and finishers",51-0000,Production Occupations,261140,246970,-14170,-0.0543,44040,45850,1810,0.0411,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-2031,Engine and other machine assemblers,51-0000,Production Occupations,38420,34000,-4420,-0.115,52540,53710,1170,0.0223,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-2041,Structural metal fabricators and fitters,51-0000,Production Occupations,53380,52360,-1020,-0.0191,49900,51330,1430,0.0287,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-2051,Fiberglass laminators and fabricators,51-0000,Production Occupations,18520,16170,-2350,-0.1269,45760,46880,1120,0.0245,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-2061,Timing device assemblers and adjusters,51-0000,Production Occupations,230,250,20,0.087,40790,62620,21830,0.5352,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-2090,Miscellaneous assemblers and fabricators,51-0000,Production Occupations,1457800,1405030,-52770,-0.0362,42210,44650,2440,0.0578,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-3011,Bakers,51-0000,Production Occupations,231890,236200,4310,0.0186,36650,37160,510,0.0139,No formal educational credential,None,Moderate-term on-the-job training
+51-3021,Butchers and meat cutters,51-0000,Production Occupations,140040,136430,-3610,-0.0258,38960,40140,1180,0.0303,No formal educational credential,None,Moderate-term on-the-job training
+51-3022,"Meat, poultry, and fish cutters and trimmers",51-0000,Production Occupations,141090,145700,4610,0.0327,37700,38300,600,0.0159,No formal educational credential,None,Short-term on-the-job training
+51-3023,Slaughterers and meat packers,51-0000,Production Occupations,67500,69950,2450,0.0363,39790,40130,340,0.0085,No formal educational credential,None,Short-term on-the-job training
+51-3091,"Food and tobacco roasting, baking, and drying machine operators and tenders",51-0000,Production Occupations,19500,20370,870,0.0446,42730,44810,2080,0.0487,No formal educational credential,None,Moderate-term on-the-job training
+51-3092,Food batchmakers,51-0000,Production Occupations,171660,174520,2860,0.0167,40790,42290,1500,0.0368,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-3093,Food cooking machine operators and tenders,51-0000,Production Occupations,27660,31250,3590,0.1298,40550,41590,1040,0.0256,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-3099,"Food processing workers, all other",51-0000,Production Occupations,57920,65000,7080,0.1222,38420,39680,1260,0.0328,No formal educational credential,None,Moderate-term on-the-job training
+51-4021,"Extruding and drawing machine setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,65700,60840,-4860,-0.074,46980,47720,740,0.0158,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4022,"Forging machine setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,8760,8930,170,0.0194,49240,49030,-210,-0.0043,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4023,"Rolling machine setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,22350,25250,2900,0.1298,48630,50140,1510,0.0311,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4031,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,174430,171200,-3230,-0.0185,45590,46330,740,0.0162,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4032,"Drilling and boring machine tool setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,5310,4680,-630,-0.1186,46630,49080,2450,0.0525,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4033,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,70110,67000,-3110,-0.0444,45190,46550,1360,0.0301,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4034,"Lathe and turning machine tool setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,18970,16710,-2260,-0.1191,48620,50620,2000,0.0411,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4035,"Milling and planing machine setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,13810,12460,-1350,-0.0978,48310,52800,4490,0.0929,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4041,Machinists,51-0000,Production Occupations,298790,287050,-11740,-0.0393,56150,58750,2600,0.0463,High school diploma or equivalent,None,Long-term on-the-job training
+51-4051,Metal-refining furnace operators and tenders,51-0000,Production Occupations,20330,16780,-3550,-0.1746,55770,54430,-1340,-0.024,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4052,"Pourers and casters, metal",51-0000,Production Occupations,5830,4560,-1270,-0.2178,48940,51810,2870,0.0586,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4061,"Model makers, metal and plastic",51-0000,Production Occupations,3230,2610,-620,-0.192,62700,63340,640,0.0102,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4062,"Patternmakers, metal and plastic",51-0000,Production Occupations,1570,1470,-100,-0.0637,54540,58000,3460,0.0634,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4071,Foundry mold and coremakers,51-0000,Production Occupations,12720,12790,70,0.0055,45700,48110,2410,0.0527,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4072,"Molding, coremaking, and casting machine setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,154820,150470,-4350,-0.0281,41230,44350,3120,0.0757,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4081,"Multiple machine tool setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,129850,124590,-5260,-0.0405,46060,47180,1120,0.0243,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4111,Tool and die makers,51-0000,Production Occupations,55130,56930,1800,0.0327,63180,64050,870,0.0138,Postsecondary nondegree award,None,Long-term on-the-job training
+51-4121,"Welders, cutters, solderers, and brazers",51-0000,Production Occupations,424040,416210,-7830,-0.0185,51000,53750,2750,0.0539,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4122,"Welding, soldering, and brazing machine setters, operators, and tenders",51-0000,Production Occupations,36290,31600,-4690,-0.1292,47060,47920,860,0.0183,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4191,"Heat treating equipment setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,14590,14000,-590,-0.0404,47450,48750,1300,0.0274,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4192,"Layout workers, metal and plastic",51-0000,Production Occupations,5610,5970,360,0.0642,61870,63870,2000,0.0323,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4193,"Plating machine setters, operators, and tenders, metal and plastic",51-0000,Production Occupations,31510,32410,900,0.0286,41600,43960,2360,0.0567,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4194,"Tool grinders, filers, and sharpeners",51-0000,Production Occupations,5730,5600,-130,-0.0227,48970,50060,1090,0.0223,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-4199,"Metal workers and plastic workers, all other",51-0000,Production Occupations,20270,15900,-4370,-0.2156,42750,45950,3200,0.0749,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-5111,Prepress technicians and workers,51-0000,Production Occupations,23070,23840,770,0.0334,47300,48690,1390,0.0294,Postsecondary nondegree award,None,None
+51-5112,Printing press operators,51-0000,Production Occupations,145110,144260,-850,-0.0059,45160,45780,620,0.0137,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-5113,Print binding and finishing workers,51-0000,Production Occupations,36470,33180,-3290,-0.0902,39820,42290,2470,0.062,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-6011,Laundry and dry-cleaning workers,51-0000,Production Occupations,195360,198040,2680,0.0137,33800,34890,1090,0.0322,No formal educational credential,None,Short-term on-the-job training
+51-6021,"Pressers, textile, garment, and related materials",51-0000,Production Occupations,26830,26120,-710,-0.0265,33880,35060,1180,0.0348,No formal educational credential,None,Short-term on-the-job training
+51-6031,Sewing machine operators,51-0000,Production Occupations,109590,104880,-4710,-0.043,36000,36670,670,0.0186,No formal educational credential,None,Short-term on-the-job training
+51-6041,Shoe and leather workers and repairers,51-0000,Production Occupations,7640,7450,-190,-0.0249,35950,37800,1850,0.0515,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-6042,Shoe machine operators and tenders,51-0000,Production Occupations,3270,3280,10,0.0031,38160,35650,-2510,-0.0658,High school diploma or equivalent,None,Short-term on-the-job training
+51-6051,"Sewers, hand",51-0000,Production Occupations,2240,2190,-50,-0.0223,33760,36480,2720,0.0806,No formal educational credential,None,Moderate-term on-the-job training
+51-6052,"Tailors, dressmakers, and custom sewers",51-0000,Production Occupations,16290,13920,-2370,-0.1455,40860,41640,780,0.0191,No formal educational credential,None,Moderate-term on-the-job training
+51-6061,Textile bleaching and dyeing machine operators and tenders,51-0000,Production Occupations,5820,5310,-510,-0.0876,37320,38180,860,0.023,High school diploma or equivalent,None,Short-term on-the-job training
+51-6062,"Textile cutting machine setters, operators, and tenders",51-0000,Production Occupations,8960,9000,40,0.0045,37940,38760,820,0.0216,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-6063,"Textile knitting and weaving machine setters, operators, and tenders",51-0000,Production Occupations,14530,13030,-1500,-0.1032,38260,39530,1270,0.0332,High school diploma or equivalent,None,Short-term on-the-job training
+51-6064,"Textile winding, twisting, and drawing out machine setters, operators, and tenders",51-0000,Production Occupations,20600,22020,1420,0.0689,37660,38670,1010,0.0268,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-6091,"Extruding and forming machine setters, operators, and tenders, synthetic and glass fibers",51-0000,Production Occupations,14900,12850,-2050,-0.1376,44980,46350,1370,0.0305,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-6092,Fabric and apparel patternmakers,51-0000,Production Occupations,2860,2950,90,0.0315,67670,62750,-4920,-0.0727,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-6093,Upholsterers,51-0000,Production Occupations,20990,20140,-850,-0.0405,46190,46340,150,0.0032,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-6099,"Textile, apparel, and furnishings workers, all other",51-0000,Production Occupations,14450,13530,-920,-0.0637,37010,37280,270,0.0073,High school diploma or equivalent,None,Short-term on-the-job training
+51-7011,Cabinetmakers and bench carpenters,51-0000,Production Occupations,79540,77170,-2370,-0.0298,46020,46680,660,0.0143,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-7021,Furniture finishers,51-0000,Production Occupations,14230,14480,250,0.0176,42530,44540,2010,0.0473,High school diploma or equivalent,None,Short-term on-the-job training
+51-7031,"Model makers, wood",51-0000,Production Occupations,360,280,-80,-0.2222,51850,56550,4700,0.0906,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-7032,"Patternmakers, wood",51-0000,Production Occupations,180,220,40,0.2222,52520,49630,-2890,-0.055,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-7041,"Sawing machine setters, operators, and tenders, wood",51-0000,Production Occupations,43140,40850,-2290,-0.0531,39950,42770,2820,0.0706,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-7042,"Woodworking machine setters, operators, and tenders, except sawing",51-0000,Production Occupations,63350,61420,-1930,-0.0305,40440,43380,2940,0.0727,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-7099,"Woodworkers, all other",51-0000,Production Occupations,6590,5490,-1100,-0.1669,41220,44530,3310,0.0803,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-8011,Nuclear power reactor operators,51-0000,Production Occupations,5720,5150,-570,-0.0997,122610,122890,280,0.0023,High school diploma or equivalent,None,Long-term on-the-job training
+51-8012,Power distributors and dispatchers,51-0000,Production Occupations,9180,8520,-660,-0.0719,107240,106730,-510,-0.0048,High school diploma or equivalent,None,Long-term on-the-job training
+51-8013,Power plant operators,51-0000,Production Occupations,30720,29320,-1400,-0.0456,99670,102040,2370,0.0238,High school diploma or equivalent,None,Long-term on-the-job training
+51-8021,Stationary engineers and boiler operators,51-0000,Production Occupations,30780,28250,-2530,-0.0822,75190,78620,3430,0.0456,High school diploma or equivalent,None,Long-term on-the-job training
+51-8031,Water and wastewater treatment plant and system operators,51-0000,Production Occupations,126750,128490,1740,0.0137,58260,60020,1760,0.0302,High school diploma or equivalent,None,Long-term on-the-job training
+51-8091,Chemical plant and system operators,51-0000,Production Occupations,17840,16610,-1230,-0.0689,73540,78120,4580,0.0623,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-8092,Gas plant operators,51-0000,Production Occupations,15910,18030,2120,0.1332,83400,87820,4420,0.053,High school diploma or equivalent,None,Long-term on-the-job training
+51-8093,"Petroleum pump system operators, refinery operators, and gaugers",51-0000,Production Occupations,34860,33160,-1700,-0.0488,97540,96710,-830,-0.0085,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-8099,"Plant and system operators, all other",51-0000,Production Occupations,15950,14080,-1870,-0.1172,61710,62470,760,0.0123,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9011,Chemical equipment operators and tenders,51-0000,Production Occupations,127410,139630,12220,0.0959,57090,58040,950,0.0166,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9012,"Separating, filtering, clarifying, precipitating, and still machine setters, operators, and tenders",51-0000,Production Occupations,54200,60100,5900,0.1089,49500,51610,2110,0.0426,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9021,"Crushing, grinding, and polishing machine setters, operators, and tenders",51-0000,Production Occupations,28550,26000,-2550,-0.0893,46890,48540,1650,0.0352,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9022,"Grinding and polishing workers, hand",51-0000,Production Occupations,11850,10510,-1340,-0.1131,41690,42660,970,0.0233,No formal educational credential,None,Moderate-term on-the-job training
+51-9023,"Mixing and blending machine setters, operators, and tenders",51-0000,Production Occupations,100840,94920,-5920,-0.0587,47680,48990,1310,0.0275,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9031,"Cutters and trimmers, hand",51-0000,Production Occupations,7070,6060,-1010,-0.1429,38800,38020,-780,-0.0201,No formal educational credential,None,Short-term on-the-job training
+51-9032,"Cutting and slicing machine setters, operators, and tenders",51-0000,Production Occupations,47540,44980,-2560,-0.0538,45700,46570,870,0.019,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9041,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",51-0000,Production Occupations,57310,58770,1460,0.0255,45130,45760,630,0.014,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9051,"Furnace, kiln, oven, drier, and kettle operators and tenders",51-0000,Production Occupations,16160,14280,-1880,-0.1163,47010,48040,1030,0.0219,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9061,"Inspectors, testers, sorters, samplers, and weighers",51-0000,Production Occupations,591180,597370,6190,0.0105,47460,48570,1110,0.0234,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9071,Jewelers and precious stone and metal workers,51-0000,Production Occupations,23420,22440,-980,-0.0418,49140,52540,3400,0.0692,High school diploma or equivalent,None,Long-term on-the-job training
+51-9081,Dental laboratory technicians,51-0000,Production Occupations,33920,34410,490,0.0144,48310,49610,1300,0.0269,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9082,Medical appliance technicians,51-0000,Production Occupations,11490,11280,-210,-0.0183,47060,48030,970,0.0206,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9083,Ophthalmic laboratory technicians,51-0000,Production Occupations,18740,18660,-80,-0.0043,38420,39460,1040,0.0271,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9111,Packaging and filling machine operators and tenders,51-0000,Production Occupations,383860,379060,-4800,-0.0125,40900,43220,2320,0.0567,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9123,"Painting, coating, and decorating workers",51-0000,Production Occupations,8470,7940,-530,-0.0626,40860,41600,740,0.0181,No formal educational credential,None,Moderate-term on-the-job training
+51-9124,"Coating, painting, and spraying machine setters, operators, and tenders",51-0000,Production Occupations,159500,158740,-760,-0.0048,47590,48250,660,0.0139,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9141,Semiconductor processing technicians,51-0000,Production Occupations,32150,31460,-690,-0.0215,51180,51430,250,0.0049,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9151,Photographic process workers and processing machine operators,51-0000,Production Occupations,5550,4800,-750,-0.1351,40100,40610,510,0.0127,High school diploma or equivalent,None,Short-term on-the-job training
+51-9161,Computer numerically controlled tool operators,51-0000,Production Occupations,176950,169450,-7500,-0.0424,49970,50690,720,0.0144,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9162,Computer numerically controlled tool programmers,51-0000,Production Occupations,28230,28500,270,0.0096,65670,68120,2450,0.0373,Postsecondary nondegree award,None,Moderate-term on-the-job training
+51-9191,Adhesive bonding machine operators and tenders,51-0000,Production Occupations,12170,11500,-670,-0.0551,45210,46460,1250,0.0276,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9192,"Cleaning, washing, and metal pickling equipment operators and tenders",51-0000,Production Occupations,13890,14760,870,0.0626,41460,43530,2070,0.0499,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9193,Cooling and freezing equipment operators and tenders,51-0000,Production Occupations,6590,6900,310,0.047,40160,41330,1170,0.0291,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9194,Etchers and engravers,51-0000,Production Occupations,8390,7750,-640,-0.0763,40450,43310,2860,0.0707,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9195,"Molders, shapers, and casters, except metal and plastic",51-0000,Production Occupations,34750,33190,-1560,-0.0449,45690,46170,480,0.0105,High school diploma or equivalent,None,Long-term on-the-job training
+51-9196,"Paper goods machine setters, operators, and tenders",51-0000,Production Occupations,96950,96130,-820,-0.0085,49390,50270,880,0.0178,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9197,Tire builders,51-0000,Production Occupations,20970,20770,-200,-0.0095,55580,57390,1810,0.0326,High school diploma or equivalent,None,Moderate-term on-the-job training
+51-9198,Helpers--production workers,51-0000,Production Occupations,167490,165700,-1790,-0.0107,38220,39070,850,0.0222,High school diploma or equivalent,None,Short-term on-the-job training
+51-9199,"Production workers, all other",51-0000,Production Occupations,277060,251700,-25360,-0.0915,38820,40110,1290,0.0332,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-1041,Aircraft cargo handling supervisors,53-0000,Transportation and Material Moving Occupations,10160,9760,-400,-0.0394,63940,58170,-5770,-0.0902,High school diploma or equivalent,Less than 5 years,None
+53-1047,"First-line supervisors of transportation and material moving workers, except aircraft cargo handling supervisors",53-0000,Transportation and Material Moving Occupations,605510,623640,18130,0.0299,61890,62890,1000,0.0162,High school diploma or equivalent,Less than 5 years,None
+53-2011,"Airline pilots, copilots, and flight engineers",53-0000,Transportation and Material Moving Occupations,99300,103560,4260,0.0429,226600,232140,5540,0.0244,Bachelor's degree,Less than 5 years,Moderate-term on-the-job training
+53-2012,Commercial pilots,53-0000,Transportation and Material Moving Occupations,51830,47630,-4200,-0.081,122670,123220,550,0.0045,Postsecondary nondegree award,None,Moderate-term on-the-job training
+53-2021,Air traffic controllers,53-0000,Transportation and Material Moving Occupations,22400,22510,110,0.0049,144580,148080,3500,0.0242,Associate's degree,None,Long-term on-the-job training
+53-2022,Airfield operations specialists,53-0000,Transportation and Material Moving Occupations,16640,15190,-1450,-0.0871,56750,56850,100,0.0018,High school diploma or equivalent,None,Long-term on-the-job training
+53-2031,Flight attendants,53-0000,Transportation and Material Moving Occupations,130110,131650,1540,0.0118,67130,63580,-3550,-0.0529,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+53-3011,"Ambulance drivers and attendants, except emergency medical technicians",53-0000,Transportation and Material Moving Occupations,12080,12630,550,0.0455,34330,35450,1120,0.0326,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-3031,Driver/sales workers,53-0000,Transportation and Material Moving Occupations,417420,409180,-8240,-0.0197,37130,38770,1640,0.0442,High school diploma or equivalent,None,Short-term on-the-job training
+53-3032,Heavy and tractor-trailer truck drivers,53-0000,Transportation and Material Moving Occupations,2070480,2062040,-8440,-0.0041,57440,58640,1200,0.0209,Postsecondary nondegree award,None,Short-term on-the-job training
+53-3033,Light truck drivers,53-0000,Transportation and Material Moving Occupations,994410,983300,-11110,-0.0112,44140,44860,720,0.0163,High school diploma or equivalent,None,Short-term on-the-job training
+53-3051,"Bus drivers, school",53-0000,Transportation and Material Moving Occupations,387920,402930,15010,0.0387,47040,47920,880,0.0187,High school diploma or equivalent,None,Short-term on-the-job training
+53-3052,"Bus drivers, transit and intercity",53-0000,Transportation and Material Moving Occupations,148980,159240,10260,0.0689,57440,59050,1610,0.028,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-3053,Shuttle drivers and chauffeurs,53-0000,Transportation and Material Moving Occupations,229630,248530,18900,0.0823,36670,37290,620,0.0169,No formal educational credential,None,Short-term on-the-job training
+53-3054,Taxi drivers,53-0000,Transportation and Material Moving Occupations,17510,41050,23540,1.3444,36220,42100,5880,0.1623,No formal educational credential,None,Short-term on-the-job training
+53-3099,"Motor vehicle operators, all other",53-0000,Transportation and Material Moving Occupations,50330,46880,-3450,-0.0685,36260,37180,920,0.0254,No formal educational credential,None,Short-term on-the-job training
+53-4011,Locomotive engineers,53-0000,Transportation and Material Moving Occupations,31990,33470,1480,0.0463,77400,81410,4010,0.0518,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+53-4013,"Rail yard engineers, dinkey operators, and hostlers",53-0000,Transportation and Material Moving Occupations,3300,3920,620,0.1879,58030,60600,2570,0.0443,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-4022,"Railroad brake, signal, and switch operators and locomotive firers",53-0000,Transportation and Material Moving Occupations,12460,12400,-60,-0.0048,65480,68840,3360,0.0513,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-4031,Railroad conductors and yardmasters,53-0000,Transportation and Material Moving Occupations,42710,46440,3730,0.0873,74080,78000,3920,0.0529,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-4041,Subway and streetcar operators,53-0000,Transportation and Material Moving Occupations,9200,10200,1000,0.1087,84830,86380,1550,0.0183,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-4099,"Rail transportation workers, all other",53-0000,Transportation and Material Moving Occupations,1520,1120,-400,-0.2632,49330,56360,7030,0.1425,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-5011,Sailors and marine oilers,53-0000,Transportation and Material Moving Occupations,31360,31670,310,0.0099,49610,51520,1910,0.0385,No formal educational credential,None,Moderate-term on-the-job training
+53-5021,"Captains, mates, and pilots of water vessels",53-0000,Transportation and Material Moving Occupations,35390,36850,1460,0.0413,85540,92460,6920,0.0809,Postsecondary nondegree award,Less than 5 years,None
+53-5022,Motorboat operators,53-0000,Transportation and Material Moving Occupations,2380,2480,100,0.042,51880,47520,-4360,-0.084,Postsecondary nondegree award,Less than 5 years,None
+53-5031,Ship engineers,53-0000,Transportation and Material Moving Occupations,8580,8400,-180,-0.021,101320,109530,8210,0.081,Postsecondary nondegree award,Less than 5 years,None
+53-6011,Bridge and lock tenders,53-0000,Transportation and Material Moving Occupations,2720,3040,320,0.1176,58490,57700,-790,-0.0135,High school diploma or equivalent,None,Short-term on-the-job training
+53-6021,Parking attendants,53-0000,Transportation and Material Moving Occupations,134650,137880,3230,0.024,34600,35150,550,0.0159,No formal educational credential,None,Short-term on-the-job training
+53-6031,Automotive and watercraft service attendants,53-0000,Transportation and Material Moving Occupations,98270,102010,3740,0.0381,34850,35670,820,0.0235,No formal educational credential,None,Short-term on-the-job training
+53-6032,Aircraft service attendants,53-0000,Transportation and Material Moving Occupations,27310,31300,3990,0.1461,41540,40450,-1090,-0.0262,High school diploma or equivalent,None,Short-term on-the-job training
+53-6041,Traffic technicians,53-0000,Transportation and Material Moving Occupations,7580,7860,280,0.0369,58480,59090,610,0.0104,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-6051,Transportation inspectors,53-0000,Transportation and Material Moving Occupations,23320,24500,1180,0.0506,85750,92100,6350,0.0741,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-6061,Passenger attendants,53-0000,Transportation and Material Moving Occupations,25340,27110,1770,0.0699,37560,37720,160,0.0043,High school diploma or equivalent,None,Short-term on-the-job training
+53-6099,"Transportation workers, all other",53-0000,Transportation and Material Moving Occupations,10960,13550,2590,0.2363,39630,45650,6020,0.1519,High school diploma or equivalent,None,Short-term on-the-job training
+53-7011,Conveyor operators and tenders,53-0000,Transportation and Material Moving Occupations,26060,22930,-3130,-0.1201,41230,42420,1190,0.0289,No formal educational credential,None,Short-term on-the-job training
+53-7021,Crane and tower operators,53-0000,Transportation and Material Moving Occupations,42000,42890,890,0.0212,66370,68080,1710,0.0258,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+53-7031,Dredge operators,53-0000,Transportation and Material Moving Occupations,1030,1040,10,0.0097,48430,49640,1210,0.025,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-7041,Hoist and winch operators,53-0000,Transportation and Material Moving Occupations,2480,2600,120,0.0484,52310,56450,4140,0.0791,No formal educational credential,None,Short-term on-the-job training
+53-7051,Industrial truck and tractor operators,53-0000,Transportation and Material Moving Occupations,805770,774420,-31350,-0.0389,46390,46420,30,0.0006,No formal educational credential,None,Short-term on-the-job training
+53-7061,Cleaners of vehicles and equipment,53-0000,Transportation and Material Moving Occupations,373960,380430,6470,0.0173,35270,35830,560,0.0159,No formal educational credential,None,Short-term on-the-job training
+53-7062,"Laborers and freight, stock, and material movers, hand",53-0000,Transportation and Material Moving Occupations,2982530,2950280,-32250,-0.0108,38940,40240,1300,0.0334,No formal educational credential,None,Short-term on-the-job training
+53-7063,Machine feeders and offbearers,53-0000,Transportation and Material Moving Occupations,46690,42330,-4360,-0.0934,39700,41220,1520,0.0383,No formal educational credential,None,Short-term on-the-job training
+53-7064,"Packers and packagers, hand",53-0000,Transportation and Material Moving Occupations,601440,559820,-41620,-0.0692,35580,36280,700,0.0197,No formal educational credential,None,Short-term on-the-job training
+53-7065,Stockers and order fillers,53-0000,Transportation and Material Moving Occupations,2779530,2833810,54280,0.0195,37090,37330,240,0.0065,No formal educational credential,None,Short-term on-the-job training
+53-7071,Gas compressor and gas pumping station operators,53-0000,Transportation and Material Moving Occupations,5110,3510,-1600,-0.3131,71510,77320,5810,0.0812,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-7072,"Pump operators, except wellhead pumpers",53-0000,Transportation and Material Moving Occupations,12600,9780,-2820,-0.2238,60020,61770,1750,0.0292,High school diploma or equivalent,None,Moderate-term on-the-job training
+53-7073,Wellhead pumpers,53-0000,Transportation and Material Moving Occupations,17350,17990,640,0.0369,70010,69960,-50,-0.0007,High school diploma or equivalent,Less than 5 years,Moderate-term on-the-job training
+53-7081,Refuse and recyclable material collectors,53-0000,Transportation and Material Moving Occupations,139180,147240,8060,0.0579,48350,49690,1340,0.0277,No formal educational credential,None,Short-term on-the-job training
+53-7121,"Tank car, truck, and ship loaders",53-0000,Transportation and Material Moving Occupations,10920,10700,-220,-0.0201,58070,58870,800,0.0138,No formal educational credential,None,Short-term on-the-job training
+53-7199,"Material moving workers, all other",53-0000,Transportation and Material Moving Occupations,25190,23480,-1710,-0.0679,41690,41800,110,0.0026,No formal educational credential,None,Short-term on-the-job training
