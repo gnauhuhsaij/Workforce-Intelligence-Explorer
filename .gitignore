@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 *.log
 *.twb~
+*.twbr
 
 # BLS source files are downloaded locally and are not committed.
 data/raw/*
