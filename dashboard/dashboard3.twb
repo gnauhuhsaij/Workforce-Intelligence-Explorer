@@ -1363,7 +1363,7 @@
       <column caption='Group Employment Trend' datatype='string' name='[Calculation_0232460085653520]' role='measure' type='nominal'>
         <calculation class='tableau' formula='IF SUM([employment_2025]) &gt;= SUM([employment_2024])&#10;THEN &quot;Increased&quot;&#10;ELSE &quot;Decreased&quot;&#10;END' />
       </column>
-      <column caption='Net Employment Change %' datatype='real' name='[Calculation_0232460095750162]' role='measure' type='quantitative'>
+      <column caption='Net Employment Change %' datatype='real' default-format='p0.0%' name='[Calculation_0232460095750162]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='SUM([employment_2025]) / SUM([employment_2024]) - 1' />
       </column>
       <column caption='Share of Occupations Growing' datatype='real' default-format='p0.0%' name='[Calculation_0232460098420758]' role='measure' type='quantitative'>
@@ -2264,7 +2264,7 @@
             <datasource caption='Workforce Data' name='federated.06ssybx0nh5feq17mjc4m021bnf5' />
           </datasources>
           <datasource-dependencies datasource='federated.06ssybx0nh5feq17mjc4m021bnf5'>
-            <column caption='Net Employment Change %' datatype='real' name='[Calculation_0232460095750162]' role='measure' type='quantitative'>
+            <column caption='Net Employment Change %' datatype='real' default-format='p0.0%' name='[Calculation_0232460095750162]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='SUM([employment_2025]) / SUM([employment_2024]) - 1' />
             </column>
             <column caption='Employment 2024' datatype='integer' name='[employment_2024]' role='measure' type='quantitative' />
