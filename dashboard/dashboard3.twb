@@ -2032,7 +2032,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'>Employment Change by Major Occupational Group</run>
+            <run fontcolor='#000000' fontname='Tableau Medium'>How did employment change across major occupational groups?</run>
             <run>Æ&#10;</run>
             <run fontcolor='#000000' fontname='Tableau Medium'>May 2024–May 2025 estimates</run>
           </formatted-text>
@@ -2137,8 +2137,9 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'>Industry Employment Change, 2024–2025</run>
+            <run fontcolor='#000000' fontname='Tableau Medium'>Which industries are growing—and by how much?</run>
             <run>Æ&#10;</run>
+            <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>Bubble size shows 2025 employment; position compares job change with growth rate.</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2183,9 +2184,6 @@
           <style-rule element='label'>
             <format attr='text-format' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:employment_change_pct (industry_occupations.csv):qk]' value='p0.0%' />
           </style-rule>
-          <style-rule element='mark'>
-            <encoding attr='color' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:median_wage_2025 (industry_occupations.csv):qk]' palette='green_10_0' type='interpolated' />
-          </style-rule>
           <style-rule element='refline'>
             <format attr='fill-above' id='refline0' value='#00000000' />
             <format attr='fill-below' id='refline0' value='#00000000' />
@@ -2214,7 +2212,6 @@
             </view>
             <mark class='Circle' />
             <encodings>
-              <color column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:median_wage_2025 (industry_occupations.csv):qk]' />
               <size column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:employment_2025 (industry_occupations.csv):qk]' />
               <text column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:industry_title:nk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:industry_title:nk]' />
@@ -2238,6 +2235,7 @@
               <style-rule element='mark'>
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#2a9d8f' />
               </style-rule>
             </style>
           </pane>
@@ -2251,10 +2249,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'>Employment Change</run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Tableau Medium'>2024–2025</run>
-            <run>Æ&#10;</run>
+            <run fontcolor='#2a9d8f' fontname='Tableau Medium'>Net employment change</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2302,9 +2297,9 @@
             </encodings>
             <customized-label>
               <formatted-text>
-                <run fontname='Tableau Light' fontsize='16'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460095750162:qk]>]]></run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:employment_change:qk]> jobs]]></run>
                 <run>Æ&#10;</run>
-                <run fontname='Tableau Light' fontsize='16'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:employment_change:qk]> vs. 2024]]></run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='11'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460095750162:qk]> from May 2024]]></run>
               </formatted-text>
             </customized-label>
             <style>
@@ -2328,9 +2323,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'>Share of Occupations Growing</run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Tableau Medium'>2024–2025</run>
+            <run fontcolor='#2a9d8f' fontname='Tableau Medium'>Occupations growing</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2347,6 +2340,14 @@
             <column caption='Major Group Title' datatype='string' name='[major_group_title]' role='dimension' type='nominal' />
             <column-instance column='[major_group_title]' derivation='None' name='[none:major_group_title:nk]' pivot='key' type='nominal' />
             <column caption='Occupation Code' datatype='string' name='[occupation_code]' role='dimension' type='nominal' />
+            <column caption='Growing Occupation Count' datatype='integer' default-format='n#,##0' name='[Calculation_0232461100000001]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD(IF [employment_change] &gt; 0 THEN [occupation_code] END)' />
+            </column>
+            <column caption='Comparable Occupation Count' datatype='integer' default-format='n#,##0' name='[Calculation_0232461100000002]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD(IF NOT ISNULL([employment_change]) THEN [occupation_code] END)' />
+            </column>
+            <column-instance column='[Calculation_0232461100000001]' derivation='User' name='[usr:Calculation_0232461100000001:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0232461100000002]' derivation='User' name='[usr:Calculation_0232461100000002:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_0232460098420758]' derivation='User' name='[usr:Calculation_0232460098420758:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:major_group_title:nk]' context='true' filter-group='3'>
@@ -2366,12 +2367,14 @@
             <mark class='Automatic' />
             <encodings>
               <text column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460098420758:qk]' />
+              <text column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461100000001:qk]' />
+              <text column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461100000002:qk]' />
             </encodings>
             <customized-label>
               <formatted-text>
-                <run fontname='Tableau Light' fontsize='16'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460098420758:qk]>]]></run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460098420758:qk]>]]></run>
                 <run>Æ&#10;</run>
-                <run fontname='Tableau Light' fontsize='16'>427 of 830 occupations</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='11'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461100000001:qk]> of <[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461100000002:qk]> occupations increased]]></run>
               </formatted-text>
             </customized-label>
             <style>
@@ -2395,10 +2398,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'>Median Occupation Change</run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Tableau Medium'>2024-2025</run>
-            <run>Æ&#10;</run>
+            <run fontcolor='#2a9d8f' fontname='Tableau Medium'>Typical occupation growth</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2436,9 +2436,11 @@
             </encodings>
             <customized-label>
               <formatted-text>
-                <run fontname='Tableau Light' fontsize='16'>&lt;</run>
-                <run fontname='Tableau Light' fontsize='16'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460099174423:qk]</run>
-                <run fontname='Tableau Light' fontsize='16'>&gt;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>&lt;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460099174423:qk]</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='11'>median change across detailed occupations</run>
               </formatted-text>
             </customized-label>
             <style>
@@ -2462,9 +2464,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'>Median Occupation Wage</run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Tableau Medium'>Across detailed occupations, 2025</run>
+            <run fontcolor='#2a9d8f' fontname='Tableau Medium'>Typical annual wage</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2475,8 +2475,8 @@
           </datasources>
           <datasource-dependencies datasource='federated.06ssybx0nh5feq17mjc4m021bnf5'>
             <column caption='Major Group Title' datatype='string' name='[major_group_title]' role='dimension' type='nominal' />
-            <column-instance column='[median_wage_2025 (state_occupations.csv)]' derivation='Median' name='[med:median_wage_2025 (state_occupations.csv):qk]' pivot='key' type='quantitative' />
-            <column caption='Median Wage 2025 (State Occupations.Csv)' datatype='integer' default-format='c&quot;$&quot;#,##0,.0K;-&quot;$&quot;#,##0,.0K' name='[median_wage_2025 (state_occupations.csv)]' role='measure' type='quantitative' />
+            <column-instance column='[median_wage_2025]' derivation='Median' name='[med:median_wage_2025:qk]' pivot='key' type='quantitative' />
+            <column caption='Median Wage 2025' datatype='integer' default-format='c&quot;$&quot;#,##0,.0K;-&quot;$&quot;#,##0,.0K' name='[median_wage_2025]' role='measure' type='quantitative' />
             <column-instance column='[major_group_title]' derivation='None' name='[none:major_group_title:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:major_group_title:nk]' context='true' filter-group='3'>
@@ -2489,9 +2489,9 @@
         </view>
         <style>
           <style-rule element='cell'>
-            <format attr='font-size' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025 (state_occupations.csv):qk]' value='22' />
-            <format attr='text-align' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025 (state_occupations.csv):qk]' value='center' />
-            <format attr='vertical-align' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025 (state_occupations.csv):qk]' value='center' />
+            <format attr='font-size' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025:qk]' value='22' />
+            <format attr='text-align' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025:qk]' value='center' />
           </style-rule>
         </style>
         <panes>
@@ -2501,13 +2501,15 @@
             </view>
             <mark class='Automatic' />
             <encodings>
-              <text column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025 (state_occupations.csv):qk]' />
+              <text column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025:qk]' />
             </encodings>
             <customized-label>
               <formatted-text>
-                <run fontname='Tableau Light' fontsize='16'>&lt;</run>
-                <run fontname='Tableau Light' fontsize='16'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025 (state_occupations.csv):qk]</run>
-                <run fontname='Tableau Light' fontsize='16'>&gt;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>&lt;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025:qk]</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='11'>2025 median across detailed occupations</run>
               </formatted-text>
             </customized-label>
             <style>
@@ -2531,8 +2533,9 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[Top 10 Occupations by <[Parameters].[Parameter 0232460048003079]>]]></run>
+            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[Which occupations rank highest by <[Parameters].[Parameter 0232460048003079]>?]]></run>
             <run>Æ&#10;</run>
+            <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>Use Rank By to switch the comparison metric.</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2600,9 +2603,8 @@
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Automatic' />
+            <mark class='Circle' />
             <encodings>
-              <color column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:major_group_title:nk]' />
               <lod column='[Parameters].[Parameter 0232460048003079]' />
               <text column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232460057337868:nk]' />
             </encodings>
@@ -2610,7 +2612,7 @@
               <style-rule element='mark'>
                 <format attr='mark-labels-cull' value='true' />
                 <format attr='mark-labels-show' value='true' />
-                <format attr='mark-color' value='#8ae9d6' />
+                <format attr='mark-color' value='#e76f51' />
               </style-rule>
             </style>
           </pane>
@@ -2624,8 +2626,9 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[Skill Profile: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title:nk]>]]></run>
+            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[Which skills matter most for <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title:nk]>?]]></run>
             <run>Æ&#10;</run>
+            <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>Importance scores range from 1 (not important) to 5 (extremely important).</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2692,6 +2695,7 @@
               <style-rule element='mark'>
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#2a9d8f' />
               </style-rule>
             </style>
           </pane>
@@ -2705,8 +2709,9 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[Occupation Profile: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title:nk]>]]></run>
+            <run bold='true' fontcolor='#2a9d8f' fontname='Tableau Medium' fontsize='10'>OCCUPATION SNAPSHOT</run>
             <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#1f2933' fontname='Tableau Medium' fontsize='18'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title:nk]>]]></run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2768,22 +2773,41 @@
             </encodings>
             <customized-label>
               <formatted-text>
-                <run fontalignment='0'>2025 Employment&#10;&lt;</run>
-                <run fontalignment='0'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_2025:qk]</run>
-                <run fontalignment='0'>&gt;&#10;&#10;Median Annual Wage&#10;&lt;</run>
-                <run fontalignment='0'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:median_wage_2025:qk]</run>
-                <run fontalignment='0'><![CDATA[>
-
-Employment Change, 2024–2025
-<]]></run>
-                <run fontalignment='0'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_change_pct:qk]</run>
-                <run fontalignment='0'>&gt;&#10;&#10;Typical Education&#10;&lt;</run>
-                <run fontalignment='0'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[attr:typical_education:nk]</run>
-                <run fontalignment='0'>&gt;&#10;&#10;Related Work Experience&#10;&lt;</run>
-                <run fontalignment='0'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[attr:related_work_experience:nk]</run>
-                <run fontalignment='0'>&gt;&#10;&#10;On-the-Job Training&#10;&lt;</run>
-                <run fontalignment='0'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[attr:on_the_job_training:nk]</run>
-                <run fontalignment='0'>&gt;</run>
+                <run bold='true' fontcolor='#2a9d8f' fontname='Tableau Medium' fontsize='12'>MARKET OUTLOOK</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='12'>Employment</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>&lt;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_2025:qk]</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='22'>&gt;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='11'> in 2025</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='11'>Median wage  </run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='15'>&lt;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='15'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:median_wage_2025:qk]</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='15'>&gt;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='11'>   Change  </run>
+                <run bold='true' fontcolor='#e76f51' fontname='Tableau Light' fontsize='15'>&lt;</run>
+                <run bold='true' fontcolor='#e76f51' fontname='Tableau Light' fontsize='15'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_change_pct:qk]</run>
+                <run bold='true' fontcolor='#e76f51' fontname='Tableau Light' fontsize='15'>&gt;</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#2a9d8f' fontname='Tableau Medium' fontsize='12'>ENTRY REQUIREMENTS</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>EDUCATION</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='14'>&lt;</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='14'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[attr:typical_education:nk]</run>
+                <run bold='true' fontcolor='#1f2933' fontname='Tableau Light' fontsize='14'>&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>EXPERIENCE</run>
+                <run fontcolor='#1f2933' fontname='Tableau Light' fontsize='12'>  &lt;</run>
+                <run fontcolor='#1f2933' fontname='Tableau Light' fontsize='12'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[attr:related_work_experience:nk]</run>
+                <run fontcolor='#1f2933' fontname='Tableau Light' fontsize='12'>&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>TRAINING</run>
+                <run fontcolor='#1f2933' fontname='Tableau Light' fontsize='12'>  &lt;</run>
+                <run fontcolor='#1f2933' fontname='Tableau Light' fontsize='12'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[attr:on_the_job_training:nk]</run>
+                <run fontcolor='#1f2933' fontname='Tableau Light' fontsize='12'>&gt;</run>
               </formatted-text>
             </customized-label>
             <style>
@@ -2811,9 +2835,9 @@ Employment Change, 2024–2025
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'>Occupations Where &lt;</run>
+            <run fontcolor='#000000' fontname='Tableau Medium'>Which occupations rely most on &lt;</run>
             <run fontcolor='#000000' fontname='Tableau Medium'>[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:skill_name:nk]</run>
-            <run fontcolor='#000000' fontname='Tableau Medium'>&gt; Matters Most</run>
+            <run fontcolor='#000000' fontname='Tableau Medium'>&gt;?</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2931,6 +2955,11 @@ Employment Change, 2024–2025
                 <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[Typical education: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[attr:typical_education:nk]>]]></run>
               </formatted-text>
             </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e76f51' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
         <rows>[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title:nk]</rows>
@@ -2942,7 +2971,9 @@ Employment Change, 2024–2025
       <layout-options>
         <title>
           <formatted-text>
-            <run fontname='Tableau Medium'>&lt;Sheet Name&gt;</run>
+            <run fontname='Tableau Medium'><![CDATA[Where is <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title:nk]> most concentrated?]]></run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>A location quotient above 1 means above-average concentration.</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -2955,15 +2986,19 @@ Employment Change, 2024–2025
             <mapsource name='Tableau' />
           </mapsources>
           <datasource-dependencies datasource='federated.06ssybx0nh5feq17mjc4m021bnf5'>
-            <column caption='Employment 2025' datatype='integer' default-format='n#,##0,.0K;-#,##0,.0K' name='[employment_2025]' role='measure' type='quantitative' />
-            <column caption='Employment Change Pct' datatype='real' default-format='p0.00%' name='[employment_change_pct]' role='measure' type='quantitative' />
+            <column caption='Employment 2025 (State Occupations.Csv)' datatype='integer' default-format='n#,##0;-#,##0' name='[employment_2025 (state_occupations.csv)]' role='measure' type='quantitative' />
+            <column caption='Employment Change Pct (State Occupations.Csv)' datatype='real' default-format='p0.0%' name='[employment_change_pct (state_occupations.csv)]' role='measure' type='quantitative' />
             <column caption='Jobs Per 1000 2025' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[jobs_per_1000_2025]' role='measure' type='quantitative' />
             <column caption='Location Quotient 2025' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[location_quotient_2025]' role='measure' type='quantitative' />
+            <column caption='Relative Concentration' datatype='string' name='[Calculation_0232461200000001]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ISNULL([location_quotient_2025]) THEN &quot;Unavailable&quot;&#10;ELSEIF [location_quotient_2025] &gt; 1.1 THEN &quot;Above average&quot;&#10;ELSEIF [location_quotient_2025] &lt; 0.9 THEN &quot;Below average&quot;&#10;ELSE &quot;Near average&quot;&#10;END' />
+            </column>
             <column caption='Median Wage 2025 (State Occupations.Csv)' datatype='integer' default-format='c&quot;$&quot;#,##0,.0K;-&quot;$&quot;#,##0,.0K' name='[median_wage_2025 (state_occupations.csv)]' role='measure' type='quantitative' />
-            <column-instance column='[employment_2025]' derivation='Min' name='[min:employment_2025:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[employment_change_pct]' derivation='Min' name='[min:employment_change_pct:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[employment_2025 (state_occupations.csv)]' derivation='Min' name='[min:employment_2025 (state_occupations.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[employment_change_pct (state_occupations.csv)]' derivation='Min' name='[min:employment_change_pct (state_occupations.csv):qk]' pivot='key' type='quantitative' />
             <column-instance column='[jobs_per_1000_2025]' derivation='Min' name='[min:jobs_per_1000_2025:qk]' pivot='key' type='quantitative' />
             <column-instance column='[location_quotient_2025]' derivation='Min' name='[min:location_quotient_2025:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0232461200000001]' derivation='None' name='[none:Calculation_0232461200000001:nk]' pivot='key' type='nominal' />
             <column-instance column='[median_wage_2025 (state_occupations.csv)]' derivation='Min' name='[min:median_wage_2025 (state_occupations.csv):qk]' pivot='key' type='quantitative' />
             <column-instance column='[occupation_title]' derivation='None' name='[none:occupation_title:nk]' pivot='key' type='nominal' />
             <column-instance column='[state_name]' derivation='None' name='[none:state_name:nk]' pivot='key' type='nominal' />
@@ -3031,12 +3066,17 @@ Employment Change, 2024–2025
         </view>
         <style>
           <style-rule element='mark'>
-            <encoding attr='color' center='1.0' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:location_quotient_2025:qk]' palette='red_blue_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232461200000001:nk]' palette='temp' type='palette'>
+              <map to='#2a9d8f'><bucket>&quot;Above average&quot;</bucket></map>
+              <map to='#e76f51'><bucket>&quot;Below average&quot;</bucket></map>
+              <map to='#9aa0a6'><bucket>&quot;Near average&quot;</bucket></map>
+              <map to='#76b7b2'><bucket>&quot;Unavailable&quot;</bucket></map>
+            </encoding>
           </style-rule>
           <style-rule element='legend-title-text'>
-            <format attr='color' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:location_quotient_2025:qk]' value='Location Quotient'>
+            <format attr='color' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232461200000001:nk]' value='Relative Concentration'>
               <formatted-text>
-                <run>Location Quotient</run>
+                <run>Relative Concentration</run>
               </formatted-text>
             </format>
           </style-rule>
@@ -3051,12 +3091,12 @@ Employment Change, 2024–2025
             </view>
             <mark class='Multipolygon' />
             <encodings>
-              <color column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:location_quotient_2025:qk]' />
+              <color column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232461200000001:nk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:state_name:nk]' />
-              <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_2025:qk]' />
+              <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_2025 (state_occupations.csv):qk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:jobs_per_1000_2025:qk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:median_wage_2025 (state_occupations.csv):qk]' />
-              <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_change_pct:qk]' />
+              <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_change_pct (state_occupations.csv):qk]' />
               <geometry column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[Geometry (generated)]' />
             </encodings>
             <customized-tooltip>
@@ -3065,13 +3105,15 @@ Employment Change, 2024–2025
                 <run>Æ&#10;&#10;</run>
                 <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[Location quotient: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:location_quotient_2025:qk]>]]></run>
                 <run>Æ&#10;</run>
-                <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[Employment: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_2025:qk]>]]></run>
+                <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[Relative concentration: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232461200000001:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[State employment: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_2025 (state_occupations.csv):qk]>]]></run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[Jobs per 1,000: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:jobs_per_1000_2025:qk]>]]></run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[Median annual wage: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:median_wage_2025 (state_occupations.csv):qk]>]]></run>
                 <run>Æ&#10;</run>
-                <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[Employment change: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_change_pct:qk]>]]></run>
+                <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[State employment change: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_change_pct (state_occupations.csv):qk]>]]></run>
                 <run>Æ&#10;&#10;</run>
                 <run fontcolor='#000000' fontname='Tableau Light'>Location quotient compares an occupation’s share of state employment with its national share. Values above 1 indicate above-average concentration.</run>
               </formatted-text>
@@ -3087,7 +3129,7 @@ Employment Change, 2024–2025
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[Largest Occupations in <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:industry_title:nk]>]]></run>
+            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[What are the largest occupations in <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:industry_title:nk]>?]]></run>
             <run>Æ&#10;</run>
           </formatted-text>
         </title>
@@ -3147,9 +3189,6 @@ Employment Change, 2024–2025
           <style-rule element='axis'>
             <format attr='title' class='0' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:employment_2025 (industry_occupations.csv):qk]' scope='cols' value='Employment, 2025' />
           </style-rule>
-          <style-rule element='mark'>
-            <encoding attr='color' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:median_wage_2025 (industry_occupations.csv):qk]' palette='red_10_0' type='interpolated' />
-          </style-rule>
           <style-rule element='gridline'>
             <format attr='stroke-size' scope='cols' value='0' />
             <format attr='line-visibility' scope='cols' value='off' />
@@ -3162,7 +3201,6 @@ Employment Change, 2024–2025
             </view>
             <mark class='Automatic' />
             <encodings>
-              <color column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:median_wage_2025 (industry_occupations.csv):qk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:median_wage_2025 (industry_occupations.csv):qk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title (industry_occupations.csv):nk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:employment_change_pct (industry_occupations.csv):qk]' />
@@ -3182,6 +3220,11 @@ Employment Change, 2024–2025
                 <run fontcolor='#000000' fontname='Tableau Light'><![CDATA[<[federated.06ssybx0nh5feq17mjc4m021bnf5].[attr:typical_education:nk]>]]></run>
               </formatted-text>
             </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e76f51' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
         <rows>[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title (industry_occupations.csv):nk]</rows>
@@ -3193,7 +3236,9 @@ Employment Change, 2024–2025
       <layout-options>
         <title>
           <formatted-text>
-            <run fontname='Tableau Medium'>Wage vs. Employment Change</run>
+            <run fontname='Tableau Medium'>Which occupations combine higher pay with employment growth?</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>The upper-right quadrant highlights occupations above the median wage with positive growth.</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -3323,8 +3368,9 @@ Employment Change, 2024–2025
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[How <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:industry_title:nk]> Differs from the U.S. Workforce]]></run>
+            <run fontcolor='#000000' fontname='Tableau Medium'><![CDATA[Which occupational groups are over- or underrepresented in <[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:industry_title:nk]>?]]></run>
             <run>Æ&#10;</run>
+            <run fontcolor='#66737f' fontname='Tableau Light' fontsize='10'>Right of zero means a larger workforce share than the U.S. average; left means smaller.</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -3343,6 +3389,9 @@ Employment Change, 2024–2025
             <column caption='Specialization Gap' datatype='real' default-format='p0.0%' name='[Calculation_0232460456992794]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='[Calculation_0232460456775705] - MIN([Calculation_0232460456509464])' />
             </column>
+            <column caption='Representation vs U.S.' datatype='string' name='[Calculation_0232461200000002]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_0232460456992794] &gt; 0.005 THEN &quot;Overrepresented&quot;&#10;ELSEIF [Calculation_0232460456992794] &lt; -0.005 THEN &quot;Underrepresented&quot;&#10;ELSE &quot;Near U.S. share&quot;&#10;END' />
+            </column>
             <column caption='Employment 2025' datatype='integer' default-format='n#,##0,.0K;-#,##0,.0K' name='[employment_2025]' role='measure' type='quantitative' />
             <column caption='Industry Share 2025' datatype='real' name='[industry_share_2025]' role='measure' type='quantitative' />
             <column caption='Industry Title' datatype='string' name='[industry_title]' role='dimension' type='nominal' />
@@ -3354,6 +3403,7 @@ Employment Change, 2024–2025
             <column caption='Record Type' datatype='string' name='[record_type]' role='dimension' type='nominal' />
             <column-instance column='[Calculation_0232460456775705]' derivation='User' name='[usr:Calculation_0232460456775705:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_0232460456992794]' derivation='User' name='[usr:Calculation_0232460456992794:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0232461200000002]' derivation='User' name='[usr:Calculation_0232461200000002:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:industry_title:nk]' filter-group='4'>
             <groupfilter function='member' level='[none:industry_title:nk]' member='&quot;Federal, State, and Local Government, excluding State and Local Government Schools and Hospitals and the U.S. Postal Service (OEWS Designation)&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
@@ -3380,15 +3430,22 @@ Employment Change, 2024–2025
           <style-rule element='gridline'>
             <format attr='stroke-size' value='0' />
           </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461200000002:nk]' palette='temp' type='palette'>
+              <map to='#2a9d8f'><bucket>&quot;Overrepresented&quot;</bucket></map>
+              <map to='#e76f51'><bucket>&quot;Underrepresented&quot;</bucket></map>
+              <map to='#9aa0a6'><bucket>&quot;Near U.S. share&quot;</bucket></map>
+            </encoding>
+          </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Bar' />
+            <mark class='Circle' />
             <encodings>
-              <color column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460456992794:qk]' />
+              <color column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461200000002:nk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:Calculation_0232460456509464:qk]' />
               <lod column='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460456775705:qk]' />
             </encodings>
@@ -3401,6 +3458,8 @@ Employment Change, 2024–2025
                 <run fontcolor='#000000' fontname='Menlo'><![CDATA[National workforce share: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:Calculation_0232460456509464:qk]>]]></run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#000000' fontname='Menlo'><![CDATA[Difference: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460456992794:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000' fontname='Menlo'><![CDATA[Interpretation: <[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461200000002:nk]>]]></run>
               </formatted-text>
             </customized-tooltip>
           </pane>
@@ -3507,10 +3566,8 @@ Employment Change, 2024–2025
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='5867' id='31' name='Top Occupations by Industry' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:median_wage_2025 (industry_occupations.csv):qk]' type-v2='color' w='10769' x='85308' y='52533' />
-        <zone h='5867' id='32' name='Workforce Specialization' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460456992794:qk]' type-v2='color' w='10769' x='85846' y='27467' />
+        <zone h='5867' id='32' name='Workforce Specialization' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461200000002:nk]' type-v2='color' w='10769' x='85846' y='27467' />
         <zone h='9200' id='33' name='Industry Landscape' pane-specification-id='2' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:employment_2025 (industry_occupations.csv):qk]' type-v2='size' w='10769' x='8308' y='75067' />
-        <zone h='5067' id='34' name='Industry Landscape' pane-specification-id='2' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:median_wage_2025 (industry_occupations.csv):qk]' type-v2='color' w='10769' x='8077' y='70667' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -3552,7 +3609,7 @@ Employment Change, 2024–2025
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='5867' id='32' name='Workforce Specialization' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232460456992794:qk]' type-v2='color' w='10769' x='85846' y='27467'>
+                <zone h='5867' id='32' name='Workforce Specialization' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[usr:Calculation_0232461200000002:nk]' type-v2='color' w='10769' x='85846' y='27467'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3563,15 +3620,6 @@ Employment Change, 2024–2025
                 </zone>
                 <zone fixed-size='280' h='23000' id='19' is-fixed='true' name='Top Occupations by Industry' w='98770' x='615' y='43468'>
                   <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='5867' id='31' name='Top Occupations by Industry' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:median_wage_2025 (industry_occupations.csv):qk]' type-v2='color' w='10769' x='85308' y='52533'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3591,15 +3639,6 @@ Employment Change, 2024–2025
                   </zone-style>
                 </zone>
                 <zone h='9200' id='33' name='Industry Landscape' pane-specification-id='2' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:employment_2025 (industry_occupations.csv):qk]' type-v2='size' w='10769' x='8308' y='75067'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='5067' id='34' name='Industry Landscape' pane-specification-id='2' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[sum:median_wage_2025 (industry_occupations.csv):qk]' type-v2='color' w='10769' x='8077' y='70667'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3680,10 +3719,11 @@ Employment Change, 2024–2025
                     <zone fixed-size='457' h='24710' id='7' is-fixed='true' name='Selected Occupation Profile' w='35769' x='615' y='8516'>
                       <layout-cache fixed-size-h='332' type-h='fixed' type-w='fixed' />
                       <zone-style>
-                        <format attr='border-color' value='#000000' />
-                        <format attr='border-style' value='none' />
-                        <format attr='border-width' value='0' />
-                        <format attr='margin' value='4' />
+                        <format attr='border-color' value='#d8e7e4' />
+                        <format attr='border-style' value='solid' />
+                        <format attr='border-width' value='1' />
+                        <format attr='margin' value='8' />
+                        <format attr='background-color' value='#f7fbfa' />
                       </zone-style>
                     </zone>
                     <zone h='24710' id='10' name='State Opportunity Map' w='63001' x='36384' y='8516'>
@@ -3752,7 +3792,7 @@ Employment Change, 2024–2025
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='5241' id='22' name='State Opportunity Map' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:location_quotient_2025:qk]' type-v2='color' w='10769' x='46385' y='27034' />
+        <zone h='5241' id='22' name='State Opportunity Map' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232461200000001:nk]' type-v2='color' w='10769' x='46385' y='27034' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -3786,10 +3826,11 @@ Employment Change, 2024–2025
                 <zone fixed-size='280' h='24710' id='7' is-fixed='true' name='Selected Occupation Profile' w='35769' x='615' y='8516'>
                   <layout-cache fixed-size-h='332' type-h='fixed' type-w='fixed' />
                   <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
+                    <format attr='border-color' value='#d8e7e4' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='8' />
+                    <format attr='background-color' value='#f7fbfa' />
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
@@ -3803,7 +3844,7 @@ Employment Change, 2024–2025
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='5241' id='22' name='State Opportunity Map' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:location_quotient_2025:qk]' type-v2='color' w='10769' x='46385' y='27034'>
+                <zone h='5241' id='22' name='State Opportunity Map' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232461200000001:nk]' type-v2='color' w='10769' x='46385' y='27034'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -3878,7 +3919,7 @@ Employment Change, 2024–2025
           <formatted-text>
             <run fontcolor='#000000' fontname='Tableau Bold'>U.S. Workforce Overview</run>
             <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Tableau Bold'>Employment and wage estimates, May 2024–May 2025</run>
+            <run fontcolor='#000000' fontname='Tableau Bold'>Employment and wage estimates, May 2024–May 2025 · Filters update every view</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -3947,43 +3988,43 @@ Employment Change, 2024–2025
                   </zone>
                   <zone fixed-size='160' h='12308' id='9' is-fixed='true' param='horz' type-v2='layout-flow' w='98770' x='615' y='11383'>
                     <zone fixed-size='284' h='12308' id='11' is-fixed='true' name='KPI - Employment Change' w='22769' x='615' y='11383'>
-                      <layout-cache cell-count-h='1' non-cell-size-h='71' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' non-cell-size-h='42' type-h='cell' type-w='cell' />
                       <zone-style>
-                        <format attr='border-color' value='#e6e6e6' />
+                        <format attr='border-color' value='#d8e7e4' />
                         <format attr='border-style' value='solid' />
                         <format attr='border-width' value='1' />
                         <format attr='margin' value='6' />
-                        <format attr='background-color' value='#ffffff' />
+                        <format attr='background-color' value='#f7fbfa' />
                       </zone-style>
                     </zone>
                     <zone fixed-size='322' h='12308' id='12' is-fixed='true' name='KPI - Growing Occupations' w='25692' x='23384' y='11383'>
-                      <layout-cache cell-count-h='1' non-cell-size-h='71' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' non-cell-size-h='42' type-h='cell' type-w='cell' />
                       <zone-style>
-                        <format attr='border-color' value='#e6e6e6' />
+                        <format attr='border-color' value='#d8e7e4' />
                         <format attr='border-style' value='solid' />
                         <format attr='border-width' value='1' />
                         <format attr='margin' value='6' />
-                        <format attr='background-color' value='#ffffff' />
+                        <format attr='background-color' value='#f7fbfa' />
                       </zone-style>
                     </zone>
                     <zone fixed-size='325' h='12308' id='10' is-fixed='true' name='KPI - Median Occupation Change' w='25923' x='49076' y='11383'>
-                      <layout-cache cell-count-h='1' non-cell-size-h='71' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' non-cell-size-h='42' type-h='cell' type-w='cell' />
                       <zone-style>
-                        <format attr='border-color' value='#e6e6e6' />
+                        <format attr='border-color' value='#d8e7e4' />
                         <format attr='border-style' value='solid' />
                         <format attr='border-width' value='1' />
                         <format attr='margin' value='6' />
-                        <format attr='background-color' value='#ffffff' />
+                        <format attr='background-color' value='#f7fbfa' />
                       </zone-style>
                     </zone>
                     <zone fixed-size='273' h='12308' id='13' is-fixed='true' name='KPI - Median Occupation Wage' w='21923' x='74999' y='11383'>
-                      <layout-cache cell-count-h='1' non-cell-size-h='99' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' non-cell-size-h='42' type-h='cell' type-w='cell' />
                       <zone-style>
-                        <format attr='border-color' value='#e6e6e6' />
+                        <format attr='border-color' value='#d8e7e4' />
                         <format attr='border-style' value='solid' />
                         <format attr='border-width' value='1' />
                         <format attr='margin' value='6' />
-                        <format attr='background-color' value='#ffffff' />
+                        <format attr='background-color' value='#f7fbfa' />
                       </zone-style>
                     </zone>
                   </zone>
@@ -4041,14 +4082,6 @@ Employment Change, 2024–2025
             <format attr='background-color' value='#ffffff' />
           </zone-style>
         </zone>
-        <zone h='7538' id='31' name='Occupation Ranking' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:major_group_title:nk]' type-v2='color' w='22462' x='77000' y='40769'>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='none' />
-            <format attr='border-width' value='0' />
-            <format attr='background-color' value='#ffffff' />
-          </zone-style>
-        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -4057,7 +4090,7 @@ Employment Change, 2024–2025
               <formatted-text>
                 <run fontcolor='#000000' fontname='Tableau Bold'>U.S. Workforce Overview</run>
                 <run>Æ&#10;</run>
-                <run fontcolor='#000000' fontname='Tableau Bold'>Employment and wage estimates, May 2024–May 2025</run>
+                <run fontcolor='#000000' fontname='Tableau Bold'>Employment and wage estimates, May 2024–May 2025 · Filters update every view</run>
               </formatted-text>
             </title>
           </layout-options>
@@ -4087,47 +4120,47 @@ Employment Change, 2024–2025
                   </zone-style>
                 </zone>
                 <zone fixed-size='146' h='12308' id='11' is-fixed='true' name='KPI - Employment Change' w='22769' x='615' y='11383'>
-                  <layout-cache cell-count-h='1' non-cell-size-h='71' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' non-cell-size-h='42' type-h='cell' type-w='cell' />
                   <zone-style>
-                    <format attr='border-color' value='#e6e6e6' />
+                    <format attr='border-color' value='#d8e7e4' />
                     <format attr='border-style' value='solid' />
                     <format attr='border-width' value='1' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffff' />
+                    <format attr='background-color' value='#f7fbfa' />
                   </zone-style>
                 </zone>
                 <zone fixed-size='146' h='12308' id='12' is-fixed='true' name='KPI - Growing Occupations' w='25692' x='23384' y='11383'>
-                  <layout-cache cell-count-h='1' non-cell-size-h='71' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' non-cell-size-h='42' type-h='cell' type-w='cell' />
                   <zone-style>
-                    <format attr='border-color' value='#e6e6e6' />
+                    <format attr='border-color' value='#d8e7e4' />
                     <format attr='border-style' value='solid' />
                     <format attr='border-width' value='1' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffff' />
+                    <format attr='background-color' value='#f7fbfa' />
                   </zone-style>
                 </zone>
                 <zone fixed-size='146' h='12308' id='10' is-fixed='true' name='KPI - Median Occupation Change' w='25923' x='49076' y='11383'>
-                  <layout-cache cell-count-h='1' non-cell-size-h='71' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' non-cell-size-h='42' type-h='cell' type-w='cell' />
                   <zone-style>
-                    <format attr='border-color' value='#e6e6e6' />
+                    <format attr='border-color' value='#d8e7e4' />
                     <format attr='border-style' value='solid' />
                     <format attr='border-width' value='1' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffff' />
+                    <format attr='background-color' value='#f7fbfa' />
                   </zone-style>
                 </zone>
                 <zone fixed-size='146' h='12308' id='13' is-fixed='true' name='KPI - Median Occupation Wage' w='21923' x='74999' y='11383'>
-                  <layout-cache cell-count-h='1' non-cell-size-h='99' type-h='cell' type-w='cell' />
+                  <layout-cache cell-count-h='1' non-cell-size-h='42' type-h='cell' type-w='cell' />
                   <zone-style>
-                    <format attr='border-color' value='#e6e6e6' />
+                    <format attr='border-color' value='#d8e7e4' />
                     <format attr='border-style' value='solid' />
                     <format attr='border-width' value='1' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffff' />
+                    <format attr='background-color' value='#f7fbfa' />
                   </zone-style>
                 </zone>
                 <zone fixed-size='369' h='4615' id='26' mode='checkdropdown' name='Wage vs. Employment Change' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:major_group_title:nk]' type-v2='filter' values='database' w='29000' x='615' y='6768'>
@@ -4166,16 +4199,6 @@ Employment Change, 2024–2025
                     <format attr='border-width' value='0' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='7538' id='31' name='Occupation Ranking' pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:major_group_title:nk]' type-v2='color' w='22462' x='77000' y='40769'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffff' />
                   </zone-style>
                 </zone>
                 <zone fixed-size='280' h='43077' id='21' is-fixed='true' name='Employment by Occupation Group' w='98770' x='615' y='52922'>
@@ -4356,14 +4379,14 @@ Employment Change, 2024–2025
         <edge name='right'>
           <strip size='160'>
             <card mode='dropdown' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title:nk]' show-all='false' type='filter' values='relevant' />
-            <card pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:location_quotient_2025:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232461200000001:nk]' type='color' />
           </strip>
         </edge>
       </cards>
       <viewpoint>
         <highlight>
           <color-one-way>
-            <field>[federated.06ssybx0nh5feq17mjc4m021bnf5].[min:location_quotient_2025:qk]</field>
+            <field>[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:Calculation_0232461200000001:nk]</field>
             <field>[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:occupation_title:nk]</field>
             <field>[federated.06ssybx0nh5feq17mjc4m021bnf5].[none:state_name:nk]</field>
           </color-one-way>
@@ -4632,7 +4655,7 @@ Employment Change, 2024–2025
                   <y-fields />
                 </pane-descriptor>
                 <columns>
-                  <field>[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025 (state_occupations.csv):qk]</field>
+                  <field>[federated.06ssybx0nh5feq17mjc4m021bnf5].[med:median_wage_2025:qk]</field>
                 </columns>
               </tuple-descriptor>
               <tuple>
