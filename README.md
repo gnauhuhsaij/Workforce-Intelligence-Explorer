@@ -1,4 +1,4 @@
-# CDKCanvas - Visual AWS CDK Builder
+# U.S. Workforce Intelligence Explorer
 
 An interactive Tableau dashboard for researching U.S. industries, occupations, skills, wages, and regional employment patterns.
 
