@@ -32,7 +32,7 @@ An industry research view showing changes in employment estimates and occupation
 
 ### 3. Occupation & Skills Explorer
 
-An occupation-level view combining skill profiles with a state map. Users can compare skills, wages, employment concentration, and geographic differences for a selected occupation.
+An occupation-level view combining skill profiles with a state map. Users can compare skills, wages, employment concentration, and geographic differences for a occupation.
 
 ![Occupation and Skills Explorer dashboard](assets/dashboard3.png)
 
